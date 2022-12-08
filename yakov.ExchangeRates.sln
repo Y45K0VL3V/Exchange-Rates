@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yakov.ExchangeRates.Client", "yakov.ExchangeRates.Client\yakov.ExchangeRates.Client.csproj", "{5CF49D9E-F7F6-4FE1-AD55-3E2FED4CF438}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CF49D9E-F7F6-4FE1-AD55-3E2FED4CF438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF49D9E-F7F6-4FE1-AD55-3E2FED4CF438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF49D9E-F7F6-4FE1-AD55-3E2FED4CF438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF49D9E-F7F6-4FE1-AD55-3E2FED4CF438}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BC10434-8433-422D-BF0B-84C1E2D78FF5}
+	EndGlobalSection
+EndGlobal
