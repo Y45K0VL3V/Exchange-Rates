@@ -4,9 +4,86 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:yakov.ExchangeRates.Client"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Background="Transparent"
+        WindowStyle="None"
+        ResizeMode="CanResizeWithGrip"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Title="Exchange rates" 
+        Height="550" Width="900">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="StateButton">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
 
-    </Grid>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Cursor" Value="Hand"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
+    <Border MouseLeftButtonDown="Border_MouseLeftButtonDown">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
+                <LinearGradientBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                        <RotateTransform Angle="-126.87" CenterX="0.5" CenterY="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </LinearGradientBrush.RelativeTransform>
+                <GradientStop Color="#FF1A1442" Offset="1"/>
+                <GradientStop Color="#FF2D2A88" Offset="0"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border Background="#FF20194E">
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right" VerticalAlignment="Stretch"
+                            Height="14">
+                    <Button Style="{StaticResource StateButton}"
+                            Margin="0,0,6,0"
+                            Click="MinimizeButton_Click">
+                        <Button.Content>
+                            <fa:IconImage Icon="Minimize" Foreground="#FF439A44"/>
+                        </Button.Content>
+                    </Button>
+                    <Button Style="{StaticResource StateButton}"
+                            Margin="0,0,6,0"
+                            Click="MaximizeButton_Click">
+                        <Button.Content>
+                            <fa:IconImage Icon="Maximize" Foreground="#FF864120"/>
+                        </Button.Content>
+                    </Button>
+                    <Button Style="{StaticResource StateButton}"
+                            Margin="0,0,6,0" 
+                            Click="CloseButton_Click">
+                        <Button.Content>
+                            <fa:IconImage Icon="Close" Foreground="#FF672B2B"/>
+                        </Button.Content>
+                    </Button>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Border>
 </Window>
