@@ -14,46 +14,6 @@
         Title="Exchange rates" 
         Height="550" Width="900">
     <Window.Resources>
-        <Style TargetType="Button" x:Key="SystemButton">
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="BorderBrush" Value="Transparent"/>
-
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Grid Background="{TemplateBinding Background}">
-                            <ContentPresenter />
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Cursor" Value="Hand"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-
-        <Style TargetType="ToggleButton" x:Key="SystemToggleButton">
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="BorderBrush" Value="Transparent"/>
-
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="ToggleButton">
-                        <Grid Background="{TemplateBinding Background}">
-                            <ContentPresenter />
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Cursor" Value="Hand"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-        
         <Storyboard x:Key="ManageBorderOpenAnimation">
             <ObjectAnimationUsingKeyFrames Storyboard.TargetName="label" Storyboard.TargetProperty="(UIElement.Visibility)">
                 <DiscreteObjectKeyFrame KeyTime="00:00:00.0000000" Value="{x:Static Visibility.Visible}"/>
@@ -118,21 +78,21 @@
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Right" VerticalAlignment="Stretch"
                             Height="14">
-                    <Button Style="{StaticResource SystemButton}"
+                    <Button Style="{DynamicResource SystemButton}"
                             Margin="0,0,6,0"
                             Click="MinimizeButton_Click">
                         <Button.Content>
                             <fa:IconImage Icon="Minimize" Foreground="#FF439A44"/>
                         </Button.Content>
                     </Button>
-                    <Button Style="{StaticResource SystemButton}"
+                    <Button Style="{DynamicResource SystemButton}"
                             Margin="0,0,6,0"
                             Click="MaximizeButton_Click">
                         <Button.Content>
                             <fa:IconImage Icon="Maximize" Foreground="#FF864120"/>
                         </Button.Content>
                     </Button>
-                    <Button Style="{StaticResource SystemButton}"
+                    <Button Style="{DynamicResource SystemButton}"
                             Margin="0,0,6,0" 
                             Click="CloseButton_Click">
                         <Button.Content>
@@ -155,7 +115,7 @@
                     <ToggleButton Grid.Row="0"
                                   HorizontalAlignment="Right"
                                   Height="30"
-                                  Style="{StaticResource SystemToggleButton}">
+                                  Style="{DynamicResource SystemToggleButton}">
                         <ToggleButton.Content>
                             <Border Width="60"
                                     Margin="0,0,7,0">
@@ -179,7 +139,8 @@
                         
                     </ToggleButton>
 
-                    <ListView Grid.Row="1" 
+                    <ListView ItemContainerStyle="{DynamicResource ManageListViewItem}" 
+                              Grid.Row="1" 
                               Background="Transparent" BorderBrush="Transparent"
                               ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                               ScrollViewer.VerticalScrollBarVisibility="Disabled">
