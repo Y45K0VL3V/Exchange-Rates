@@ -1,17 +1,16 @@
-﻿<Window x:Class="yakov.ExchangeRates.Client.MainWindow"
+﻿<Window x:Class="yakov.ExchangeRates.Client.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:yakov.ExchangeRates.Client"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:core="clr-namespace:yakov.ExchangeRates.Client.Core;assembly=yakov.ExchangeRates.Client.Core"
         xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
-        mc:Ignorable="d"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}"
         Background="Transparent"
         WindowStyle="None"
         ResizeMode="CanResizeWithGrip"
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True"
-        Title="Exchange rates" 
         Height="550" Width="900">
     <Window.Resources>
         <Storyboard x:Key="ManageBorderOpenAnimation">
@@ -136,7 +135,7 @@
                                 </EventTrigger.Actions>
                             </EventTrigger>
                         </ToggleButton.Triggers>
-                        
+
                     </ToggleButton>
 
                     <ListView ItemContainerStyle="{DynamicResource ManageListViewItem}" 
@@ -180,6 +179,12 @@
                 </Grid>
 
             </Border>
+
+            <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.RatesContent}"
+                            Grid.Row="1" Grid.ColumnSpan="2"
+                            Margin="75,0,0,0">
+
+            </ContentControl>
         </Grid>
     </Border>
 </Window>
