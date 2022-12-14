@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace yakov.ExchangeRates.Client.FiatCurrency.Views
 {
     /// <summary>
-    /// Interaction logic for ViewA.xaml
+    /// Interaction logic for FiatRateContent.xaml
     /// </summary>
     public partial class FiatRateContent : UserControl
     {

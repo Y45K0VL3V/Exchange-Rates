@@ -9,25 +9,41 @@
              d:DesignHeight="450" d:DesignWidth="800"
              xmlns:prism="http://prismlibrary.com/"
              prism:ViewModelLocator.AutoWireViewModel="True" >
+    <UserControl.Resources>
+        <ResourceDictionary Source="/yakov.ExchangeRates.Client.Core;component/Themes/DarkTheme.xaml"/>
+    </UserControl.Resources>
+    
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
-        <Border Background="#FF45A6B3"
+
+        <Border Grid.Row="1" Grid.ColumnSpan="2"
                 CornerRadius="40"
                 Margin="10">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
+                    <GradientStop Color="{StaticResource secondaryBackColor1}"/>
+                    <GradientStop Color="{StaticResource secondaryBackColor2}" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
             <Grid>
                 <lvc:CartesianChart Margin="30"
                                     Background="Transparent">
 
 
                     <lvc:CartesianChart.AxisX>
-                        <lvc:Axis MinValue="1" MaxValue="4" Foreground="MediumAquamarine" ShowLabels="True">
+                        <lvc:DateAxis Foreground="MediumAquamarine" ShowLabels="True">
                             <lvc:Axis.Separator>
                                 <lvc:Separator StrokeThickness="0"/>
                             </lvc:Axis.Separator>
-                        </lvc:Axis>
+                        </lvc:DateAxis>
                     </lvc:CartesianChart.AxisX>
                     <lvc:CartesianChart.AxisY>
                         <lvc:Axis MinValue="0" MaxValue="100" Foreground="MediumAquamarine" ShowLabels="True">

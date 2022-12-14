@@ -79,7 +79,7 @@
 
             <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.RatesContent}"
                             Grid.ColumnSpan="2"
-                            Margin="75,0,0,0">
+                            Margin="75,30,0,0">
 
             </ContentControl>
 
@@ -167,7 +167,7 @@
             <Border Grid.ColumnSpan="2"
                     CornerRadius="5"
                     VerticalAlignment="Top" HorizontalAlignment="Right"
-                    Height="20" Width="110"
+                    Height="20" Width="105"
                     Margin="0,5,5,0">
                 <Border.Background>
                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
