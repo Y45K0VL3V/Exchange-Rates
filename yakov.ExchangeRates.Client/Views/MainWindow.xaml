@@ -55,7 +55,7 @@
                 <GradientStop Color="{StaticResource winBorderColor3}" Offset="1"/>
             </LinearGradientBrush>
         </Border.BorderBrush>
-        
+
         <Border.Background>
             <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
                 <LinearGradientBrush.RelativeTransform>
@@ -82,7 +82,7 @@
                             Margin="75,0,0,0">
 
             </ContentControl>
-            
+
             <Border x:Name="border"
                     CornerRadius="10"
                     HorizontalAlignment="Left" VerticalAlignment="Stretch"
@@ -163,6 +163,46 @@
                 </Grid>
 
             </Border>
+
+            <Border Grid.ColumnSpan="2"
+                    CornerRadius="5"
+                    VerticalAlignment="Top" HorizontalAlignment="Right"
+                    Height="20" Width="110"
+                    Margin="0,5,5,0">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
+                        <GradientStop Color="{StaticResource secondaryBackColor1}"/>
+                        <GradientStop Color="{StaticResource secondaryBackColor2}" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+                <StackPanel x:Name="pnlControlBar"
+                            Grid.Row="0"
+                            Orientation="Horizontal"
+                            FlowDirection="RightToLeft"
+                            Background="Transparent"
+                            HorizontalAlignment="Center">
+                    <Button x:Name="btnClose"
+                            Style="{StaticResource controlButton}"
+                            Tag="{StaticResource color4}"
+                            Click="CloseButton_Click">
+                        <fa:IconImage Icon="Xmark" Style="{StaticResource controlButtonIcon}"/>
+                    </Button>
+                    <Button x:Name="btnMaximize"
+                            Style="{StaticResource controlButton}"
+                            Tag="{StaticResource color6}"
+                            Click="MaximizeButton_Click">
+                        <fa:IconImage Icon="Square" Style="{StaticResource controlButtonIcon}"/>
+                    </Button>
+                    <Button x:Name="btnMinimize"
+                            Style="{StaticResource controlButton}"
+                            Tag="{StaticResource color8}"
+                            Click="MinimizeButton_Click">
+                        <fa:IconImage Icon="WindowMinimize" Width="12" Style="{StaticResource controlButtonIcon}"/>
+                    </Button>
+                </StackPanel>
+            </Border>
+            
         </Grid>
     </Border>
 </Window>
