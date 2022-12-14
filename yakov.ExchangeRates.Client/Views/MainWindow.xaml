@@ -86,7 +86,7 @@
             <Border x:Name="border"
                     CornerRadius="10"
                     HorizontalAlignment="Left" VerticalAlignment="Stretch"
-                    Width="200">
+                    Width="75">
                 <Border.Background>
                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
                         <GradientStop Color="{StaticResource secondaryBackColor1}"/>
@@ -100,15 +100,15 @@
                     </Grid.RowDefinitions>
 
                     <ToggleButton Grid.Row="0"
-                                  HorizontalAlignment="Right"
+                                  HorizontalAlignment="Left"
                                   Height="30"
-                                  Margin="0,40,0,10"
+                                  Margin="5,40,0,10"
                                   Style="{DynamicResource SystemToggleButton}">
                         <ToggleButton.Content>
                             <Border Width="60"
                                     Margin="0,0,7,0">
                                 <fa:IconImage Icon="LineChart"  
-                                              Foreground="{StaticResource color3}"/>
+                                                Foreground="{StaticResource color3}"/>
                             </Border>
                         </ToggleButton.Content>
 
@@ -128,47 +128,37 @@
 
                     </ToggleButton>
 
-                    <ListView ItemContainerStyle="{DynamicResource ManageListViewItem}" 
-                              Grid.Row="1" 
-                              Background="Transparent" BorderBrush="Transparent"
-                              ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                              ScrollViewer.VerticalScrollBarVisibility="Disabled">
-                        <ListViewItem HorizontalContentAlignment="Right"
-                                      VerticalContentAlignment="Center"
-                                      Height="50">
-                            <StackPanel Orientation="Horizontal"
-                                        Height="35">
-                                <Label x:Name="label1" Content="Fiat currency"
-                                       VerticalAlignment="Center"
-                                       FontSize="14"
-                                       Margin="0,0,20,0"
-                                       Visibility="Visible"
-                                       Foreground="{StaticResource plainTextColor3}"/>
-                                <Border Width="60">
-                                    <fa:IconImage Icon="MoneyBill1"
-                                                  Foreground="{StaticResource color2}"
-                                                  HorizontalAlignment="Center"/>
-                                </Border>
-                            </StackPanel>
-                        </ListViewItem>
-                        <ListViewItem HorizontalContentAlignment="Right"
-                                      VerticalContentAlignment="Center"
-                                      Height="50">
+                    <StackPanel Grid.Row="1"
+                                Margin="0,20,0,0">
+
+                        <RadioButton Style="{DynamicResource menuButton}"
+                                     Tag="{DynamicResource color1}"
+                                     Command="{Binding ShowFiatManager}">
                             <StackPanel Orientation="Horizontal">
-                                <Label x:Name="label" Content="Crypto currency"
-                                       VerticalContentAlignment="Center"
-                                       FontSize="14"
+                                <fa:IconImage Icon="MoneyBill1" Style="{DynamicResource menuButtonIcon}"/>
+                                <Label x:Name="label1" Content="Fiat currency"
+                                       Style="{DynamicResource menuButtonText}"
+                                       VerticalAlignment="Center"
                                        Margin="0,0,20,0"
-                                       Visibility="Visible"
-                                       Foreground="{StaticResource plainTextColor1}"/>
-                                <Border Width="60">
-                                    <fa:IconImage Icon="Ethereum"
-                                                  Foreground="{StaticResource color4}"
-                                                  HorizontalAlignment="Center"/>
-                                </Border>
+                                       Visibility="Collapsed"
+                                       Foreground="{DynamicResource plainTextColor3}"/>
                             </StackPanel>
-                        </ListViewItem>
-                    </ListView>
+                        </RadioButton>
+
+                        <RadioButton Style="{DynamicResource menuButton}"
+                                     Tag="{DynamicResource color2}"
+                                     Command="{Binding ShowCryptoManager}">
+                            <StackPanel Orientation="Horizontal">
+                                <fa:IconImage Icon="Ethereum" Style="{DynamicResource menuButtonIcon}"/>
+                                <Label x:Name="label" Content="Crypto currency"
+                                       Style="{DynamicResource menuButtonText}"
+                                       VerticalAlignment="Center"
+                                       Margin="0,0,20,0"
+                                       Visibility="Collapsed"
+                                       Foreground="{DynamicResource plainTextColor3}"/>
+                            </StackPanel>
+                        </RadioButton>
+                    </StackPanel>
 
                 </Grid>
 

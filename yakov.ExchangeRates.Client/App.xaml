@@ -8,7 +8,7 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="./Styles/Buttons.xaml"/>
-                <ResourceDictionary Source="./Styles/ManageListViewItem.xaml"/>
+                <ResourceDictionary Source="./Styles/ManagePart.xaml"/>
                 <ResourceDictionary Source="/yakov.ExchangeRates.Client.Core;component/Themes/DarkTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
