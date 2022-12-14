@@ -45,9 +45,19 @@
 
     </Window.Resources>
 
-    <Border MouseLeftButtonDown="Border_MouseLeftButtonDown">
+    <Border CornerRadius="10"                    
+            BorderThickness="1"
+            MouseLeftButtonDown="Border_MouseLeftButtonDown">
+        <Border.BorderBrush>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="{StaticResource winBorderColor1}" Offset="0"/>
+                <GradientStop Color="{StaticResource winBorderColor2}" Offset="0.5"/>
+                <GradientStop Color="{StaticResource winBorderColor3}" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.BorderBrush>
+        
         <Border.Background>
-            <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
+            <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
                 <LinearGradientBrush.RelativeTransform>
                     <TransformGroup>
                         <ScaleTransform CenterY="0.5" CenterX="0.5"/>
@@ -56,69 +66,49 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </LinearGradientBrush.RelativeTransform>
-                <GradientStop Color="#FF1A1442" Offset="1"/>
-                <GradientStop Color="#FF2D2A88" Offset="0"/>
+                <GradientStop Color="{StaticResource primaryBackColor1}" Offset="1"/>
+                <GradientStop Color="{StaticResource primaryBackColor2}" Offset="0"/>
             </LinearGradientBrush>
         </Border.Background>
 
         <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="25"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Border Background="#FF20194E"
-                    Grid.ColumnSpan="2">
-                <StackPanel Orientation="Horizontal"
-                            HorizontalAlignment="Right" VerticalAlignment="Stretch"
-                            Height="14">
-                    <Button Style="{DynamicResource SystemButton}"
-                            Margin="0,0,6,0"
-                            Click="MinimizeButton_Click">
-                        <Button.Content>
-                            <fa:IconImage Icon="Minimize" Foreground="#FF439A44"/>
-                        </Button.Content>
-                    </Button>
-                    <Button Style="{DynamicResource SystemButton}"
-                            Margin="0,0,6,0"
-                            Click="MaximizeButton_Click">
-                        <Button.Content>
-                            <fa:IconImage Icon="Maximize" Foreground="#FF864120"/>
-                        </Button.Content>
-                    </Button>
-                    <Button Style="{DynamicResource SystemButton}"
-                            Margin="0,0,6,0" 
-                            Click="CloseButton_Click">
-                        <Button.Content>
-                            <fa:IconImage Icon="Close" Foreground="#FF672B2B"/>
-                        </Button.Content>
-                    </Button>
-                </StackPanel>
-            </Border>
+            <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.RatesContent}"
+                            Grid.ColumnSpan="2"
+                            Margin="75,0,0,0">
 
-            <Border x:Name="border" Grid.Row="1"
-                    Background="#FF20194E"
+            </ContentControl>
+            
+            <Border x:Name="border"
+                    CornerRadius="10"
                     HorizontalAlignment="Left" VerticalAlignment="Stretch"
-                    Width="75">
+                    Width="200">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
+                        <GradientStop Color="{StaticResource secondaryBackColor1}"/>
+                        <GradientStop Color="{StaticResource secondaryBackColor2}" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="auto"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
                     <ToggleButton Grid.Row="0"
                                   HorizontalAlignment="Right"
                                   Height="30"
+                                  Margin="0,40,0,10"
                                   Style="{DynamicResource SystemToggleButton}">
                         <ToggleButton.Content>
                             <Border Width="60"
                                     Margin="0,0,7,0">
-                                <fa:IconImage Icon="LineChart"  Foreground="#FF672B2B"/>
+                                <fa:IconImage Icon="LineChart"  
+                                              Foreground="{StaticResource color3}"/>
                             </Border>
                         </ToggleButton.Content>
 
@@ -152,9 +142,11 @@
                                        VerticalAlignment="Center"
                                        FontSize="14"
                                        Margin="0,0,20,0"
-                                       Visibility="Collapsed"/>
+                                       Visibility="Visible"
+                                       Foreground="{StaticResource plainTextColor3}"/>
                                 <Border Width="60">
                                     <fa:IconImage Icon="MoneyBill1"
+                                                  Foreground="{StaticResource color2}"
                                                   HorizontalAlignment="Center"/>
                                 </Border>
                             </StackPanel>
@@ -167,9 +159,11 @@
                                        VerticalContentAlignment="Center"
                                        FontSize="14"
                                        Margin="0,0,20,0"
-                                       Visibility="Collapsed"/>
+                                       Visibility="Visible"
+                                       Foreground="{StaticResource plainTextColor1}"/>
                                 <Border Width="60">
                                     <fa:IconImage Icon="Ethereum"
+                                                  Foreground="{StaticResource color4}"
                                                   HorizontalAlignment="Center"/>
                                 </Border>
                             </StackPanel>
@@ -179,12 +173,6 @@
                 </Grid>
 
             </Border>
-
-            <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.RatesContent}"
-                            Grid.Row="1" Grid.ColumnSpan="2"
-                            Margin="75,0,0,0">
-
-            </ContentControl>
         </Grid>
     </Border>
 </Window>
