@@ -1,6 +1,8 @@
+using yakov.ExchangeRates.Server.Application;
 using yakov.ExchangeRates.Server.Domain.Interfaces;
 using yakov.ExchangeRates.Server.Infrastructure;
 using yakov.ExchangeRates.Server.Infrastructure.FileServices;
+using yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,11 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IRatesFileService, RateFileService>();
 builder.Services.AddSingleton<IStorageService, StorageService>();
+builder.Services.AddSingleton<RatesContext>();
+builder.Services.AddSingleton<IRatesRepository, RatesRepository>();
+builder.Services.AddSingleton<IAPIServiceBuilder, RatesAPIServiceBuilder>();
+
+
 
 var app = builder.Build();
 

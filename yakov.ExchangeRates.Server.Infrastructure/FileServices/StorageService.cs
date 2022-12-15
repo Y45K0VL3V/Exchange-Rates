@@ -18,7 +18,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
         public void CreateFile(string path)
         {
             path = Path.Combine(CachePath, path ?? string.Empty);
-            var subdirChain = path.Substring(0, path.LastIndexOf('\\'));
+            var subdirChain = path[..path.LastIndexOf('\\')];
 
             try
             {
