@@ -1,3 +1,7 @@
+using yakov.ExchangeRates.Server.Domain.Interfaces;
+using yakov.ExchangeRates.Server.Infrastructure;
+using yakov.ExchangeRates.Server.Infrastructure.FileServices;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +10,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddSingleton<IRatesFileService, RateFileService>();
+builder.Services.AddSingleton<IStorageService, StorageService>();
 
 var app = builder.Build();
 
