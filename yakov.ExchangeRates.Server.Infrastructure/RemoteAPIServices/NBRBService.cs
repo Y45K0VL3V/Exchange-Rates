@@ -7,11 +7,11 @@ using yakov.ExchangeRates.Server.Domain.Entities;
 using yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs;
 using yakov.ExchangeRates.Server.Domain.Interfaces;
 
-namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIHandlers
+namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
 {
-    public class NBRBHandler : IRatesAPIHandler
+    public class NBRBService : IRatesAPIService
     {
-        public NBRBHandler()
+        public NBRBService()
         {
             _httpClient = new();
             _httpClient.BaseAddress = new Uri(_nbrbUri);
@@ -61,7 +61,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIHandlers
             return resultRates;
         }
 
-        ~NBRBHandler()
+        ~NBRBService()
         {
             _httpClient.Dispose();
         }
