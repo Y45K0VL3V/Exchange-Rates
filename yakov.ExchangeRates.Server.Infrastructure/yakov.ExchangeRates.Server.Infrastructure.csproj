@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\yakov.ExchangeRates.Server.Domain\yakov.ExchangeRates.Server.Domain.csproj" />
-  </ItemGroup>
-
 </Project>
