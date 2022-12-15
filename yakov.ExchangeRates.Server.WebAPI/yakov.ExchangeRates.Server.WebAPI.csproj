@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\yakov.ExchangeRates.Server.Application\yakov.ExchangeRates.Server.Application.csproj" />
+    <ProjectReference Include="..\yakov.ExchangeRates.Server.Domain\yakov.ExchangeRates.Server.Domain.csproj" />
+    <ProjectReference Include="..\yakov.ExchangeRates.Server.Infrastructure\yakov.ExchangeRates.Server.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
