@@ -9,6 +9,6 @@ namespace yakov.ExchangeRates.Server.Application
             Rates = new();
         }
 
-        public Dictionary<Currency, Rate> Rates { get; set; }
+        public Dictionary<Currency, List<Rate>> Rates { get; set; }
     }
 }
