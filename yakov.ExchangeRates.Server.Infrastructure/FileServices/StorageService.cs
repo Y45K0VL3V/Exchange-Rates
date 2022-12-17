@@ -30,5 +30,18 @@ namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
                 File.Create(path).Close();
             }
         }
+
+        public List<string> GetAllPaths()
+        {
+            List<string> path = new();
+
+            try
+            {
+                path.AddRange(Directory.GetFiles(CachePath, "*", SearchOption.AllDirectories));
+            }
+            catch { }
+
+            return path;
+        }
     }
 }
