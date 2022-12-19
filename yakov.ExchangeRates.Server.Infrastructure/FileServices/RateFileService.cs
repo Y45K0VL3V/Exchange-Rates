@@ -8,34 +8,68 @@ namespace yakov.ExchangeRates.Server.Infrastructure
     {
         private IStorageService _storageService;
 
-        private string GetPathByCurrency(Currency currency)
+        #region Path-Currency translators
+        private static string GetPathByCurrency(Currency currency)
         {
             var subfolder = currency.Type.ToString();
             return $"{subfolder}\\{currency.ShortName}.json";
         }
 
-        public async Task<string> GetSavedRatesByCurrency(Currency currency)
+        private static Currency GetCurrencyByPath(string path)
+        {
+            Currency currency = new();
+            path = path.Remove(path.Length - 6);
+            currency.ShortName = path[(path.LastIndexOf('\\') + 1)..];
+            path = path.Remove(path.LastIndexOf('\\'));
+            currency.Type = (CurrencyType)Enum.Parse(typeof(CurrencyType), path[path.LastIndexOf('\\')..]);
+
+            return currency;
+        }
+        #endregion
+
+        public async Task<Dictionary<Currency, List<Rate>>> GetSavedRates()
+        {
+            ////TODO: Properly check currency path
+            
+            var rateFilePaths = _storageService.GetAllPaths().Where(p => p.EndsWith(".json"));
+            Dictionary<Currency, List<Rate>> rates = new();
+
+            foreach (var path in rateFilePaths)
+            {
+                var currency = GetCurrencyByPath(path);
+                var currRates = await GetSavedRatesByCurrency(currency);
+                if (currRates != null)
+                    rates.Add(currency, currRates);
+            }
+
+            return rates;
+        }
+
+        public async Task<List<Rate>?> GetSavedRatesByCurrency(Currency currency)
         {
             try
             {
-                return await File.ReadAllTextAsync(GetPathByCurrency(currency));
+                var ratesJson = await _storageService.ReadFileTextAsync(GetPathByCurrency(currency));
+                return JsonSerializer.Deserialize<List<Rate>?>(ratesJson);
             }
-            catch { throw; }
+            catch 
+            {
+                return null;
+            }
         }
 
-        public async Task WriteRates(IEnumerable<Rate> rates)
+        public async Task WriteRatesByCurrency(List<Rate> rates, Currency currency)
         {
-            if (rates?.Count() == 0)
+            if (rates?.Count == 0)
                 return;
 
             try
             {
-                string path = GetPathByCurrency(rates!.First().Currency);
+                string path = GetPathByCurrency(currency);
                 _storageService.CreateFile(path);
-
-                await File.AppendAllTextAsync(path, JsonSerializer.Serialize(rates));
+                await _storageService.AppendFileTextAsync(path, JsonSerializer.Serialize(rates));
             }
-            catch { throw; }
+            catch { }
         }
     }
 }

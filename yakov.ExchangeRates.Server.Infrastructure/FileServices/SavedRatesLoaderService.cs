@@ -2,18 +2,27 @@
 
 namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
 {
-    public class SavedRatesService : ISavedRatesLoaderService
+    public class SavedRatesLoaderService : ISavedRatesLoaderService
     {
         private IRatesFileService _ratesFileService;
+        private IRatesRepository _ratesRepository;
         
-        public Task LoadAll()
+        public async Task LoadAll()
         {
-            throw new NotImplementedException();
+            var currencyToRates = await _ratesFileService.GetSavedRates();
+            foreach (var rates in currencyToRates)
+            {
+                await _ratesRepository.AddRates(rates.Value);
+            }
         }
 
-        public Task SaveAll()
+        public async Task SaveAll()
         {
-            throw new NotImplementedException();
+            var currencyRates = _ratesRepository.GetAllRates();
+            foreach (var currRates in currencyRates)
+            {
+                await _ratesFileService.WriteRatesByCurrency(currRates.Value, currRates.Key);
+            }
         }
     }
 }

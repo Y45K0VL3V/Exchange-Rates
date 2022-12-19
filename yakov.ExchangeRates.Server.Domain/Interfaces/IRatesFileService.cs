@@ -10,7 +10,8 @@ namespace yakov.ExchangeRates.Server.Domain.Interfaces
 {
     public interface IRatesFileService
     {
-        public Task<string> GetSavedRatesByCurrency(Currency currency);
-        public Task WriteRates(IEnumerable<Rate> rates);
+        public Task<Dictionary<Currency, List<Rate>>> GetSavedRates();
+        public Task<List<Rate>?> GetSavedRatesByCurrency(Currency currency);
+        public Task WriteRatesByCurrency(List<Rate> rates, Currency currency);
     }
 }

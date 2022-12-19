@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using yakov.ExchangeRates.Server.Domain.Entities;
+﻿using yakov.ExchangeRates.Server.Domain.Entities;
 using yakov.ExchangeRates.Server.Domain.Interfaces;
 
 namespace yakov.ExchangeRates.Server.Application
@@ -54,5 +49,7 @@ namespace yakov.ExchangeRates.Server.Application
 
             return rates;
         }
+
+        public Dictionary<Currency, List<Rate>> GetAllRates() => _ratesContext.Rates.ToDictionary();
     }
 }

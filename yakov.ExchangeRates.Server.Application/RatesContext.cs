@@ -1,4 +1,5 @@
-﻿using yakov.ExchangeRates.Server.Domain.Entities;
+﻿using System.Collections.Concurrent;
+using yakov.ExchangeRates.Server.Domain.Entities;
 
 namespace yakov.ExchangeRates.Server.Application
 {
@@ -9,6 +10,6 @@ namespace yakov.ExchangeRates.Server.Application
             Rates = new();
         }
 
-        public Dictionary<Currency, List<Rate>> Rates { get; set; }
+        public ConcurrentDictionary<Currency, List<Rate>> Rates { get; set; }
     }
 }

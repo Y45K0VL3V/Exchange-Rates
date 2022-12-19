@@ -1,4 +1,7 @@
-﻿using yakov.ExchangeRates.Server.Domain.Interfaces;
+﻿using System.IO;
+using System.Text.Json;
+using yakov.ExchangeRates.Server.Domain.Entities;
+using yakov.ExchangeRates.Server.Domain.Interfaces;
 
 namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
 {
@@ -15,10 +18,10 @@ namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
 
         public readonly string CachePath = "Cache";
 
-        public void CreateFile(string path)
+        public void CreateFile(string relatePath)
         {
-            path = Path.Combine(CachePath, path ?? string.Empty);
-            var subdirChain = path[..path.LastIndexOf('\\')];
+            relatePath = Path.Combine(CachePath, relatePath ?? string.Empty);
+            var subdirChain = relatePath[..relatePath.LastIndexOf('\\')];
 
             try
             {
@@ -27,7 +30,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
             catch { }
             finally
             {
-                File.Create(path).Close();
+                File.Create(relatePath).Close();
             }
         }
 
@@ -42,6 +45,16 @@ namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
             catch { }
 
             return path;
+        }
+
+        public async Task AppendFileTextAsync(string relatePath, string textToAppend)
+        {
+            await File.WriteAllTextAsync(relatePath, textToAppend);
+        }
+
+        public async Task<string> ReadFileTextAsync(string relatePath)
+        {
+            return await File.ReadAllTextAsync(relatePath);
         }
     }
 }
