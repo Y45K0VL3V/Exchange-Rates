@@ -10,4 +10,8 @@
     <ProjectReference Include="..\yakov.ExchangeRates.Server.Domain\yakov.ExchangeRates.Server.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ValidationServices\" />
+  </ItemGroup>
+
 </Project>

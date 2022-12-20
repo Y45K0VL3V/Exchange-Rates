@@ -50,6 +50,6 @@ namespace yakov.ExchangeRates.Server.Application
             return rates;
         }
 
-        public Dictionary<Currency, List<Rate>> GetAllRates() => _ratesContext.Rates.ToDictionary();
+        public Dictionary<Currency, List<Rate>> GetAllRates() => _ratesContext.Rates.ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
     }
 }

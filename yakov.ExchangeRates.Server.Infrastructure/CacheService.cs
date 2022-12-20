@@ -1,0 +1,81 @@
+﻿using yakov.ExchangeRates.Server.Domain.Entities;
+using yakov.ExchangeRates.Server.Domain.Interfaces;
+
+namespace yakov.ExchangeRates.Server.Infrastructure
+{
+    public class CacheService : ICacheService
+    {
+        CacheService()
+        {
+            _savedRatesLoaderService.LoadAll();
+        }
+
+        private IAPIServiceBuilder _apiServiceBuilder;
+
+        private ISavedRatesLoaderService _savedRatesLoaderService;
+        private IRatesRepository _ratesRepository;
+        private ITimePeriodValidator _timePeriodValidator;
+
+        private async Task<List<Rate>> GetMissedRates(List<DateOnly> missedDates, IRatesAPIService ratesAPI, Currency currency)
+        {
+            List<Rate> rates = new List<Rate>();
+            List<Rate>? gotRates = null;
+            var streakDateStart = missedDates.First();
+            var streakDateEnd = streakDateStart;
+            for (int i = 1; i < missedDates.Count; i++)
+            {
+                if (missedDates[i] == streakDateEnd.AddDays(1))
+                    streakDateEnd = missedDates[i];
+                else
+                {
+                    ////TODO: Remake of interface.
+                    gotRates = await ratesAPI.GetRatesByTimePeriod<Currency, Rate>(currency, streakDateStart, streakDateEnd);
+                    rates.AddRange(gotRates);
+                    gotRates = null;
+
+                    streakDateStart = missedDates[i];
+                    streakDateEnd = streakDateStart;
+                }
+            }
+
+            if (gotRates is null)
+            {
+                gotRates = await ratesAPI.GetRatesByTimePeriod<Currency, Rate>(currency, streakDateStart, streakDateEnd);
+                rates.AddRange(gotRates);
+            }
+
+            return rates;
+        }
+
+        public async Task<List<Rate>> GetRatesWithPeriod(Currency currency, DateOnly dateStart, DateOnly dateEnd)
+        {
+            _timePeriodValidator.Validate(ref dateStart, ref dateEnd);
+            var cachedRates = _ratesRepository.GetPeriodRatesByCurrency(currency, dateStart, dateEnd);
+            var targetRatesAmount = (dateEnd.ToDateTime(new()) - dateStart.ToDateTime(new())).Days + 1;
+
+            var rates = await cachedRates ?? new();
+            if (rates.Count < targetRatesAmount)
+            {
+                var routingAPI = _apiServiceBuilder.BuildAPIService(currency.Type);
+
+                List<DateOnly> missedDates = new List<DateOnly>();
+                for (DateOnly currDate = dateStart; currDate <= dateEnd; currDate = currDate.AddDays(1))
+                {
+                    if (!rates.Any(r => r.Date == currDate))
+                        missedDates.Add(currDate);
+                }
+
+                rates.AddRange(await GetMissedRates(missedDates, routingAPI, currency));
+            }
+
+            rates.Sort((x, y) => x.Date.CompareTo(y.Date));
+            return rates;
+        }
+
+        ~CacheService()
+        {
+            _savedRatesLoaderService.SaveAll();
+        }
+
+    }
+}

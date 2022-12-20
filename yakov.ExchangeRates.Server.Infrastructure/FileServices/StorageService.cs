@@ -47,7 +47,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
             return path;
         }
 
-        public async Task AppendFileTextAsync(string relatePath, string textToAppend)
+        public async Task WriteFileTextAsync(string relatePath, string textToAppend)
         {
             await File.WriteAllTextAsync(relatePath, textToAppend);
         }

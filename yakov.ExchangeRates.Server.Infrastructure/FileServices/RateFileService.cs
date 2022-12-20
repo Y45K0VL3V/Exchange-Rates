@@ -67,7 +67,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure
             {
                 string path = GetPathByCurrency(currency);
                 _storageService.CreateFile(path);
-                await _storageService.AppendFileTextAsync(path, JsonSerializer.Serialize(rates));
+                await _storageService.WriteFileTextAsync(path, JsonSerializer.Serialize(rates));
             }
             catch { }
         }
