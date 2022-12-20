@@ -18,7 +18,8 @@ builder.Services.AddSingleton<IStorageService, StorageService>();
 builder.Services.AddSingleton<RatesContext>();
 builder.Services.AddSingleton<IRatesRepository, RatesRepository>();
 builder.Services.AddSingleton<IAPIServiceBuilder, RatesAPIServiceBuilder>();
-
+builder.Services.AddSingleton<ISavedRatesLoaderService, SavedRatesLoaderService>();
+builder.Services.AddSingleton<ICacheService, CacheService>();
 
 
 var app = builder.Build();

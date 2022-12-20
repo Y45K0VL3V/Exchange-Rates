@@ -5,13 +5,17 @@ namespace yakov.ExchangeRates.Server.Infrastructure
 {
     public class CacheService : ICacheService
     {
-        CacheService()
+        public CacheService(IAPIServiceBuilder apiServiceBuilder, ISavedRatesLoaderService savedRatesLoaderService, IRatesRepository ratesRepository, ITimePeriodValidator timePeriodValidator)
         {
+            _apiServiceBuilder = apiServiceBuilder;
+            _savedRatesLoaderService = savedRatesLoaderService;
+            _ratesRepository = ratesRepository;
+            _timePeriodValidator = timePeriodValidator;
+
             _savedRatesLoaderService.LoadAll();
         }
 
         private IAPIServiceBuilder _apiServiceBuilder;
-
         private ISavedRatesLoaderService _savedRatesLoaderService;
         private IRatesRepository _ratesRepository;
         private ITimePeriodValidator _timePeriodValidator;

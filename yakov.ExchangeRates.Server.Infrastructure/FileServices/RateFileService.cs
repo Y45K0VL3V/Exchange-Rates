@@ -6,6 +6,11 @@ namespace yakov.ExchangeRates.Server.Infrastructure
 {
     public class RateFileService : IRatesFileService
     {
+        public RateFileService(IStorageService storageService)
+        {
+            _storageService = storageService;
+        }
+
         private IStorageService _storageService;
 
         #region Path-Currency translators

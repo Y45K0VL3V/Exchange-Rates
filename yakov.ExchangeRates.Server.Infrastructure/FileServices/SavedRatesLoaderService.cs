@@ -4,6 +4,12 @@ namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
 {
     public class SavedRatesLoaderService : ISavedRatesLoaderService
     {
+        public SavedRatesLoaderService(IRatesFileService ratesFileService, IRatesRepository ratesRepository)
+        {
+            _ratesRepository = ratesRepository;
+            _ratesFileService = ratesFileService;
+        }
+
         private IRatesFileService _ratesFileService;
         private IRatesRepository _ratesRepository;
         
