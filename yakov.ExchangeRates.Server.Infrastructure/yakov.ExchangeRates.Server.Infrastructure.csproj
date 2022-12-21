@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\yakov.ExchangeRates.Server.Application\yakov.ExchangeRates.Server.Application.csproj" />
     <ProjectReference Include="..\yakov.ExchangeRates.Server.Domain\yakov.ExchangeRates.Server.Domain.csproj" />
   </ItemGroup>
 

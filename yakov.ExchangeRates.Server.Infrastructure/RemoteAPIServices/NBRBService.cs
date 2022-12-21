@@ -3,6 +3,7 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
+using yakov.ExchangeRates.Server.Application.Mappers;
 using yakov.ExchangeRates.Server.Domain.Entities;
 using yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs;
 using yakov.ExchangeRates.Server.Domain.Interfaces;
@@ -22,7 +23,37 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
         private readonly HttpClient _httpClient;
         private readonly string _nbrbUri = "https://www.nbrb.by/";
 
-        public async Task<List<Currency>> GetAllCurrencies<Currency>()
+        private async Task<ShortRateNBRB?> GetEnhancedRateData(string abbreviation)
+        {
+            try
+            {
+                HttpResponseMessage response = await _httpClient.GetAsync($"api/exrates/rates/{abbreviation}?parammode=2");
+                if (response.IsSuccessStatusCode)
+                {
+                    var rate = await response.Content.ReadFromJsonAsync<ShortRateNBRB>();
+                    return rate;
+                }
+                else
+                    return null;
+            }
+            catch 
+            {
+                return null;
+            }
+        }
+
+        private async Task<int?> GetCurrencyId(string currencyAbbreviation)
+        {
+            return (await GetEnhancedRateData(currencyAbbreviation))?.Cur_ID;
+        }
+
+        // Scale means number of foreign currency for the rate we get
+        private async Task<int?> GetRateScale(string currencyAbbreviation)
+        {
+            return (await GetEnhancedRateData(currencyAbbreviation))?.Cur_Scale;
+        }
+
+        public async Task<List<Currency>> GetAllCurrencies()
         {
             List<Currency> resultCurrencies = new(); 
             try
@@ -30,8 +61,8 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
                 HttpResponseMessage response = await _httpClient.GetAsync("api/exrates/currencies");
                 if (response.IsSuccessStatusCode)
                 {
-                    var receivedCurrencies = await response.Content.ReadFromJsonAsync<List<Currency>>(); 
-                    resultCurrencies.AddRange(receivedCurrencies);
+                    var receivedCurrencies = await response.Content.ReadFromJsonAsync<List<CurrencyNBRB>>();
+                    receivedCurrencies?.ForEach(c => resultCurrencies.Add(c.ToCurrency()));
                 }
             }
             catch { }
@@ -39,21 +70,21 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
             return resultCurrencies;
         }
 
-        public async Task<List<Rate>> GetRatesByTimePeriod<Currency, Rate>(Currency currency, DateOnly dateStart, DateOnly dateEnd)
+        public async Task<List<Rate>> GetRatesByTimePeriod(Currency currency, DateOnly dateStart, DateOnly dateEnd)
         {
             List<Rate> resultRates = new();
-            CurrencyNBRB? currencyNBRB = currency as CurrencyNBRB;
             try
             {
-                string arguments = $"{currencyNBRB?.Cur_ID}" +
+                string arguments = $"{await GetCurrencyId(currency.ShortName)}" +
                     $"?startDate={dateStart.ToString("yyyy-M-d")}" +
                     $"&endDate={dateEnd.ToString("yyyy-M-d")}";
 
                 HttpResponseMessage response = await _httpClient.GetAsync("API/ExRates/Rates/Dynamics/" + arguments);
                 if (response.IsSuccessStatusCode)
                 {
-                    var receivedRates = await response.Content.ReadFromJsonAsync<List<Rate>>();
-                    resultRates.AddRange(receivedRates);
+                    var rateScale = GetRateScale(currency.ShortName);
+                    var receivedRates = await response.Content.ReadFromJsonAsync<List<ShortRateNBRB>>();
+                    receivedRates?.ForEach(async r => resultRates.Add(r.ToRate(currency, (await rateScale).Value)));
                 }
             }
             catch { }
