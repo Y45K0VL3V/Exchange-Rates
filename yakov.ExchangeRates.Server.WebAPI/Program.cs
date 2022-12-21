@@ -3,6 +3,7 @@ using yakov.ExchangeRates.Server.Domain.Interfaces;
 using yakov.ExchangeRates.Server.Infrastructure;
 using yakov.ExchangeRates.Server.Infrastructure.FileServices;
 using yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices;
+using yakov.ExchangeRates.Server.Infrastructure.ValidationServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+builder.Services.AddSingleton<ITimePeriodValidator, TimePeriodValidatorService>();
 builder.Services.AddSingleton<IRatesFileService, RateFileService>();
 builder.Services.AddSingleton<IStorageService, StorageService>();
 builder.Services.AddSingleton<RatesContext>();

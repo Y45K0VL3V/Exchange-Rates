@@ -18,9 +18,16 @@ namespace yakov.ExchangeRates.Server.WebAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Rate>> Get(Currency currency, DateOnly dateStart, DateOnly dateEnd)
+        public IEnumerable<Rate> Get(string currencyAbbr, CurrencyType currencyType, string dateStart, string dateEnd)
         {
-            return await _cacheService.GetRatesWithPeriod(currency, dateStart, dateEnd);
+            Currency currency = new() { ShortName = currencyAbbr, Type = currencyType };
+            var ratesTask = _cacheService.GetRatesWithPeriod(currency, DateOnly.Parse(dateStart), DateOnly.Parse(dateEnd));
+
+            if (ratesTask.Wait(5000))
+                return ratesTask.Result;
+            else
+                return new List<Rate>() { new Rate(), new Rate(), new Rate()};
+
         }
     }
 }
