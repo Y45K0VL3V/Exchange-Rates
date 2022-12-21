@@ -32,8 +32,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure
                     streakDateEnd = missedDates[i];
                 else
                 {
-                    ////TODO: Remake of interface.
-                    gotRates = await ratesAPI.GetRatesByTimePeriod<Currency, Rate>(currency, streakDateStart, streakDateEnd);
+                    gotRates = await ratesAPI.GetRatesByTimePeriod(currency, streakDateStart, streakDateEnd);
                     rates.AddRange(gotRates);
                     gotRates = null;
 
@@ -44,7 +43,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure
 
             if (gotRates is null)
             {
-                gotRates = await ratesAPI.GetRatesByTimePeriod<Currency, Rate>(currency, streakDateStart, streakDateEnd);
+                gotRates = await ratesAPI.GetRatesByTimePeriod(currency, streakDateStart, streakDateEnd);
                 rates.AddRange(gotRates);
             }
 
