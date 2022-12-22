@@ -82,9 +82,9 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
                 HttpResponseMessage response = await _httpClient.GetAsync("API/ExRates/Rates/Dynamics/" + arguments);
                 if (response.IsSuccessStatusCode)
                 {
-                    var rateScale = GetRateScale(currency.ShortName);
                     var receivedRates = await response.Content.ReadFromJsonAsync<List<ShortRateNBRB>>();
-                    receivedRates?.ForEach(async r => resultRates.Add(r.ToRate(currency, (await rateScale).Value)));
+                    var rateScale = await GetRateScale(currency.ShortName);
+                    receivedRates?.ForEach(r => resultRates.Add(r.ToRate(currency, rateScale.Value)));
                 }
             }
             catch { }

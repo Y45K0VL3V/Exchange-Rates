@@ -23,7 +23,7 @@ namespace yakov.ExchangeRates.Server.WebAPI.Controllers
             Currency currency = new() { ShortName = currencyAbbr, Type = currencyType };
             var ratesTask = _cacheService.GetRatesWithPeriod(currency, DateOnly.Parse(dateStart), DateOnly.Parse(dateEnd));
 
-            if (ratesTask.Wait(5000))
+            if (ratesTask.Wait(500000))
                 return ratesTask.Result;
             else
                 return new List<Rate>() { new Rate(), new Rate(), new Rate()};

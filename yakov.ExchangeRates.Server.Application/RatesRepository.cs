@@ -43,8 +43,9 @@ namespace yakov.ExchangeRates.Server.Application
             List<Rate> rates = new();
             await Task.Run(() =>
             {
-                rates.AddRange(_ratesContext.Rates[currency]
-                    .Where(r => r.Date >= dateStart && r.Date <= dateEnd) ?? new List<Rate>());
+                if (_ratesContext.Rates.ContainsKey(currency))
+                    rates.AddRange(_ratesContext.Rates[currency]
+                         .Where(r => r.Date >= dateStart && r.Date <= dateEnd) ?? new List<Rate>());
             });
 
             return rates;

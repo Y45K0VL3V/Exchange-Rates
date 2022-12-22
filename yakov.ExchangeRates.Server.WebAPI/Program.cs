@@ -4,8 +4,15 @@ using yakov.ExchangeRates.Server.Infrastructure;
 using yakov.ExchangeRates.Server.Infrastructure.FileServices;
 using yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices;
 using yakov.ExchangeRates.Server.Infrastructure.ValidationServices;
+using yakov.ExchangeRates.Server.WebAPI.Converters;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new DateOnlyJsonConverter());
+    });
 
 // Add services to the container.
 
