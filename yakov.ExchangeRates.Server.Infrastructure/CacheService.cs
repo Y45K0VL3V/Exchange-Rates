@@ -79,11 +79,5 @@ namespace yakov.ExchangeRates.Server.Infrastructure
             rates.Sort((x, y) => x.Date.CompareTo(y.Date));
             return rates;
         }
-
-        ~CacheService()
-        {
-            _savedRatesLoaderService.SaveAll().Wait();
-        }
-
     }
 }
