@@ -13,7 +13,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
                     return new NBRBService();
 
                 case CurrencyType.Crypto:
-                    return null;
+                    return new CoinService();
                 
                 default: 
                     throw new ArgumentException();
