@@ -12,6 +12,11 @@ namespace yakov.ExchangeRates.Server.Application
 
         private RatesContext _ratesContext;
 
+        public void Clear()
+        {
+            _ratesContext.Rates = new();
+        }
+
         public async Task AddRates(List<Rate> rates)
         {
             await Task.Run(() =>
@@ -30,7 +35,7 @@ namespace yakov.ExchangeRates.Server.Application
             });
         }
 
-        public async Task<List<Rate>> GetAllRatesByCurrency(Currency currency)
+        public async Task<List<Rate>> GetRatesByCurrency(Currency currency)
         {
             List<Rate> rates = new();
             await Task.Run(() => rates.AddRange(_ratesContext.Rates[currency] ?? new()));

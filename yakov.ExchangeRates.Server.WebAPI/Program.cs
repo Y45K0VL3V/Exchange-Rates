@@ -1,10 +1,10 @@
 using yakov.ExchangeRates.Server.Application;
 using yakov.ExchangeRates.Server.Domain.Interfaces;
 using yakov.ExchangeRates.Server.Infrastructure;
+using yakov.ExchangeRates.Server.Domain.Converters;
 using yakov.ExchangeRates.Server.Infrastructure.FileServices;
 using yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices;
 using yakov.ExchangeRates.Server.Infrastructure.ValidationServices;
-using yakov.ExchangeRates.Server.WebAPI.Converters;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -18,9 +18,9 @@ namespace yakov.ExchangeRates.Server.WebAPI.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Rate> Get(string currencyAbbr, CurrencyType currencyType, string dateStart, string dateEnd)
+        public IEnumerable<Rate> Get([FromQuery]Currency currency, string dateStart, string dateEnd)
         {
-            Currency currency = new() { ShortName = currencyAbbr, Type = currencyType };
+            //Currency currency = new() { ShortName = currency.ShortName, Type = currency.Type };
             var ratesTask = _cacheService.GetRatesWithPeriod(currency, DateOnly.Parse(dateStart), DateOnly.Parse(dateEnd));
 
             if (ratesTask.Wait(500000))

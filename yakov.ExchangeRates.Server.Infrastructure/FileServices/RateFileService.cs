@@ -23,10 +23,10 @@ namespace yakov.ExchangeRates.Server.Infrastructure
         private static Currency GetCurrencyByPath(string path)
         {
             Currency currency = new();
-            path = path.Remove(path.Length - 6);
+            path = path.Remove(path.Length - 5);
             currency.ShortName = path[(path.LastIndexOf('\\') + 1)..];
             path = path.Remove(path.LastIndexOf('\\'));
-            currency.Type = (CurrencyType)Enum.Parse(typeof(CurrencyType), path[path.LastIndexOf('\\')..]);
+            currency.Type = (CurrencyType)Enum.Parse(typeof(CurrencyType), path[(path.LastIndexOf('\\')+1)..]);
 
             return currency;
         }

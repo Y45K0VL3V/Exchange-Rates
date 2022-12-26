@@ -1,4 +1,5 @@
-﻿using yakov.ExchangeRates.Server.Domain.Interfaces;
+﻿using yakov.ExchangeRates.Server.Domain.Entities;
+using yakov.ExchangeRates.Server.Domain.Interfaces;
 
 namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
 {
@@ -29,6 +30,12 @@ namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
             {
                 await _ratesFileService.WriteRatesByCurrency(currRates.Value, currRates.Key);
             }
+        }
+
+        public async Task SaveByCurrency(Currency currency)
+        {
+            var rates = await _ratesRepository.GetRatesByCurrency(currency);
+            await _ratesFileService.WriteRatesByCurrency(rates, currency);
         }
     }
 }

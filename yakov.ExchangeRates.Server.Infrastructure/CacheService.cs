@@ -12,7 +12,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure
             _ratesRepository = ratesRepository;
             _timePeriodValidator = timePeriodValidator;
 
-            _savedRatesLoaderService.LoadAll();
+            _savedRatesLoaderService.LoadAll().Wait();
         }
 
         private IAPIServiceBuilder _apiServiceBuilder;
@@ -47,6 +47,8 @@ namespace yakov.ExchangeRates.Server.Infrastructure
                 rates.AddRange(gotRates);
             }
 
+            await _ratesRepository.AddRates(rates);
+
             return rates;
         }
 
@@ -61,15 +63,18 @@ namespace yakov.ExchangeRates.Server.Infrastructure
             {
                 var routingAPI = _apiServiceBuilder.BuildAPIService(currency.Type);
 
-                List<DateOnly> missedDates = new List<DateOnly>();
+                List<DateOnly> missedDates = new();
                 for (DateOnly currDate = dateStart; currDate <= dateEnd; currDate = currDate.AddDays(1))
                 {
                     if (!rates.Any(r => r.Date == currDate))
                         missedDates.Add(currDate);
                 }
 
-                rates.AddRange(await GetMissedRates(missedDates, routingAPI, currency));
+                var missedRates = await GetMissedRates(missedDates, routingAPI, currency);
+                rates.AddRange(missedRates ?? new());
             }
+
+            _savedRatesLoaderService.SaveByCurrency(currency);
 
             rates.Sort((x, y) => x.Date.CompareTo(y.Date));
             return rates;
@@ -77,7 +82,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure
 
         ~CacheService()
         {
-            _savedRatesLoaderService.SaveAll();
+            _savedRatesLoaderService.SaveAll().Wait();
         }
 
     }

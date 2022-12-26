@@ -49,11 +49,13 @@ namespace yakov.ExchangeRates.Server.Infrastructure.FileServices
 
         public async Task WriteFileTextAsync(string relatePath, string textToAppend)
         {
+            relatePath = Path.Combine(CachePath, relatePath ?? string.Empty);
             await File.WriteAllTextAsync(relatePath, textToAppend);
         }
 
         public async Task<string> ReadFileTextAsync(string relatePath)
         {
+            relatePath = Path.Combine(CachePath, relatePath ?? string.Empty);
             return await File.ReadAllTextAsync(relatePath);
         }
     }

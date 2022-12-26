@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using System.Text.Json;
 
-namespace yakov.ExchangeRates.Server.WebAPI.Converters
+namespace yakov.ExchangeRates.Server.Domain.Converters
 {
     public sealed class DateOnlyJsonConverter : JsonConverter<DateOnly>
     {
