@@ -1,0 +1,137 @@
+[
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-15",
+    "Value": 20769.145126858981,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-16",
+    "Value": 21025.861763472680,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-17",
+    "Value": 21199.71744160104,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-18",
+    "Value": 21751.146927418611,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-19",
+    "Value": 22685.901664250655,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-20",
+    "Value": 23588.399493760298,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-21",
+    "Value": 22867.748100366989,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-22",
+    "Value": 23122.787849910435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-23",
+    "Value": 22483.423043944178,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-24",
+    "Value": 22637.051024422939,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-25",
+    "Value": 21970.028728860865,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-26",
+    "Value": 21024.9998354082585,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-27",
+    "Value": 22058.3026726533155,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-28",
+    "Value": 23428.24629368061,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-07-29",
+    "Value": 23900.6412642791385,
+    "Amount": 1
+  }
+]

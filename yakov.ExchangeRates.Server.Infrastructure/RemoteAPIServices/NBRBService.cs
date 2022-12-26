@@ -76,8 +76,8 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
             try
             {
                 string arguments = $"{await GetCurrencyId(currency.ShortName)}" +
-                    $"?startDate={dateStart.ToString("yyyy-M-d")}" +
-                    $"&endDate={dateEnd.ToString("yyyy-M-d")}";
+                    $"?startDate={dateStart:yyyy-M-d}" +
+                    $"&endDate={dateEnd:yyyy-M-d}";
 
                 HttpResponseMessage response = await _httpClient.GetAsync("API/ExRates/Rates/Dynamics/" + arguments);
                 if (response.IsSuccessStatusCode)

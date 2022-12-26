@@ -5,8 +5,9 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
+using yakov.ExchangeRates.Server.Application.Mappers;
 using yakov.ExchangeRates.Server.Domain.Entities;
-using yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs.NBRB;
+using yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs.Coin;
 using yakov.ExchangeRates.Server.Domain.Interfaces;
 
 namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
@@ -33,8 +34,8 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
                 HttpResponseMessage response = await _httpClient.GetAsync("v1/assets");
                 if (response.IsSuccessStatusCode)
                 {
-                    //var receivedCurrencies = await response.Content.ReadFromJsonAsync<List<CurrencyNBRB>>();
-                    //receivedCurrencies?.ForEach(c => resultCurrencies.Add(c.ToCurrency()));
+                    var receivedCurrencies = await response.Content.ReadFromJsonAsync<List<CurrencyCoin>>();
+                    receivedCurrencies?.ForEach(c => resultCurrencies.Add(c.ToCurrency()));
                 }
             }
             catch { }
@@ -48,15 +49,14 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
             try
             {
                 string arguments = $"{currency.ShortName}/USD/history?period_id=1DAY" +
-                    $"&time_start={dateStart.ToString("yyyy-MM-dd")}T00:00:00" +
-                    $"&time_end={dateEnd.ToString("yyyy-MM-dd")}T00:00:00";
+                    $"&time_start={dateStart:yyyy-MM-dd}T00:00:00" +
+                    $"&time_end={dateEnd:yyyy-MM-dd}T00:00:00";
 
                 HttpResponseMessage response = await _httpClient.GetAsync("v1/exchangerate/" + arguments);
                 if (response.IsSuccessStatusCode)
                 {
-                    var receivedRates = await response.Content.ReadFromJsonAsync<List<RateNBRB>>();
-                    //var rateScale = await GetRateScale(currency.ShortName);
-                    //receivedRates?.ForEach(r => resultRates.Add(r.ToRate(currency, rateScale.Value)));
+                    var receivedRates = await response.Content.ReadFromJsonAsync<List<RateCoin>>();
+                    receivedRates?.ForEach(r => resultRates.Add(r.ToRate(currency, 1)));
                 }
             }
             catch { }
