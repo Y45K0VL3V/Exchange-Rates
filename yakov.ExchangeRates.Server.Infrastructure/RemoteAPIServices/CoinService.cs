@@ -6,7 +6,7 @@ using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
 using yakov.ExchangeRates.Server.Domain.Entities;
-using yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs;
+using yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs.NBRB;
 using yakov.ExchangeRates.Server.Domain.Interfaces;
 
 namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
@@ -54,7 +54,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
                 HttpResponseMessage response = await _httpClient.GetAsync("v1/exchangerate/" + arguments);
                 if (response.IsSuccessStatusCode)
                 {
-                    var receivedRates = await response.Content.ReadFromJsonAsync<List<ShortRateNBRB>>();
+                    var receivedRates = await response.Content.ReadFromJsonAsync<List<RateNBRB>>();
                     //var rateScale = await GetRateScale(currency.ShortName);
                     //receivedRates?.ForEach(r => resultRates.Add(r.ToRate(currency, rateScale.Value)));
                 }

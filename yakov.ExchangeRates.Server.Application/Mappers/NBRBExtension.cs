@@ -1,5 +1,5 @@
 ﻿using yakov.ExchangeRates.Server.Domain.Entities;
-using yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs;
+using yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs.NBRB;
 
 namespace yakov.ExchangeRates.Server.Application.Mappers
 {
@@ -9,18 +9,18 @@ namespace yakov.ExchangeRates.Server.Application.Mappers
         {
             return new()
             {
-                ShortName = currencyNBRB.Cur_Abbreviation,
+                ShortName = currencyNBRB.CurrAbbreviation,
                 Type = CurrencyType.Fiat,
             };
         }
 
-        public static Rate ToRate(this ShortRateNBRB shortRateNBRB, Currency currency, int scaleAmount)
+        public static Rate ToRate(this RateNBRB shortRateNBRB, Currency currency, int scaleAmount)
         {
             return new()
             {
                 Currency = currency,
                 Date = DateOnly.FromDateTime(shortRateNBRB.Date),
-                Value = shortRateNBRB.Cur_OfficialRate!.Value,
+                Value = shortRateNBRB.CurrRate!.Value,
                 Amount = scaleAmount,
             };
         }
