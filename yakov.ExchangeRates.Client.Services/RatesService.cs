@@ -7,16 +7,20 @@ namespace yakov.ExchangeRates.Client.Services
 {
     public class RatesService : IRatesService
     {
-        public RatesService()
+        public RatesService(ITimePeriodValidator timePeriodValidator)
         {
             _httpClient = new();
             _httpClient.BaseAddress = new Uri(_serverUri);
             _httpClient.DefaultRequestHeaders.Accept.Clear();
             _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            _timePeriodValidator = timePeriodValidator;
         }
 
         private readonly HttpClient _httpClient;
         private readonly string _serverUri = "https://localhost:7038/";
+
+        private ITimePeriodValidator _timePeriodValidator;
 
         public Task<List<Currency>> GetCurrencies(CurrencyType currencyType)
         {
