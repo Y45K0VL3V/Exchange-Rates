@@ -4,7 +4,7 @@ namespace yakov.ExchangeRates.Client.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {
-        private string _title = "Prism Application";
+        private string _title = "Exchange rates";
         public string Title
         {
             get { return _title; }

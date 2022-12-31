@@ -4,6 +4,7 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.2.1" />
     <PackageReference Include="LiveChartsCore" Version="2.0.0-beta.700" />
     <PackageReference Include="LiveChartsCore.SkiaSharpView" Version="2.0.0-beta.700" />
     <PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-beta.700" />
@@ -11,5 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\yakov.ExchangeRates.Client.Core\yakov.ExchangeRates.Client.Core.csproj" />
+    <ProjectReference Include="..\yakov.ExchangeRates.Client.Services\yakov.ExchangeRates.Client.Services.csproj" />
   </ItemGroup>
 </Project>

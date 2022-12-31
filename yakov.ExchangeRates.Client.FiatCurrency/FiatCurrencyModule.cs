@@ -5,6 +5,8 @@ using Prism.Regions;
 using yakov.ExchangeRates.Client.Core;
 using yakov.ExchangeRates.Client.FiatCurrency.ViewModels;
 using yakov.ExchangeRates.Client.FiatCurrency.Views;
+using yakov.ExchangeRates.Client.Services;
+using yakov.ExchangeRates.Client.Services.Interfaces;
 
 namespace yakov.ExchangeRates.Client.FiatCurrency
 {
@@ -25,6 +27,8 @@ namespace yakov.ExchangeRates.Client.FiatCurrency
         {
             ViewModelLocationProvider.Register<FiatRateContent, FiatRateContentViewModel>();
             containerRegistry.RegisterForNavigation<FiatRateContent, FiatRateContentViewModel>();
+
+            containerRegistry.RegisterSingleton<IRatesService, RatesService>();
 
         }
     }

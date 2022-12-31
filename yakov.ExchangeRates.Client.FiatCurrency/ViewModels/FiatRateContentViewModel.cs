@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using LiveChartsCore;
 using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
+using System.Collections.Generic;
 
 namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 {
@@ -12,7 +13,7 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
     {
         public FiatRateContentViewModel()
         {
-            _observableValues = new()
+            List<DateTimePoint> values = new()
             {
                 new(new(2021,9,15), 8),
                 new(new(2021,9,16), 9),
@@ -32,7 +33,7 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
                 new LineSeries<DateTimePoint>()
                 {
                     TooltipLabelFormatter = (chartPoint) => $"{new DateTime((long) chartPoint.SecondaryValue):dd.MM.yy}: {chartPoint.PrimaryValue}",
-                    Values = _observableValues,
+                    Values = values,
                     Fill = null,
                 }
             };

@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+             xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              xmlns:prism="http://prismlibrary.com/"
@@ -12,18 +13,22 @@
     <UserControl.Resources>
         <ResourceDictionary Source="/yakov.ExchangeRates.Client.Core;component/Themes/DarkTheme.xaml"/>
     </UserControl.Resources>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3.5*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="75"/>
             <ColumnDefinition/>
             <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
 
-        <Border Grid.Row="1" Grid.ColumnSpan="2"
+        
+        
+        <Border Grid.Row="1" 
+                Grid.Column="1" Grid.ColumnSpan="3"
                 CornerRadius="40"
                 Margin="10">
             <Border.Background>
@@ -36,11 +41,113 @@
             <Grid>
                 <lvc:CartesianChart Margin="30"
                                     Background="Transparent"
-                                    ZoomMode="Both"
+                                    ZoomMode="X"
                                     Series="{Binding Rates}"
                                     XAxes="{Binding XAxes}">
                 </lvc:CartesianChart>
             </Grid>
+        </Border>
+
+        <Border x:Name="border"
+                Grid.RowSpan="2"
+                Grid.ColumnSpan="2"
+                CornerRadius="10"
+                Padding="0,0,0,20"
+                Width="75"
+                HorizontalAlignment="Left" VerticalAlignment="Stretch">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
+                    <GradientStop Color="{StaticResource secondaryBackColor1}"/>
+                    <GradientStop Color="{StaticResource secondaryBackColor2}" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <ToggleButton Grid.Row="0"
+                                  HorizontalAlignment="Left"
+                                  Height="30"
+                                  Margin="5,40,0,10"
+                                  Style="{DynamicResource SystemToggleButton}">
+                    <ToggleButton.Content>
+                        <Border Width="60"
+                                    Margin="0,0,7,0">
+                            <fa:IconImage Icon="LineChart"  
+                                                Foreground="{StaticResource color3}"/>
+                        </Border>
+                    </ToggleButton.Content>
+
+                    <ToggleButton.Triggers>
+                        <EventTrigger RoutedEvent="ToggleButton.Checked">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="border"
+                                                         Duration="00:00:00.1500000"
+                                                         Storyboard.TargetProperty="(FrameworkElement.Width)"
+                                                         To="220">
+
+                                        </DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+
+                        <EventTrigger RoutedEvent="ToggleButton.Unchecked">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="border"
+                                                         Duration="00:00:00.1500000"
+                                                         Storyboard.TargetProperty="(FrameworkElement.Width)"
+                                                         To="75">
+
+                                        </DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                    </ToggleButton.Triggers>
+
+                </ToggleButton>
+
+                <StackPanel Grid.Row="1"
+                                Margin="0,20,0,0">
+
+                    <RadioButton Style="{DynamicResource menuButton}"
+                                 Tag="{DynamicResource color1}"
+                                 Command="{Binding ShowFiatManager}">
+                        <StackPanel Orientation="Horizontal">
+                            <fa:IconImage Icon="MoneyBill1" Style="{DynamicResource menuButtonIcon}"/>
+                            <Label x:Name="label1" Content="Fiat currency"
+                                   Style="{DynamicResource menuButtonText}"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,20,0"
+                                   Visibility="Visible"
+                                   Foreground="{DynamicResource plainTextColor3}"/>
+                        </StackPanel>
+                    </RadioButton>
+
+                    <RadioButton Style="{DynamicResource menuButton}"
+                                 Tag="{DynamicResource color2}"
+                                 Command="{Binding ShowCryptoManager}">
+                        <StackPanel Orientation="Horizontal">
+                            <fa:IconImage Icon="Ethereum" Style="{DynamicResource menuButtonIcon}"/>
+                            <Label x:Name="label" Content="Crypto currency"
+                                       Style="{DynamicResource menuButtonText}"
+                                       VerticalAlignment="Center"
+                                       Margin="0,0,20,0"
+                                       Visibility="Visible"
+                                       Foreground="{DynamicResource plainTextColor3}"/>
+                        </StackPanel>
+                    </RadioButton>
+                </StackPanel>
+
+            </Grid>
+
         </Border>
     </Grid>
 </UserControl>
