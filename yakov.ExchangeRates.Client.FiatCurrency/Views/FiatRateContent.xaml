@@ -36,7 +36,9 @@
             <Grid>
                 <lvc:CartesianChart Margin="30"
                                     Background="Transparent"
-                                    ZoomMode="Both">
+                                    ZoomMode="Both"
+                                    Series="{Binding Rates}"
+                                    XAxes="{Binding XAxes}">
                 </lvc:CartesianChart>
             </Grid>
         </Border>

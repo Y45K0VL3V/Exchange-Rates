@@ -14,59 +14,49 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 {
     public class FiatRateContentViewModel : BindableBase
     {
-        //public ISeries[] Series { get; set; } =
-        //{
-        //new LineSeries<ObservablePoint>
-        //{
-        //    Values = new ObservablePoint[]
-        //    {
-        //        new ObservablePoint(0, 4),
-        //        new ObservablePoint(1, 3),
-        //        new ObservablePoint(3, 8),
-        //        new ObservablePoint(18, 6),
-        //        new ObservablePoint(20, 12)
-        //    }
-        //}
-        //};
-        private readonly ObservableCollection<ObservableValue> _observableValues;
-
-        public FiatRateContentViewModel(ObservableCollection<ObservableValue> observableValues, ObservableCollection<ISeries> series)
+        public FiatRateContentViewModel()
         {
-            _observableValues = new ObservableCollection<ObservableValue>
+            _observableValues = new()
             {
-                new ObservableValue(2),
-                new(5),
-                new(4),
-                new(5),
-                new(2),
-                new(6),
-                new(6),
-                new(6),
-                new(4),
-                new(2),
-                new(3),
-                new(4),
-                new(3)
+                new(new(2021,9,15), 8),
+                new(new(2021,9,16), 9),
+                new(new(2021,9,17), 10),
+                new(new(2021,9,18), 9),
+                new(new(2021,9,19), 9),
+                new(new(2021,9,20), 9),
+                new(new(2021,9,21), 9),
+                new(new(2021,9,22), 9),
+                new(new(2021,9,23), 9),
+                new(new(2021,9,24), 9),
+                new(new(2021,9,25), 9),
             };
 
-            Series = new ObservableCollection<ISeries>
+            Rates = new ObservableCollection<ISeries>()
             {
-                new LineSeries<ObservablePoint>()
+                new LineSeries<DateTimePoint>()
                 {
-                    Values = new ObservablePoint[]
-                    {
-                        new ObservablePoint(0, 4),
-                        new ObservablePoint(1, 3),
-                        new ObservablePoint(3, 8),
-                        new ObservablePoint(18, 6),
-                        new ObservablePoint(20, 12)
-                    },
-                    Fill = null
+                    TooltipLabelFormatter = (chartPoint) => $"{new DateTime((long) chartPoint.SecondaryValue):dd.MM.yy}: {chartPoint.PrimaryValue}",
+                    Values = _observableValues,
+                    Fill = null,
                 }
             };
         }
 
-        public ObservableCollection<ISeries> Series { get; set; }
+        private readonly ObservableCollection<DateTimePoint> _observableValues;
+        public ObservableCollection<ISeries> Rates { get; set; }
 
+
+        #region Live chart UI bindings
+        public Axis[] XAxes { get; set; } =
+        {
+            new Axis
+            {
+                Labeler = value => new DateTime((long) value).ToString("dd.MM.yy"),
+                LabelsRotation = 0,
+                UnitWidth = TimeSpan.FromDays(1).Ticks,
+                MinStep = TimeSpan.FromDays(1).Ticks
+            }
+        };
+        #endregion
     }
 }
