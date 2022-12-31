@@ -1,10 +1,6 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using LiveChartsCore;
 using LiveChartsCore.Defaults;
@@ -42,7 +38,7 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             };
         }
 
-        private readonly ObservableCollection<DateTimePoint> _observableValues;
+        //private readonly ObservableCollection<DateTimePoint> _observableValues;
         public ObservableCollection<ISeries> Rates { get; set; }
 
 
@@ -58,5 +54,6 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             }
         };
         #endregion
+
     }
 }
