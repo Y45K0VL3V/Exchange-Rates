@@ -7,6 +7,7 @@ using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
 using System.Collections.Generic;
 using System.Configuration;
+using yakov.ExchangeRates.Client.Business;
 
 namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 {
@@ -64,6 +65,8 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 
         //private readonly ObservableCollection<DateTimePoint> _observableValues;
         public ObservableCollection<ISeries> Rates { get; set; }
+
+        public ObservableCollection<Currency> Currencies { get; set; }
 
         #region Live chart UI bindings
         public Axis[] XAxes { get; set; } =

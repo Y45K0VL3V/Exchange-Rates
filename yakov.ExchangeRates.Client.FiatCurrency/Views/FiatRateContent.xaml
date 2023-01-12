@@ -16,7 +16,65 @@
                 <ResourceDictionary Source="/yakov.ExchangeRates.Client.Core;component/Themes/DarkTheme.xaml"/>
                 <ResourceDictionary Source="../Styles/Calendar.xaml"/>
                 <ResourceDictionary Source="../Styles/DatePicker.xaml"/>
+                <ResourceDictionary Source="../Styles/ComboBox.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+
+            <Style x:Key="OutlineButton" TargetType="{x:Type Button}">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border x:Name="border" Background="Transparent" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true" CornerRadius="5">
+                                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="true">
+                                    <Setter Property="Background" TargetName="border">
+                                        <Setter.Value>
+                                            <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5">
+                                                <GradientStop Color="Black"/>
+                                                <GradientStop Color="White" Offset="1"/>
+                                            </RadialGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ColorAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="(Control.Background).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                                                    <EasingColorKeyFrame KeyTime="00:00:00" Value="#5F24105F"/>
+                                                </ColorAnimationUsingKeyFrames>
+                                                <ColorAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="(Control.Background).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                                                    <EasingColorKeyFrame KeyTime="00:00:00" Value="#0024105F"/>
+                                                </ColorAnimationUsingKeyFrames>
+                                                <DoubleAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="(Control.Background).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
+                                                    <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0.99"/>
+                                                    <EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="0"/>
+                                                </DoubleAnimationUsingKeyFrames>
+                                                <PointAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="(Control.Background).(RadialGradientBrush.GradientOrigin)">
+                                                    <EasingPointKeyFrame KeyTime="00:00:00" Value="0.5,0.5"/>
+                                                </PointAnimationUsingKeyFrames>
+                                                <PointAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="(Control.Background).(RadialGradientBrush.Center)">
+                                                    <EasingPointKeyFrame KeyTime="00:00:00" Value="0.5,0.5"/>
+                                                </PointAnimationUsingKeyFrames>
+                                                <DoubleAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="(Control.Background).(RadialGradientBrush.RadiusX)">
+                                                    <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                                                </DoubleAnimationUsingKeyFrames>
+                                                <DoubleAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="(Control.Background).(RadialGradientBrush.RadiusY)">
+                                                    <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                                                </DoubleAnimationUsingKeyFrames>
+                                                <DoubleAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="(Control.Background).(GradientBrush.GradientStops)[1].(GradientStop.Offset)">
+                                                    <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                                                    <EasingDoubleKeyFrame KeyTime="00:00:00.1500000" Value="0.5"/>
+                                                    <!--<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0"/>-->
+                                                </DoubleAnimationUsingKeyFrames>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
         </ResourceDictionary>
     </UserControl.Resources>
 
@@ -35,13 +93,14 @@
             <StackPanel Orientation="Horizontal" Margin="10,0,0,0">
                 <StackPanel>
                     <Label Content="Start date:" Foreground="{StaticResource titleColor1}" 
-                           HorizontalAlignment="Center" FontSize="13"/>
+                           HorizontalAlignment="Center" FontSize="16"/>
                     <DatePicker CalendarStyle="{StaticResource calendar}"
                                 Foreground="{StaticResource titleColor2}"
                                 Padding="0"
                                 DisplayDateStart="{Binding MinDate}"
                                 DisplayDateEnd="{Binding MaxDate}"
-                                Height="auto"
+                                Height="40"
+                                VerticalContentAlignment="Center"
                                 VerticalAlignment="Center">
                         <DatePicker.Background>
                             <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
@@ -54,13 +113,14 @@
 
                 <StackPanel Margin="10,0,0,0">
                     <Label Content="End date:" Foreground="{StaticResource titleColor1}" 
-                           HorizontalAlignment="Center" FontSize="13"/>
+                           HorizontalAlignment="Center" FontSize="16"/>
                     <DatePicker CalendarStyle="{StaticResource calendar}"
                                 Foreground="{StaticResource titleColor2}"
                                 Padding="0"
                                 DisplayDateStart="{Binding MinDate}"
                                 DisplayDateEnd="{Binding MaxDate}"
-                                Height="auto"
+                                Height="40"
+                                VerticalContentAlignment="Center"
                                 VerticalAlignment="Center">
                         <DatePicker.Background>
                             <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
@@ -70,9 +130,39 @@
                         </DatePicker.Background>
                     </DatePicker>
                 </StackPanel>
+
+                <StackPanel Margin="10,0,0,0">
+                    <Label Content="Currency:" Foreground="{StaticResource titleColor1}" 
+                           HorizontalAlignment="Center" FontSize="16"/>
+                    <ComboBox Width="100" IsEditable="True" Height="40" BorderThickness="0"
+                              HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontSize="16"
+                              ItemsSource="{Binding Currencies}">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding ShortName}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </StackPanel>
+
+                <Button x:Name="button" Style="{DynamicResource OutlineButton}" Height="70" Width="160"
+                        Margin="30,0,0,0"
+                        VerticalAlignment="Center"
+                        FontSize="16" Foreground="{StaticResource titleColor2}"
+                        BorderThickness="2"
+                        Content="Get Rates">
+                    <Button.BorderBrush>
+                        <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
+                            <GradientStop Color="{StaticResource secondaryBackColor1}"/>
+                            <GradientStop Color="{StaticResource secondaryBackColor2}" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.BorderBrush>
+                </Button>
             </StackPanel>
         </Border>
-        
+
         <Border Grid.Row="1" 
                 Grid.Column="1" Grid.ColumnSpan="3"
                 CornerRadius="40"
