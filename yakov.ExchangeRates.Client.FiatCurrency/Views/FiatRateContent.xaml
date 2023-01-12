@@ -39,6 +39,8 @@
                     <DatePicker CalendarStyle="{StaticResource calendar}"
                                 Foreground="{StaticResource titleColor2}"
                                 Padding="0"
+                                DisplayDateStart="{Binding MinDate}"
+                                DisplayDateEnd="{Binding MaxDate}"
                                 Height="auto"
                                 VerticalAlignment="Center">
                         <DatePicker.Background>
@@ -56,6 +58,8 @@
                     <DatePicker CalendarStyle="{StaticResource calendar}"
                                 Foreground="{StaticResource titleColor2}"
                                 Padding="0"
+                                DisplayDateStart="{Binding MinDate}"
+                                DisplayDateEnd="{Binding MaxDate}"
                                 Height="auto"
                                 VerticalAlignment="Center">
                         <DatePicker.Background>

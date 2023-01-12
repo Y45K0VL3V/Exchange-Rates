@@ -6,6 +6,7 @@ using LiveChartsCore;
 using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
 using System.Collections.Generic;
+using System.Configuration;
 
 namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 {
@@ -13,6 +14,8 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
     {
         public FiatRateContentViewModel()
         {
+            InitDateBorders();
+
             List<DateTimePoint> values = new()
             {
                 new(new(2021,9,15), 8),
@@ -39,9 +42,28 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             };
         }
 
+        private DateTime _minDate;
+        public DateTime MinDate
+        {
+            get => _minDate;
+            set => SetProperty(ref _minDate, value);
+        }
+
+        private DateTime _maxDate;
+        public DateTime MaxDate
+        {
+            get => _maxDate;
+            set => SetProperty(ref _maxDate, value);
+        }
+
+        private void InitDateBorders()
+        {
+            MinDate = DateTime.Now.AddYears(-5);
+            MaxDate = DateTime.Now;
+        }
+
         //private readonly ObservableCollection<DateTimePoint> _observableValues;
         public ObservableCollection<ISeries> Rates { get; set; }
-
 
         #region Live chart UI bindings
         public Axis[] XAxes { get; set; } =
