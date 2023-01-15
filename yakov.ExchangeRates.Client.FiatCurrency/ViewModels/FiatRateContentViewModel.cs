@@ -8,41 +8,36 @@ using LiveChartsCore.SkiaSharpView;
 using System.Collections.Generic;
 using System.Configuration;
 using yakov.ExchangeRates.Client.Business;
+using yakov.ExchangeRates.Client.Services;
+using yakov.ExchangeRates.Client.Services.Interfaces;
+using System.Linq;
+using yakov.ExchangeRates.Client.FiatCurrency.Extensions;
 
 namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 {
     public class FiatRateContentViewModel : BindableBase
     {
-        public FiatRateContentViewModel()
-        {
-            InitDateBorders();
+        protected IRatesService RatesService { get; private set; }
 
-            List<DateTimePoint> values = new()
-            {
-                new(new(2021,9,15), 8),
-                new(new(2021,9,16), 9),
-                new(new(2021,9,17), 10),
-                new(new(2021,9,18), 9),
-                new(new(2021,9,19), 9),
-                new(new(2021,9,20), 9),
-                new(new(2021,9,21), 9),
-                new(new(2021,9,22), 9),
-                new(new(2021,9,23), 9),
-                new(new(2021,9,24), 9),
-                new(new(2021,9,25), 9),
-            };
+        public FiatRateContentViewModel(IRatesService ratesService)
+        {
+            RatesService = ratesService;
+            InitDateBorders();
 
             Rates = new ObservableCollection<ISeries>()
             {
                 new LineSeries<DateTimePoint>()
                 {
                     TooltipLabelFormatter = (chartPoint) => $"{new DateTime((long) chartPoint.SecondaryValue):dd.MM.yy}: {chartPoint.PrimaryValue}",
-                    Values = values,
+                    Values = _observableValues,
                     Fill = null,
+                    LineSmoothness = 0,
+                    GeometrySize = 1,
                 }
             };
         }
 
+        #region Dates control
         private DateTime _minDate;
         public DateTime MinDate
         {
@@ -63,7 +58,22 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             MaxDate = DateTime.Now;
         }
 
-        //private readonly ObservableCollection<DateTimePoint> _observableValues;
+        private DateTime? _startDate;
+        public DateTime? StartDate
+        {
+            get => _startDate;
+            set => SetProperty(ref _startDate, value);
+        }
+        
+        private DateTime? _endDate;
+        public DateTime? EndDate
+        {
+            get => _endDate;
+            set => SetProperty(ref _endDate, value);
+        }
+        #endregion
+
+        private readonly ObservableCollection<DateTimePoint> _observableValues = new();
         public ObservableCollection<ISeries> Rates { get; set; }
 
         public ObservableCollection<Currency> Currencies { get; set; }
@@ -81,5 +91,53 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         };
         #endregion
 
+        #region Currency type control
+        private CurrencyType _currencyType = CurrencyType.Fiat;
+
+        public CurrencyType CurrencyType
+        {
+            get { return _currencyType; }
+            set
+            {
+                if (_currencyType == value)
+                    return;
+
+                SetProperty(ref _currencyType, value);
+                RaisePropertyChanged(nameof(IsFiatCurrency));
+                RaisePropertyChanged(nameof(IsCryptoCurrency));
+            }
+        }
+
+        public bool IsFiatCurrency
+        {
+            get { return CurrencyType == CurrencyType.Fiat; }
+            set { CurrencyType = value ? CurrencyType.Fiat : CurrencyType; }
+        } 
+        public bool IsCryptoCurrency
+        {
+            get { return CurrencyType == CurrencyType.Crypto; }
+            set { CurrencyType = value ? CurrencyType.Crypto : CurrencyType; }
+        }
+        #endregion
+
+        private string _currencyShortName;
+        public string CurrencyShortName
+        {
+            get => _currencyShortName;
+            set => SetProperty(ref _currencyShortName, value);
+        }
+
+        private DelegateCommand _getRatesCommand;
+        public DelegateCommand GetRatesCommand =>
+            _getRatesCommand ??= new DelegateCommand(ExecuteGetRates);
+        
+        private async void ExecuteGetRates()
+        {
+            Currency chosedCurrency = new() { ShortName = CurrencyShortName, Type = CurrencyType };
+            var rates = await RatesService.GetRates(chosedCurrency, DateOnly.FromDateTime(StartDate.Value), DateOnly.FromDateTime(EndDate.Value));
+
+            _observableValues.Clear();
+            rates.ForEach(r => _observableValues.Add(r.ToDateTimePoint()));
+        }
     }
 }

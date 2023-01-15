@@ -26,9 +26,9 @@ namespace yakov.ExchangeRates.Client.FiatCurrency
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             ViewModelLocationProvider.Register<FiatRateContent, FiatRateContentViewModel>();
-            containerRegistry.RegisterForNavigation<FiatRateContent, FiatRateContentViewModel>();
-
+            containerRegistry.RegisterSingleton<ITimePeriodValidator, TimePeriodValidatorService>();
             containerRegistry.RegisterSingleton<IRatesService, RatesService>();
+            containerRegistry.RegisterForNavigation<FiatRateContent, FiatRateContentViewModel>();
 
         }
     }

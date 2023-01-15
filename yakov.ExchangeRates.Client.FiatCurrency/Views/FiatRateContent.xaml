@@ -101,7 +101,8 @@
                                 DisplayDateEnd="{Binding MaxDate}"
                                 Height="40"
                                 VerticalContentAlignment="Center"
-                                VerticalAlignment="Center">
+                                VerticalAlignment="Center"
+                                SelectedDate="{Binding StartDate}">
                         <DatePicker.Background>
                             <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
                                 <GradientStop Color="{StaticResource secondaryBackColor1}"/>
@@ -121,7 +122,8 @@
                                 DisplayDateEnd="{Binding MaxDate}"
                                 Height="40"
                                 VerticalContentAlignment="Center"
-                                VerticalAlignment="Center">
+                                VerticalAlignment="Center"
+                                SelectedDate="{Binding EndDate}">
                         <DatePicker.Background>
                             <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
                                 <GradientStop Color="{StaticResource secondaryBackColor1}"/>
@@ -136,7 +138,10 @@
                            HorizontalAlignment="Center" FontSize="16"/>
                     <ComboBox Width="100" IsEditable="True" Height="40" BorderThickness="0"
                               HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontSize="16"
-                              ItemsSource="{Binding Currencies}">
+                              IsTextSearchEnabled="True"
+                              StaysOpenOnEdit="True"
+                              ItemsSource="{Binding Currencies}"
+                              Text="{Binding CurrencyShortName}">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
@@ -147,12 +152,14 @@
                     </ComboBox>
                 </StackPanel>
 
-                <Button x:Name="button" Style="{DynamicResource OutlineButton}" Height="70" Width="160"
+                <Button x:Name="button" Style="{DynamicResource OutlineButton}" 
+                        Height="70" Width="160"
                         Margin="30,0,0,0"
                         VerticalAlignment="Center"
                         FontSize="16" Foreground="{StaticResource titleColor2}"
                         BorderThickness="2"
-                        Content="Get Rates">
+                        Content="Get Rates"
+                        Command="{Binding GetRatesCommand}">
                     <Button.BorderBrush>
                         <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
                             <GradientStop Color="{StaticResource secondaryBackColor1}"/>
@@ -255,7 +262,7 @@
 
                     <RadioButton Style="{DynamicResource menuButton}"
                                  Tag="{DynamicResource color1}"
-                                 Command="{Binding ShowFiatManager}">
+                                 IsChecked="{Binding IsFiatCurrency}">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="MoneyBill1" Style="{DynamicResource menuButtonIcon}"/>
                             <Label x:Name="label1" Content="Fiat currency"
@@ -269,7 +276,7 @@
 
                     <RadioButton Style="{DynamicResource menuButton}"
                                  Tag="{DynamicResource color2}"
-                                 Command="{Binding ShowCryptoManager}">
+                                 IsChecked="{Binding IsCryptoCurrency}">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Ethereum" Style="{DynamicResource menuButtonIcon}"/>
                             <Label x:Name="label" Content="Crypto currency"
