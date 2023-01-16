@@ -1,0 +1,3377 @@
+[
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-01",
+    "Value": 1279.8498718168361,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-02",
+    "Value": 1281.6430038384593,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-03",
+    "Value": 1270.35966368500785,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-04",
+    "Value": 1261.85393890094565,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-05",
+    "Value": 1276.8518906541774,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-06",
+    "Value": 1258.32254097726195,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-07",
+    "Value": 1247.72912299060375,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-08",
+    "Value": 1256.96111556598295,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-09",
+    "Value": 1274.5036606502273,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-10",
+    "Value": 1270.66245170979505,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-11",
+    "Value": 1270.9776589172946,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-12",
+    "Value": 1259.58218650523065,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-13",
+    "Value": 1300.59701872715715,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-14",
+    "Value": 1325.2782161427003,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-15",
+    "Value": 1285.89433334423715,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-16",
+    "Value": 1218.850457331100,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-17",
+    "Value": 1175.66600914357975,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-18",
+    "Value": 1184.8027159562717,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-19",
+    "Value": 1173.96540974745235,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-20",
+    "Value": 1195.9722548860336,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-21",
+    "Value": 1211.9875628062556,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-22",
+    "Value": 1207.4335930435726,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-23",
+    "Value": 1221.13926205796465,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-24",
+    "Value": 1220.1892696347885,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-25",
+    "Value": 1212.1296076601399,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-26",
+    "Value": 1220.9873676614352,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-27",
+    "Value": 1217.381936178865,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-28",
+    "Value": 1198.8998290578010,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-29",
+    "Value": 1195.71838986227635,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-30",
+    "Value": 1193.4708032696249,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-12-31",
+    "Value": 1199.6055356027557,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-01",
+    "Value": 1197.1567907687696,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-02",
+    "Value": 1206.76154914395655,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-03",
+    "Value": 1212.6494830704522,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-04",
+    "Value": 1239.1921996386915,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-05",
+    "Value": 1250.6978454242866,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-06",
+    "Value": 1256.4281785404534,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-07",
+    "Value": 1265.8764599416512,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-08",
+    "Value": 1273.41958244884715,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-09",
+    "Value": 1314.7912355253967,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-10",
+    "Value": 1330.6112612632186,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-11",
+    "Value": 1358.32205894913435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-12",
+    "Value": 1405.14295954236585,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2023-01-13",
+    "Value": 1432.59619481508755,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-31",
+    "Value": 2594.87274369057425,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-01",
+    "Value": 2745.5578382399381,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-02",
+    "Value": 2714.859767996514,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-03",
+    "Value": 2652.1416672974615,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-04",
+    "Value": 2832.8310952686912,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-05",
+    "Value": 3013.32651948586335,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-06",
+    "Value": 3016.0363145623797,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-07",
+    "Value": 3092.627301094987,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-08",
+    "Value": 3129.384938968216,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-09",
+    "Value": 3163.9155164962758,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-10",
+    "Value": 3172.0138591780988,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-11",
+    "Value": 3008.63215489045915,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-12",
+    "Value": 2923.2087956175687,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-13",
+    "Value": 2896.47291821116145,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-14",
+    "Value": 2900.8953672728728,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-15",
+    "Value": 3054.04345566647745,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-16",
+    "Value": 3118.7626717795953,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-17",
+    "Value": 3008.90523630082815,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-18",
+    "Value": 2849.2508810466802,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-19",
+    "Value": 2766.5303124559132,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-20",
+    "Value": 2671.37174232510875,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-21",
+    "Value": 2659.83637059251365,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-22",
+    "Value": 2579.5174017990910,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-23",
+    "Value": 2665.43113172667365,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-24",
+    "Value": 2506.21191796392555,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-25",
+    "Value": 2702.80731702183725,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-26",
+    "Value": 2794.7703481155673,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-27",
+    "Value": 2699.3119366057305,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-02-28",
+    "Value": 2704.1975756946797,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-01",
+    "Value": 2947.58162622533165,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-02",
+    "Value": 2975.491316660471,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-03",
+    "Value": 2905.8279919921253,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-04",
+    "Value": 2726.06475559681185,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-05",
+    "Value": 2637.3350119138237,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-06",
+    "Value": 2610.17459469676235,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-07",
+    "Value": 2518.68685511311235,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-08",
+    "Value": 2582.42254304603675,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-09",
+    "Value": 2671.09940717037285,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-10",
+    "Value": 2729.342997466488,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-11",
+    "Value": 2572.5141437110067,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-12",
+    "Value": 2583.8491165021427,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-13",
+    "Value": 2547.79062526746465,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-14",
+    "Value": 2554.71407131940325,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-15",
+    "Value": 2589.88003997988685,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-16",
+    "Value": 2697.14275282195635,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-17",
+    "Value": 2791.67337012981685,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-18",
+    "Value": 2877.0516352820555,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-19",
+    "Value": 2940.7438534620494,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-20",
+    "Value": 2891.92286575800475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-21",
+    "Value": 2897.4562744636557,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-22",
+    "Value": 2968.99200744805855,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-23",
+    "Value": 2984.4771308256247,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-24",
+    "Value": 3068.2526985039533,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-25",
+    "Value": 3137.5494533515505,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-26",
+    "Value": 3119.4956689109256,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-27",
+    "Value": 3212.579099786212,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-28",
+    "Value": 3353.52586267131385,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-29",
+    "Value": 3407.920128102687,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-30",
+    "Value": 3393.15212697653815,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-03-31",
+    "Value": 3354.12277667820835,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-01",
+    "Value": 3347.9325229878105,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-02",
+    "Value": 3482.97067238523145,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-03",
+    "Value": 3498.1926150417383,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-04",
+    "Value": 3480.87267689727785,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-05",
+    "Value": 3477.45892608359765,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-06",
+    "Value": 3285.4744154980035,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-07",
+    "Value": 3207.42250178231985,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-08",
+    "Value": 3243.50937062732465,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-09",
+    "Value": 3225.17885777608435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-10",
+    "Value": 3252.7312544255753,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-11",
+    "Value": 3083.87822749451165,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-12",
+    "Value": 3017.8645618791288,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-13",
+    "Value": 3064.1046003082275,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-14",
+    "Value": 3060.2556554210791,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-15",
+    "Value": 3024.059596440282,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-16",
+    "Value": 3048.1989582006805,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-17",
+    "Value": 3033.73394831093465,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-18",
+    "Value": 2979.11838993641815,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-19",
+    "Value": 3081.765980484067,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-20",
+    "Value": 3100.58220043906385,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-21",
+    "Value": 3030.17579889110925,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-22",
+    "Value": 2983.8875716092555,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-23",
+    "Value": 2948.92021337527355,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-24",
+    "Value": 2940.54378836020985,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-25",
+    "Value": 2911.4458743577975,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-26",
+    "Value": 2899.91676218773435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-27",
+    "Value": 2857.17910262329475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-28",
+    "Value": 2917.2609687495517,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-29",
+    "Value": 2862.0001198964427,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-04-30",
+    "Value": 2781.29561098566615,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-01",
+    "Value": 2781.5755613812057,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-02",
+    "Value": 2831.365250081866,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-03",
+    "Value": 2809.0124724850605,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-04",
+    "Value": 2867.2173195727143,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-05",
+    "Value": 2824.86766618092425,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-06",
+    "Value": 2695.7580646006165,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-07",
+    "Value": 2647.48027844856185,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-08",
+    "Value": 2565.9740741243102,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-09",
+    "Value": 2377.6934760830075,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-10",
+    "Value": 2328.2755174173581,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-11",
+    "Value": 2224.22523550463355,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-12",
+    "Value": 1944.0124218971806,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-13",
+    "Value": 2039.24024005668685,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-14",
+    "Value": 2005.5307471498816,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-15",
+    "Value": 2077.63005839528775,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-16",
+    "Value": 2062.8814739093457,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-17",
+    "Value": 2063.4080724210315,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-18",
+    "Value": 2006.9950526535315,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-19",
+    "Value": 1969.4740266816783,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-20",
+    "Value": 1990.3875320492632,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-21",
+    "Value": 1961.7500530651897,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-22",
+    "Value": 2008.59652250694535,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-23",
+    "Value": 2020.78185166996225,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-24",
+    "Value": 1951.7383264691457,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-25",
+    "Value": 1975.36613320724275,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-26",
+    "Value": 1855.04006956471835,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-27",
+    "Value": 1765.36733948120835,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-28",
+    "Value": 1763.5086872546271,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-29",
+    "Value": 1793.04119768110445,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-30",
+    "Value": 1905.35674190261955,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-05-31",
+    "Value": 1969.20019409301635,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-01",
+    "Value": 1868.11244743878235,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-02",
+    "Value": 1816.8190246466519,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-03",
+    "Value": 1789.98242177545675,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-04",
+    "Value": 1779.9884563222821,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-05",
+    "Value": 1801.0430521697398,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-06",
+    "Value": 1860.56453986877625,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-07",
+    "Value": 1797.04787817740055,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-08",
+    "Value": 1799.61412329975885,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-09",
+    "Value": 1803.3002153155910,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-10",
+    "Value": 1728.26480649914845,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-11",
+    "Value": 1590.5538475337608,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-12",
+    "Value": 1485.7395187302446,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-13",
+    "Value": 1309.81219384530065,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-14",
+    "Value": 1169.16472601693555,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-15",
+    "Value": 1129.17859886161375,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-16",
+    "Value": 1152.0199124892287,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-17",
+    "Value": 1082.5010918100152,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-18",
+    "Value": 990.21899112491735,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-19",
+    "Value": 1043.7275501633212,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-20",
+    "Value": 1110.1443124047619,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-21",
+    "Value": 1148.84277145494125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-22",
+    "Value": 1084.07226379177855,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-23",
+    "Value": 1099.33832607562475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-24",
+    "Value": 1187.2291998434803,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-25",
+    "Value": 1215.5398106011506,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-26",
+    "Value": 1236.26095320304805,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-27",
+    "Value": 1206.1759745033006,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-28",
+    "Value": 1184.68689767372655,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-29",
+    "Value": 1120.4983376137801,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-06-30",
+    "Value": 1052.3860814824222,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-01",
+    "Value": 1071.37278300533875,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-02",
+    "Value": 1052.1915706845963,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-03",
+    "Value": 1062.73012694943555,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-04",
+    "Value": 1100.52417581644715,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-05",
+    "Value": 1123.96456358090495,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-06",
+    "Value": 1155.0402293484290,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-07",
+    "Value": 1207.6247205310052,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-08",
+    "Value": 1233.31407279872685,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-09",
+    "Value": 1217.8866265207384,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-10",
+    "Value": 1187.1134582980152,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-11",
+    "Value": 1130.2504491099584,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-12",
+    "Value": 1066.12199413272095,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-13",
+    "Value": 1064.1573433542252,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-14",
+    "Value": 1141.04490197500135,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-15",
+    "Value": 1231.6254808267933,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-16",
+    "Value": 1288.71603343824085,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-17",
+    "Value": 1352.4755089797649,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-18",
+    "Value": 1461.74053772078675,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-19",
+    "Value": 1559.73816224281175,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-20",
+    "Value": 1554.42390082126865,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-21",
+    "Value": 1533.0457984430782,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-22",
+    "Value": 1581.77687471475475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-23",
+    "Value": 1543.6588670416329,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-24",
+    "Value": 1606.03510573580195,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-25",
+    "Value": 1523.19329469909165,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-26",
+    "Value": 1406.36403273141435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-27",
+    "Value": 1531.12947109727385,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-28",
+    "Value": 1693.33952927016545,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-29",
+    "Value": 1711.6316219256813,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-30",
+    "Value": 1710.0367547302348,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-07-31",
+    "Value": 1709.3017608969882,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-01",
+    "Value": 1681.300027855298,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-02",
+    "Value": 1618.2317458739373,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-03",
+    "Value": 1637.61738403160165,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-04",
+    "Value": 1620.0836210941452,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-05",
+    "Value": 1620.0836210941452,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-06",
+    "Value": 1620.0836210941452,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-07",
+    "Value": 1620.0836210941452,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-08",
+    "Value": 1620.0836210941452,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-09",
+    "Value": 1730.59952037286875,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-10",
+    "Value": 1773.3979938558425,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-11",
+    "Value": 1892.0916095253326,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-12",
+    "Value": 1909.27951552096805,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-13",
+    "Value": 1984.0154298329174,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-14",
+    "Value": 1969.23911941274565,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-15",
+    "Value": 1943.2461120628676,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-16",
+    "Value": 1883.87406782395075,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-17",
+    "Value": 1888.9236040845626,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-18",
+    "Value": 1850.8495721436509,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-19",
+    "Value": 1727.0409423656492,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-20",
+    "Value": 1592.69510179850145,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-21",
+    "Value": 1604.28928204874885,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-22",
+    "Value": 1578.6764185822126,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-23",
+    "Value": 1617.1655069173372,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-24",
+    "Value": 1648.4807360541479,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-25",
+    "Value": 1688.0923806350570,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-26",
+    "Value": 1597.49292744381045,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-27",
+    "Value": 1484.10172349606175,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-28",
+    "Value": 1465.98726866111655,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-29",
+    "Value": 1492.02580822284945,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-30",
+    "Value": 1539.8781125350930,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-08-31",
+    "Value": 1570.0166572602051,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-01",
+    "Value": 1556.5807523235916,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-02",
+    "Value": 1596.9494859771008,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-03",
+    "Value": 1558.18297134726205,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-04",
+    "Value": 1560.9540379787976,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-05",
+    "Value": 1592.1093151457022,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-06",
+    "Value": 1620.84301513599655,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-07",
+    "Value": 1574.40839936690395,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-08",
+    "Value": 1629.68249777923215,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-09",
+    "Value": 1686.41502027884905,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-10",
+    "Value": 1748.69293744923075,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-11",
+    "Value": 1755.2740824141473,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-12",
+    "Value": 1737.66283498992695,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-13",
+    "Value": 1658.96334734264425,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-14",
+    "Value": 1602.6516585517473,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-15",
+    "Value": 1557.1384351949805,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-16",
+    "Value": 1446.8693310648235,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-17",
+    "Value": 1443.6805705092863,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-18",
+    "Value": 1397.79368321827315,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-19",
+    "Value": 1336.6551733207390,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-20",
+    "Value": 1349.0717492070157,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-21",
+    "Value": 1308.2097953164177,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-22",
+    "Value": 1291.9088140715161,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-23",
+    "Value": 1309.44890763011665,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-24",
+    "Value": 1327.60990049289305,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-25",
+    "Value": 1303.89023987183435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-26",
+    "Value": 1309.5716655185844,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-27",
+    "Value": 1352.2558477633703,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-28",
+    "Value": 1308.48687179977435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-29",
+    "Value": 1319.89200768229975,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-09-30",
+    "Value": 1344.7972021917448,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-01",
+    "Value": 1318.6234350236481,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-02",
+    "Value": 1295.0397974491175,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-03",
+    "Value": 1298.0802163279617,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-04",
+    "Value": 1343.9390334627144,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-05",
+    "Value": 1341.1577275755639,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-06",
+    "Value": 1364.9997603043468,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-07",
+    "Value": 1340.1242647962556,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-08",
+    "Value": 1320.8045664054305,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-09",
+    "Value": 1318.3421425813647,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-10",
+    "Value": 1313.3355123204213,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-11",
+    "Value": 1282.6972732337460,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-12",
+    "Value": 1290.59071868707665,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-13",
+    "Value": 1249.95369086426675,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-14",
+    "Value": 1313.0924491893693,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-15",
+    "Value": 1283.7120620006041,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-16",
+    "Value": 1294.6587150738216,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-17",
+    "Value": 1317.1068739740373,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-18",
+    "Value": 1314.77977128118575,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-19",
+    "Value": 1297.3398074184246,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-20",
+    "Value": 1290.65238267690045,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-21",
+    "Value": 1281.76478980645665,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-22",
+    "Value": 1306.6612845326887,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-23",
+    "Value": 1336.2874010218403,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-24",
+    "Value": 1347.1592946410931,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-25",
+    "Value": 1426.1818181752065,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-26",
+    "Value": 1524.58858636292405,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-27",
+    "Value": 1542.6572184475484,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-28",
+    "Value": 1531.5506691951332,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-29",
+    "Value": 1605.0798408490147,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-30",
+    "Value": 1609.04312624735985,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-10-31",
+    "Value": 1593.2931219613383,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-01",
+    "Value": 1587.1348810840358,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-02",
+    "Value": 1560.22724493443345,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-03",
+    "Value": 1536.6999178802796,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-04",
+    "Value": 1601.0616202453011,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-05",
+    "Value": 1643.6375977858172,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-06",
+    "Value": 1601.9525654674483,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-07",
+    "Value": 1578.0454263597329,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-08",
+    "Value": 1416.7238981163877,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-09",
+    "Value": 1205.5047086862660,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-10",
+    "Value": 1215.25810543231705,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-11",
+    "Value": 1253.4469746268695,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-12",
+    "Value": 1262.3752801169361,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-13",
+    "Value": 1237.24710085524405,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-14",
+    "Value": 1231.16771185451205,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-15",
+    "Value": 1260.400064202734,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-16",
+    "Value": 1226.1804801141584,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-17",
+    "Value": 1205.82618325081215,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-18",
+    "Value": 1213.52722532234225,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-19",
+    "Value": 1213.52074739449345,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-20",
+    "Value": 1177.9920028704484,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-21",
+    "Value": 1111.02679593515905,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-22",
+    "Value": 1107.5407131832276,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-23",
+    "Value": 1157.5751301815651,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-24",
+    "Value": 1197.2141401791969,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-25",
+    "Value": 1187.8447030923851,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-26",
+    "Value": 1213.57891624250315,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-27",
+    "Value": 1206.55001541787635,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-28",
+    "Value": 1174.6989697099781,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-11-29",
+    "Value": 1191.8253790091444,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-14",
+    "Value": 3267.92720333793885,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-15",
+    "Value": 3319.21861837655845,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-16",
+    "Value": 3334.400537922486,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-17",
+    "Value": 3250.118389941147,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-18",
+    "Value": 3164.36818426242985,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-19",
+    "Value": 3113.1560361180495,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-20",
+    "Value": 3132.31315629143615,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-21",
+    "Value": 2754.3848117968000,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-22",
+    "Value": 2467.93872581038715,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-23",
+    "Value": 2460.3530372176322,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-24",
+    "Value": 2350.937111880095,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-25",
+    "Value": 2429.665736790096,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-26",
+    "Value": 2561.1927624681898,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-27",
+    "Value": 2419.51064296189335,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-28",
+    "Value": 2459.4512722572315,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-29",
+    "Value": 2578.87009104108985,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-01",
+    "Value": 3725.5927457511275,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-02",
+    "Value": 3785.52647126727525,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-03",
+    "Value": 3764.9478137699775,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-04",
+    "Value": 3802.670861739159,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-05",
+    "Value": 3631.0811388277803,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-06",
+    "Value": 3427.8081316640799,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-07",
+    "Value": 3243.7872004431566,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-08",
+    "Value": 3123.52153101588475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-09",
+    "Value": 3135.74505009832235,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-10",
+    "Value": 3056.2664133932094,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-11",
+    "Value": 3153.01923598089635,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "ETH"
+    },
+    "Date": "2022-01-12",
+    "Value": 3309.17877586975195,
+    "Amount": 1
+  }
+]

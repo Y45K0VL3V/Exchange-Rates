@@ -2,3286 +2,3286 @@
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-01",
-    "Value": 2.9025,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-02",
-    "Value": 2.9156,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-03",
-    "Value": 2.9246,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-04",
-    "Value": 2.9298,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-05",
-    "Value": 2.9298,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-06",
-    "Value": 2.9298,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-07",
-    "Value": 2.9563,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-08",
-    "Value": 2.9356,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-09",
-    "Value": 2.9314,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-10",
-    "Value": 2.9242,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-11",
-    "Value": 2.9234,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-12",
-    "Value": 2.9234,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-13",
-    "Value": 2.9234,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-14",
-    "Value": 2.9120,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-15",
-    "Value": 2.9450,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-16",
-    "Value": 2.9306,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-17",
-    "Value": 2.9110,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-18",
-    "Value": 2.9235,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-19",
-    "Value": 2.9235,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-20",
-    "Value": 2.9235,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-21",
-    "Value": 2.9202,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-22",
-    "Value": 2.9397,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-23",
-    "Value": 3.0007,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-24",
-    "Value": 2.9945,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-25",
-    "Value": 3.1375,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-26",
-    "Value": 3.1375,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-27",
-    "Value": 3.1375,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-02-28",
-    "Value": 3.0873,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-01",
-    "Value": 3.4299,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-02",
-    "Value": 3.3099,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-03",
-    "Value": 3.4539,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-04",
-    "Value": 3.4443,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-05",
-    "Value": 3.4443,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-06",
-    "Value": 3.4443,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-07",
-    "Value": 3.4443,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-08",
-    "Value": 3.4443,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-09",
-    "Value": 3.4256,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-10",
-    "Value": 3.6166,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-11",
-    "Value": 3.6669,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-12",
-    "Value": 3.6476,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-13",
-    "Value": 3.6476,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-14",
-    "Value": 3.6476,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-15",
-    "Value": 3.6181,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-16",
-    "Value": 3.6670,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-17",
-    "Value": 3.6499,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-18",
-    "Value": 3.6460,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-19",
-    "Value": 3.6460,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-20",
-    "Value": 3.6460,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-21",
-    "Value": 3.5969,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-22",
-    "Value": 3.6159,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-23",
-    "Value": 3.5970,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-24",
-    "Value": 3.5908,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-25",
-    "Value": 3.5149,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-26",
-    "Value": 3.5149,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-27",
-    "Value": 3.5149,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-28",
-    "Value": 3.5088,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-29",
-    "Value": 3.4636,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-30",
-    "Value": 3.3605,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-03-31",
-    "Value": 3.3084,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-01",
-    "Value": 3.2810,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-02",
-    "Value": 3.2810,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-03",
-    "Value": 3.2810,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-04",
-    "Value": 3.2631,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-05",
-    "Value": 3.2585,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-06",
-    "Value": 3.2367,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-07",
-    "Value": 3.2185,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-08",
-    "Value": 3.0549,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-09",
-    "Value": 3.0549,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-10",
-    "Value": 3.0549,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-11",
-    "Value": 3.0006,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-12",
-    "Value": 3.0764,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-13",
-    "Value": 3.0760,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-14",
-    "Value": 3.0624,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-15",
-    "Value": 3.1098,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-16",
-    "Value": 3.1098,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-17",
-    "Value": 3.1098,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-18",
-    "Value": 3.0583,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-19",
-    "Value": 3.0263,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-20",
-    "Value": 3.0084,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-21",
-    "Value": 2.9910,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-22",
-    "Value": 2.9553,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-23",
-    "Value": 2.9553,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-24",
-    "Value": 2.9553,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-25",
-    "Value": 2.8785,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-26",
-    "Value": 2.8568,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-27",
-    "Value": 2.8321,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-28",
-    "Value": 2.8146,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-29",
-    "Value": 2.7896,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-04-30",
-    "Value": 2.7896,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-01",
-    "Value": 2.7896,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-02",
-    "Value": 2.7896,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-03",
-    "Value": 2.7896,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-04",
-    "Value": 2.7818,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-05",
-    "Value": 2.7437,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-06",
-    "Value": 2.7004,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-07",
-    "Value": 2.7004,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-08",
-    "Value": 2.7004,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-09",
-    "Value": 2.7004,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-10",
-    "Value": 2.6816,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-11",
-    "Value": 2.7412,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-12",
-    "Value": 2.7442,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-13",
-    "Value": 2.6658,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-14",
-    "Value": 2.6004,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-15",
-    "Value": 2.6004,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-16",
-    "Value": 2.6004,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-17",
-    "Value": 2.6141,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-18",
-    "Value": 2.6299,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-19",
-    "Value": 2.6487,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-20",
-    "Value": 2.6212,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-21",
-    "Value": 2.6212,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-22",
-    "Value": 2.6212,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-23",
-    "Value": 2.6075,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-24",
-    "Value": 2.6015,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-25",
-    "Value": 2.6102,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-26",
-    "Value": 2.5824,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-27",
-    "Value": 2.6454,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-28",
-    "Value": 2.6454,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-29",
-    "Value": 2.6454,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-30",
-    "Value": 2.7700,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-05-31",
-    "Value": 2.6864,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-01",
-    "Value": 2.6440,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-02",
-    "Value": 2.6673,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-03",
-    "Value": 2.7490,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-04",
-    "Value": 2.7490,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-05",
-    "Value": 2.7490,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-06",
-    "Value": 2.7864,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-07",
-    "Value": 2.7653,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-08",
-    "Value": 2.7664,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-09",
-    "Value": 2.7589,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-10",
-    "Value": 2.7248,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-11",
-    "Value": 2.7248,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-12",
-    "Value": 2.7248,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-13",
-    "Value": 2.7015,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-14",
-    "Value": 2.6791,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-15",
-    "Value": 2.6651,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-16",
-    "Value": 2.6638,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-17",
-    "Value": 2.6597,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-18",
-    "Value": 2.6597,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-19",
-    "Value": 2.6597,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-20",
-    "Value": 2.6716,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-21",
-    "Value": 2.6737,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-22",
-    "Value": 2.6761,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-23",
-    "Value": 2.6533,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-24",
-    "Value": 2.6623,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-25",
-    "Value": 2.6623,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-26",
-    "Value": 2.6623,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-27",
-    "Value": 2.6603,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-28",
-    "Value": 2.6616,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-29",
-    "Value": 2.6617,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-06-30",
-    "Value": 2.6630,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-01",
-    "Value": 2.6705,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-02",
-    "Value": 2.6705,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-03",
-    "Value": 2.6705,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-04",
-    "Value": 2.7400,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-05",
-    "Value": 2.7307,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-06",
-    "Value": 2.7439,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-07",
-    "Value": 2.7831,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-08",
-    "Value": 2.7575,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-09",
-    "Value": 2.7575,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-10",
-    "Value": 2.7575,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-11",
-    "Value": 2.7060,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-12",
-    "Value": 2.6913,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-13",
-    "Value": 2.6250,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-14",
-    "Value": 2.6170,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-15",
-    "Value": 2.5913,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-16",
-    "Value": 2.5913,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-17",
-    "Value": 2.5913,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-18",
-    "Value": 2.5818,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-19",
-    "Value": 2.5720,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-20",
-    "Value": 2.5734,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-21",
-    "Value": 2.5632,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-22",
-    "Value": 2.5686,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-23",
-    "Value": 2.5686,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-24",
-    "Value": 2.5686,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-25",
-    "Value": 2.5854,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-26",
-    "Value": 2.6067,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-27",
-    "Value": 2.6214,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-28",
-    "Value": 2.6598,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-29",
-    "Value": 2.6642,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-30",
-    "Value": 2.6642,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-07-31",
-    "Value": 2.6642,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-01",
-    "Value": 2.6845,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-02",
-    "Value": 2.7035,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-03",
-    "Value": 2.6446,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-04",
-    "Value": 2.6296,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-05",
-    "Value": 2.6254,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-06",
-    "Value": 2.6254,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-07",
-    "Value": 2.6254,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-08",
-    "Value": 2.6413,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-09",
-    "Value": 2.6308,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-10",
-    "Value": 2.6345,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-11",
-    "Value": 2.6339,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-12",
-    "Value": 2.6547,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-13",
-    "Value": 2.6547,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-14",
-    "Value": 2.6547,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-15",
-    "Value": 2.6482,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-16",
-    "Value": 2.6365,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-17",
-    "Value": 2.6262,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-18",
-    "Value": 2.6200,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-19",
-    "Value": 2.6088,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-20",
-    "Value": 2.6088,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-21",
-    "Value": 2.6088,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-22",
-    "Value": 2.5607,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-23",
-    "Value": 2.5523,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-24",
-    "Value": 2.5365,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-25",
-    "Value": 2.5416,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-26",
-    "Value": 2.5425,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-27",
-    "Value": 2.5425,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-28",
-    "Value": 2.5425,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-29",
-    "Value": 2.5430,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-30",
-    "Value": 2.5436,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-08-31",
-    "Value": 2.5613,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-01",
-    "Value": 2.5540,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-02",
-    "Value": 2.5556,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-03",
-    "Value": 2.5556,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-04",
-    "Value": 2.5556,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-05",
-    "Value": 2.5515,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-06",
-    "Value": 2.5525,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-07",
-    "Value": 2.5624,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-08",
-    "Value": 2.5595,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-09",
-    "Value": 2.5674,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-10",
-    "Value": 2.5674,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-11",
-    "Value": 2.5674,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-12",
-    "Value": 2.5790,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-13",
-    "Value": 2.5972,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-14",
-    "Value": 2.5839,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-15",
-    "Value": 2.5423,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-16",
-    "Value": 2.5325,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-17",
-    "Value": 2.5325,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-18",
-    "Value": 2.5325,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-19",
-    "Value": 2.5339,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-20",
-    "Value": 2.5367,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-21",
-    "Value": 2.5403,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-22",
-    "Value": 2.5353,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-23",
-    "Value": 2.5133,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-24",
-    "Value": 2.5133,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-25",
-    "Value": 2.5133,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-26",
-    "Value": 2.4572,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-27",
-    "Value": 2.4167,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-28",
-    "Value": 2.4040,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-29",
-    "Value": 2.3953,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-09-30",
-    "Value": 2.3956,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-01",
-    "Value": 2.3956,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-02",
-    "Value": 2.3956,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-03",
-    "Value": 2.3584,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-04",
-    "Value": 2.3843,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-05",
-    "Value": 2.3759,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-06",
-    "Value": 2.4275,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-07",
-    "Value": 2.4391,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-08",
-    "Value": 2.4391,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-09",
-    "Value": 2.4391,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-10",
-    "Value": 2.4686,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-11",
-    "Value": 2.4792,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-12",
-    "Value": 2.5168,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-13",
-    "Value": 2.5283,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-14",
-    "Value": 2.5118,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-15",
-    "Value": 2.5118,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-16",
-    "Value": 2.5118,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-17",
-    "Value": 2.5141,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-18",
-    "Value": 2.4667,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-19",
-    "Value": 2.4625,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-20",
-    "Value": 2.4556,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-21",
-    "Value": 2.4458,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-22",
-    "Value": 2.4458,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-23",
-    "Value": 2.4458,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-24",
-    "Value": 2.4310,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-25",
-    "Value": 2.4274,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-26",
-    "Value": 2.4322,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-27",
-    "Value": 2.4650,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-28",
-    "Value": 2.4702,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-29",
-    "Value": 2.4702,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-30",
-    "Value": 2.4702,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-10-31",
-    "Value": 2.4560,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-01",
-    "Value": 2.4534,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-02",
-    "Value": 2.4530,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-03",
-    "Value": 2.4431,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-04",
-    "Value": 2.4368,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-05",
-    "Value": 2.4368,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-06",
-    "Value": 2.4368,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-07",
-    "Value": 2.4368,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-08",
-    "Value": 2.4378,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-09",
-    "Value": 2.4459,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-10",
-    "Value": 2.4577,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-11",
-    "Value": 2.4499,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-12",
-    "Value": 2.4499,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-13",
-    "Value": 2.4499,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-14",
-    "Value": 2.4602,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-15",
-    "Value": 2.4740,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-16",
-    "Value": 2.4717,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-17",
-    "Value": 2.4770,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-18",
-    "Value": 2.4840,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-19",
-    "Value": 2.4840,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-20",
-    "Value": 2.4840,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-21",
-    "Value": 2.4762,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-22",
-    "Value": 2.4710,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-23",
-    "Value": 2.4697,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-24",
-    "Value": 2.4695,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-25",
-    "Value": 2.4919,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-26",
-    "Value": 2.4919,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-27",
-    "Value": 2.4919,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-28",
-    "Value": 2.4939,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-29",
-    "Value": 2.4985,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-11-30",
-    "Value": 2.5083,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-01",
-    "Value": 2.5028,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-02",
-    "Value": 2.5142,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-03",
-    "Value": 2.5142,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-04",
-    "Value": 2.5142,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-05",
-    "Value": 2.5513,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-06",
-    "Value": 2.5673,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-07",
-    "Value": 2.5812,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-08",
-    "Value": 2.5908,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-09",
-    "Value": 2.5909,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-10",
-    "Value": 2.5909,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-11",
-    "Value": 2.5909,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-12",
-    "Value": 2.5922,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-13",
-    "Value": 2.6232,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-14",
-    "Value": 2.6376,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-15",
-    "Value": 2.6728,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-16",
-    "Value": 2.7044,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-17",
-    "Value": 2.7044,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-18",
-    "Value": 2.7044,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-19",
-    "Value": 2.7106,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-20",
-    "Value": 2.7536,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-21",
-    "Value": 2.8289,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-22",
-    "Value": 2.8584,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-23",
-    "Value": 2.9139,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-24",
-    "Value": 2.9139,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-25",
-    "Value": 2.9139,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-26",
-    "Value": 2.8565,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-27",
-    "Value": 2.8295,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-28",
-    "Value": 2.8576,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-29",
-    "Value": 2.8815,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-30",
-    "Value": 2.9156,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2022-12-31",
-    "Value": 2.9156,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-01",
-    "Value": 2.9156,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-02",
-    "Value": 2.9156,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-03",
-    "Value": 2.9156,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-04",
-    "Value": 2.8575,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-05",
-    "Value": 2.8943,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-06",
-    "Value": 2.8992,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-07",
-    "Value": 2.8992,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-08",
-    "Value": 2.8992,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-09",
-    "Value": 2.8712,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-10",
-    "Value": 2.8918,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-11",
-    "Value": 2.8856,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-12",
-    "Value": 2.8774,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-13",
-    "Value": 2.8261,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
-    },
-    "Date": "2023-01-14",
-    "Value": 2.8261,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-15",
-    "Value": 2.9297,
-    "Amount": 1
+    "Value": 3.4257,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-16",
-    "Value": 2.9297,
-    "Amount": 1
+    "Value": 3.4257,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-17",
-    "Value": 2.9445,
-    "Amount": 1
+    "Value": 3.3944,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-18",
-    "Value": 2.9496,
-    "Amount": 1
+    "Value": 3.3879,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-19",
-    "Value": 2.9489,
-    "Amount": 1
+    "Value": 3.3875,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-20",
-    "Value": 2.9414,
-    "Amount": 1
+    "Value": 3.3791,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-21",
-    "Value": 2.9232,
-    "Amount": 1
+    "Value": 3.3614,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-22",
-    "Value": 2.9232,
-    "Amount": 1
+    "Value": 3.3614,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-23",
-    "Value": 2.9232,
-    "Amount": 1
+    "Value": 3.3614,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-24",
-    "Value": 2.9187,
-    "Amount": 1
+    "Value": 3.3594,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-25",
-    "Value": 2.9300,
-    "Amount": 1
+    "Value": 3.3434,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-26",
-    "Value": 2.9575,
-    "Amount": 1
+    "Value": 3.3342,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-27",
-    "Value": 2.9631,
-    "Amount": 1
+    "Value": 3.3260,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-28",
-    "Value": 2.9482,
-    "Amount": 1
+    "Value": 3.3334,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-29",
-    "Value": 2.9482,
-    "Amount": 1
+    "Value": 3.3334,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-30",
-    "Value": 2.9482,
-    "Amount": 1
+    "Value": 3.3334,
+    "Amount": 100
   },
   {
     "Currency": {
       "Type": 0,
-      "ShortName": "EUR"
+      "ShortName": "RUB"
     },
     "Date": "2022-01-31",
-    "Value": 2.9113,
-    "Amount": 1
+    "Value": 3.3566,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-01",
+    "Value": 3.3551,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-02",
+    "Value": 3.3608,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-03",
+    "Value": 3.3919,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-04",
+    "Value": 3.3852,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-05",
+    "Value": 3.3852,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-06",
+    "Value": 3.3852,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-07",
+    "Value": 3.3953,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-08",
+    "Value": 3.3945,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-09",
+    "Value": 3.4155,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-10",
+    "Value": 3.4265,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-11",
+    "Value": 3.4234,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-12",
+    "Value": 3.4234,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-13",
+    "Value": 3.4234,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-14",
+    "Value": 3.4129,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-15",
+    "Value": 3.3829,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-16",
+    "Value": 3.4052,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-17",
+    "Value": 3.4114,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-18",
+    "Value": 3.3874,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-19",
+    "Value": 3.3874,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-20",
+    "Value": 3.3874,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-21",
+    "Value": 3.3901,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-22",
+    "Value": 3.3681,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-23",
+    "Value": 3.3117,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-24",
+    "Value": 3.3426,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-25",
+    "Value": 3.2391,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-26",
+    "Value": 3.2391,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-27",
+    "Value": 3.2391,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-02-28",
+    "Value": 3.2978,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-01",
+    "Value": 2.9757,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-02",
+    "Value": 3.1626,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-03",
+    "Value": 2.9855,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-04",
+    "Value": 2.8369,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-05",
+    "Value": 2.8369,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-06",
+    "Value": 2.8369,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-07",
+    "Value": 2.8369,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-08",
+    "Value": 2.8369,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-09",
+    "Value": 2.8929,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-10",
+    "Value": 2.7395,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-11",
+    "Value": 2.7502,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-12",
+    "Value": 2.8374,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-13",
+    "Value": 2.8374,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-14",
+    "Value": 2.8374,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-15",
+    "Value": 2.8890,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-16",
+    "Value": 3.0108,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-17",
+    "Value": 3.0505,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-18",
+    "Value": 3.1470,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-19",
+    "Value": 3.1470,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-20",
+    "Value": 3.1470,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-21",
+    "Value": 3.1436,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-22",
+    "Value": 3.1163,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-23",
+    "Value": 3.1276,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-24",
+    "Value": 3.1335,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-25",
+    "Value": 3.3148,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-26",
+    "Value": 3.3148,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-27",
+    "Value": 3.3148,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-28",
+    "Value": 3.3119,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-29",
+    "Value": 3.3657,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-30",
+    "Value": 3.4577,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-03-31",
+    "Value": 3.5178,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-01",
+    "Value": 3.5325,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-02",
+    "Value": 3.5325,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-03",
+    "Value": 3.5325,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-04",
+    "Value": 3.5341,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-05",
+    "Value": 3.5209,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-06",
+    "Value": 3.5338,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-07",
+    "Value": 3.5404,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-08",
+    "Value": 3.6656,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-09",
+    "Value": 3.6656,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-10",
+    "Value": 3.6656,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-11",
+    "Value": 3.6504,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-12",
+    "Value": 3.5754,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-13",
+    "Value": 3.5556,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-14",
+    "Value": 3.5500,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-15",
+    "Value": 3.5065,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-16",
+    "Value": 3.5065,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-17",
+    "Value": 3.5065,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-18",
+    "Value": 3.5217,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-19",
+    "Value": 3.5286,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-20",
+    "Value": 3.5307,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-21",
+    "Value": 3.5385,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-22",
+    "Value": 3.5692,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-23",
+    "Value": 3.5692,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-24",
+    "Value": 3.5692,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-25",
+    "Value": 3.6227,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-26",
+    "Value": 3.6334,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-27",
+    "Value": 3.6484,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-28",
+    "Value": 3.6563,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-29",
+    "Value": 3.6694,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-04-30",
+    "Value": 3.6694,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-01",
+    "Value": 3.6694,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-02",
+    "Value": 3.6694,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-03",
+    "Value": 3.6694,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-04",
+    "Value": 3.6903,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-05",
+    "Value": 3.7306,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-06",
+    "Value": 3.8417,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-07",
+    "Value": 3.8417,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-08",
+    "Value": 3.8417,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-09",
+    "Value": 3.8417,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-10",
+    "Value": 3.8389,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-11",
+    "Value": 3.7461,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-12",
+    "Value": 3.7479,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-13",
+    "Value": 3.8386,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-14",
+    "Value": 3.9507,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-15",
+    "Value": 3.9507,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-16",
+    "Value": 3.9507,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-17",
+    "Value": 3.9482,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-18",
+    "Value": 3.9596,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-19",
+    "Value": 3.9620,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-20",
+    "Value": 3.9928,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-21",
+    "Value": 3.9928,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-22",
+    "Value": 3.9928,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-23",
+    "Value": 4.1892,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-24",
+    "Value": 4.2204,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-25",
+    "Value": 4.2988,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-26",
+    "Value": 4.3879,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-27",
+    "Value": 4.1545,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-28",
+    "Value": 4.1545,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-29",
+    "Value": 4.1545,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-30",
+    "Value": 3.8834,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-05-31",
+    "Value": 4.0620,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-01",
+    "Value": 4.1625,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-02",
+    "Value": 4.1905,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-03",
+    "Value": 4.2245,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-04",
+    "Value": 4.2245,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-05",
+    "Value": 4.2245,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-06",
+    "Value": 4.2141,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-07",
+    "Value": 4.2414,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-08",
+    "Value": 4.2626,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-09",
+    "Value": 4.2823,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-10",
+    "Value": 4.3530,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-11",
+    "Value": 4.3530,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-12",
+    "Value": 4.3530,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-13",
+    "Value": 4.3725,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-14",
+    "Value": 4.4001,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-15",
+    "Value": 4.4334,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-16",
+    "Value": 4.5014,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-17",
+    "Value": 4.5024,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-18",
+    "Value": 4.5024,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-19",
+    "Value": 4.5024,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-20",
+    "Value": 4.4915,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-21",
+    "Value": 4.5036,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-22",
+    "Value": 4.6120,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-23",
+    "Value": 4.7397,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-24",
+    "Value": 4.7265,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-25",
+    "Value": 4.7265,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-26",
+    "Value": 4.7265,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-27",
+    "Value": 4.7307,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-28",
+    "Value": 4.7328,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-29",
+    "Value": 4.7379,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-06-30",
+    "Value": 4.9705,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-01",
+    "Value": 4.8865,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-02",
+    "Value": 4.8865,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-03",
+    "Value": 4.8865,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-04",
+    "Value": 4.8586,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-05",
+    "Value": 4.7598,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-06",
+    "Value": 4.6633,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-07",
+    "Value": 4.2758,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-08",
+    "Value": 4.2892,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-09",
+    "Value": 4.2892,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-10",
+    "Value": 4.2892,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-11",
+    "Value": 4.3467,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-12",
+    "Value": 4.3450,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-13",
+    "Value": 4.4226,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-14",
+    "Value": 4.4385,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-15",
+    "Value": 4.4373,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-16",
+    "Value": 4.4373,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-17",
+    "Value": 4.4373,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-18",
+    "Value": 4.4255,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-19",
+    "Value": 4.4767,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-20",
+    "Value": 4.5241,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-21",
+    "Value": 4.5777,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-22",
+    "Value": 4.5572,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-23",
+    "Value": 4.5572,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-24",
+    "Value": 4.5572,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-25",
+    "Value": 4.4725,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-26",
+    "Value": 4.4503,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-27",
+    "Value": 4.4177,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-28",
+    "Value": 4.3428,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-29",
+    "Value": 4.3470,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-30",
+    "Value": 4.3470,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-07-31",
+    "Value": 4.3470,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-01",
+    "Value": 4.3060,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-02",
+    "Value": 4.2507,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-03",
+    "Value": 4.3046,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-04",
+    "Value": 4.3063,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-05",
+    "Value": 4.3019,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-06",
+    "Value": 4.3019,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-07",
+    "Value": 4.3019,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-08",
+    "Value": 4.2971,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-09",
+    "Value": 4.2921,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-10",
+    "Value": 4.2780,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-11",
+    "Value": 4.2662,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-12",
+    "Value": 4.2483,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-13",
+    "Value": 4.2483,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-14",
+    "Value": 4.2483,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-15",
+    "Value": 4.2321,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-16",
+    "Value": 4.2202,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-17",
+    "Value": 4.2142,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-18",
+    "Value": 4.2306,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-19",
+    "Value": 4.2522,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-20",
+    "Value": 4.2522,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-21",
+    "Value": 4.2522,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-22",
+    "Value": 4.2860,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-23",
+    "Value": 4.2677,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-24",
+    "Value": 4.2644,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-25",
+    "Value": 4.2591,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-26",
+    "Value": 4.2605,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-27",
+    "Value": 4.2605,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-28",
+    "Value": 4.2605,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-29",
+    "Value": 4.2458,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-30",
+    "Value": 4.2407,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-08-31",
+    "Value": 4.2326,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-01",
+    "Value": 4.2309,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-02",
+    "Value": 4.2330,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-03",
+    "Value": 4.2330,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-04",
+    "Value": 4.2330,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-05",
+    "Value": 4.2337,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-06",
+    "Value": 4.2272,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-07",
+    "Value": 4.2284,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-08",
+    "Value": 4.2218,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-09",
+    "Value": 4.2267,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-10",
+    "Value": 4.2267,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-11",
+    "Value": 4.2267,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-12",
+    "Value": 4.2255,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-13",
+    "Value": 4.2179,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-14",
+    "Value": 4.2259,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-15",
+    "Value": 4.2425,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-16",
+    "Value": 4.2388,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-17",
+    "Value": 4.2388,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-18",
+    "Value": 4.2388,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-19",
+    "Value": 4.2216,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-20",
+    "Value": 4.2126,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-21",
+    "Value": 4.2126,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-22",
+    "Value": 4.1956,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-23",
+    "Value": 4.2199,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-24",
+    "Value": 4.2199,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-25",
+    "Value": 4.2199,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-26",
+    "Value": 4.2446,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-27",
+    "Value": 4.2779,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-28",
+    "Value": 4.2751,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-29",
+    "Value": 4.2631,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-09-30",
+    "Value": 4.2813,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-01",
+    "Value": 4.2813,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-02",
+    "Value": 4.2813,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-03",
+    "Value": 4.3001,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-04",
+    "Value": 4.2644,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-05",
+    "Value": 4.2415,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-06",
+    "Value": 4.2213,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-07",
+    "Value": 4.1712,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-08",
+    "Value": 4.1712,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-09",
+    "Value": 4.1712,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-10",
+    "Value": 4.1270,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-11",
+    "Value": 4.1009,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-12",
+    "Value": 4.0388,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-13",
+    "Value": 4.0320,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-14",
+    "Value": 4.0381,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-15",
+    "Value": 4.0381,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-16",
+    "Value": 4.0381,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-17",
+    "Value": 4.0371,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-18",
+    "Value": 4.0677,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-19",
+    "Value": 4.0646,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-20",
+    "Value": 4.0638,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-21",
+    "Value": 4.0571,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-22",
+    "Value": 4.0571,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-23",
+    "Value": 4.0571,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-24",
+    "Value": 4.0565,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-25",
+    "Value": 4.0510,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-26",
+    "Value": 4.0399,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-27",
+    "Value": 4.0228,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-28",
+    "Value": 4.0238,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-29",
+    "Value": 4.0238,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-30",
+    "Value": 4.0238,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-10-31",
+    "Value": 4.0205,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-01",
+    "Value": 4.0141,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-02",
+    "Value": 4.0169,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-03",
+    "Value": 4.0195,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-04",
+    "Value": 4.0158,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-05",
+    "Value": 4.0158,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-06",
+    "Value": 4.0158,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-07",
+    "Value": 4.0158,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-08",
+    "Value": 4.0031,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-09",
+    "Value": 4.0270,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-10",
+    "Value": 4.0190,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-11",
+    "Value": 4.0047,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-12",
+    "Value": 4.0047,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-13",
+    "Value": 4.0047,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-14",
+    "Value": 4.0206,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-15",
+    "Value": 4.0070,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-16",
+    "Value": 4.0040,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-17",
+    "Value": 3.9968,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-18",
+    "Value": 3.9908,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-19",
+    "Value": 3.9908,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-20",
+    "Value": 3.9908,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-21",
+    "Value": 3.9844,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-22",
+    "Value": 3.9825,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-23",
+    "Value": 3.9842,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-24",
+    "Value": 3.9924,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-25",
+    "Value": 3.9946,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-26",
+    "Value": 3.9946,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-27",
+    "Value": 3.9946,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-28",
+    "Value": 3.9936,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-29",
+    "Value": 3.9902,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-11-30",
+    "Value": 3.9769,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-01",
+    "Value": 3.9862,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-02",
+    "Value": 3.9841,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-03",
+    "Value": 3.9841,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-04",
+    "Value": 3.9841,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-05",
+    "Value": 3.9633,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-06",
+    "Value": 3.9491,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-07",
+    "Value": 3.9346,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-08",
+    "Value": 3.9373,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-09",
+    "Value": 3.9504,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-10",
+    "Value": 3.9504,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-11",
+    "Value": 3.9504,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-12",
+    "Value": 3.9619,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-13",
+    "Value": 3.9611,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-14",
+    "Value": 3.9635,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-15",
+    "Value": 3.9613,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-16",
+    "Value": 3.9554,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-17",
+    "Value": 3.9554,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-18",
+    "Value": 3.9554,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-19",
+    "Value": 3.9552,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-20",
+    "Value": 3.9334,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-21",
+    "Value": 3.8590,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-22",
+    "Value": 3.8281,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-23",
+    "Value": 3.7985,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-24",
+    "Value": 3.7985,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-25",
+    "Value": 3.7985,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-26",
+    "Value": 3.8686,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-27",
+    "Value": 3.8787,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-28",
+    "Value": 3.8506,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-29",
+    "Value": 3.8121,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-30",
+    "Value": 3.7835,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2022-12-31",
+    "Value": 3.7835,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-01",
+    "Value": 3.7835,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-02",
+    "Value": 3.7835,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-03",
+    "Value": 3.7835,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-04",
+    "Value": 3.8242,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-05",
+    "Value": 3.8147,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-06",
+    "Value": 3.8139,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-07",
+    "Value": 3.8139,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-08",
+    "Value": 3.8139,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-09",
+    "Value": 3.8116,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-10",
+    "Value": 3.8350,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-11",
+    "Value": 3.8589,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-12",
+    "Value": 3.8568,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-13",
+    "Value": 3.8738,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "RUB"
+    },
+    "Date": "2023-01-14",
+    "Value": 3.8738,
+    "Amount": 100
   }
 ]

@@ -9,7 +9,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              xmlns:prism="http://prismlibrary.com/"
-             prism:ViewModelLocator.AutoWireViewModel="True" >
+             prism:ViewModelLocator.AutoWireViewModel="True" IsTabStop="False">
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -91,7 +91,7 @@
 
         <Border Grid.Column="1">
             <StackPanel Orientation="Horizontal" Margin="10,0,0,0">
-                <StackPanel>
+                <StackPanel VerticalAlignment="Center">
                     <Label Content="Start date:" Foreground="{StaticResource titleColor1}" 
                            HorizontalAlignment="Center" FontSize="16"/>
                     <DatePicker CalendarStyle="{StaticResource calendar}"
@@ -102,7 +102,8 @@
                                 Height="40"
                                 VerticalContentAlignment="Center"
                                 VerticalAlignment="Center"
-                                SelectedDate="{Binding StartDate}">
+                                SelectedDate="{Binding StartDate}"
+                                IsTabStop="False">
                         <DatePicker.Background>
                             <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
                                 <GradientStop Color="{StaticResource secondaryBackColor1}"/>
@@ -112,7 +113,7 @@
                     </DatePicker>
                 </StackPanel>
 
-                <StackPanel Margin="10,0,0,0">
+                <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
                     <Label Content="End date:" Foreground="{StaticResource titleColor1}" 
                            HorizontalAlignment="Center" FontSize="16"/>
                     <DatePicker CalendarStyle="{StaticResource calendar}"
@@ -123,7 +124,8 @@
                                 Height="40"
                                 VerticalContentAlignment="Center"
                                 VerticalAlignment="Center"
-                                SelectedDate="{Binding EndDate}">
+                                SelectedDate="{Binding EndDate}"
+                                IsTabStop="False">
                         <DatePicker.Background>
                             <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
                                 <GradientStop Color="{StaticResource secondaryBackColor1}"/>
@@ -133,7 +135,7 @@
                     </DatePicker>
                 </StackPanel>
 
-                <StackPanel Margin="10,0,0,0">
+                <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
                     <Label Content="Currency:" Foreground="{StaticResource titleColor1}" 
                            HorizontalAlignment="Center" FontSize="16"/>
                     <ComboBox Width="100" IsEditable="True" Height="40" BorderThickness="0"
@@ -141,7 +143,8 @@
                               IsTextSearchEnabled="True"
                               StaysOpenOnEdit="True"
                               ItemsSource="{Binding Currencies}"
-                              Text="{Binding CurrencyShortName}">
+                              Text="{Binding CurrencyShortName}"
+                              IsTabStop="False">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
@@ -159,7 +162,8 @@
                         FontSize="16" Foreground="{StaticResource titleColor2}"
                         BorderThickness="2"
                         Content="Get Rates"
-                        Command="{Binding GetRatesCommand}">
+                        Command="{Binding GetRatesCommand}"
+                        IsTabStop="False">
                     <Button.BorderBrush>
                         <LinearGradientBrush EndPoint="0,0" StartPoint="1,0.7">
                             <GradientStop Color="{StaticResource secondaryBackColor1}"/>
@@ -184,9 +188,13 @@
             <Grid>
                 <lvc:CartesianChart Margin="30"
                                     Background="Transparent"
+                                    Foreground="{StaticResource titleColor2}"
                                     ZoomMode="X"
+                                    AnimationsSpeed="00:00:00.700"
                                     Series="{Binding Rates}"
-                                    XAxes="{Binding XAxes}">
+                                    XAxes="{Binding XAxes}"
+                                    YAxes="{Binding YAxes}"
+                                    IsTabStop="False">
                 </lvc:CartesianChart>
             </Grid>
         </Border>
@@ -211,10 +219,11 @@
                 </Grid.RowDefinitions>
 
                 <ToggleButton Grid.Row="0"
-                                  HorizontalAlignment="Left"
-                                  Height="30"
-                                  Margin="5,40,0,10"
-                                  Style="{DynamicResource SystemToggleButton}">
+                              HorizontalAlignment="Left"
+                              Height="30"
+                              Margin="5,40,0,10"
+                              Style="{DynamicResource SystemToggleButton}"
+                              IsTabStop="False">
                     <ToggleButton.Content>
                         <Border Width="60"
                                     Margin="0,0,7,0">
@@ -262,7 +271,8 @@
 
                     <RadioButton Style="{DynamicResource menuButton}"
                                  Tag="{DynamicResource color1}"
-                                 IsChecked="{Binding IsFiatCurrency}">
+                                 IsChecked="{Binding IsFiatCurrency}"
+                                 IsTabStop="False">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="MoneyBill1" Style="{DynamicResource menuButtonIcon}"/>
                             <Label x:Name="label1" Content="Fiat currency"
@@ -276,7 +286,8 @@
 
                     <RadioButton Style="{DynamicResource menuButton}"
                                  Tag="{DynamicResource color2}"
-                                 IsChecked="{Binding IsCryptoCurrency}">
+                                 IsChecked="{Binding IsCryptoCurrency}"
+                                 IsTabStop="False">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Ethereum" Style="{DynamicResource menuButtonIcon}"/>
                             <Label x:Name="label" Content="Crypto currency"

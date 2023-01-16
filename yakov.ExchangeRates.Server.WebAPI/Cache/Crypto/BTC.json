@@ -1141,5 +1141,3281 @@
     "Date": "2022-12-09",
     "Value": 17185.0763579232185,
     "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-01",
+    "Value": 33549.2427956500435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-02",
+    "Value": 34737.487745394987,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-03",
+    "Value": 36572.262048588385,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-04",
+    "Value": 37497.08359250206,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-05",
+    "Value": 37484.0227729493055,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-06",
+    "Value": 39637.36845499421,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-07",
+    "Value": 38559.857168677965,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-08",
+    "Value": 42284.523952765775,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-09",
+    "Value": 46655.65059396854,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-10",
+    "Value": 45575.443519578822,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-11",
+    "Value": 46414.480897421185,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-12",
+    "Value": 47680.107927197185,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-13",
+    "Value": 47230.563546421315,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-14",
+    "Value": 48430.480378773375,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-15",
+    "Value": 47582.7555597563625,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-16",
+    "Value": 48823.632628298652,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-17",
+    "Value": 50798.63650079528,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-18",
+    "Value": 51733.340923124618,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-19",
+    "Value": 53563.1160782334525,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-20",
+    "Value": 55827.5856998829525,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-21",
+    "Value": 56940.473465291847,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-22",
+    "Value": 52666.377696258609,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-23",
+    "Value": 49526.315025798975,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-24",
+    "Value": 49203.092399857385,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-25",
+    "Value": 49435.21515218695,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-26",
+    "Value": 46287.2792061583275,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-27",
+    "Value": 46733.54477497200,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-02-28",
+    "Value": 44887.665672642095,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-01",
+    "Value": 47439.37064838289,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-02",
+    "Value": 48679.8204539447505,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-03",
+    "Value": 50375.292280970922,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-04",
+    "Value": 49651.191520732118,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-05",
+    "Value": 47894.936051454547,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-06",
+    "Value": 48149.601987404505,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-07",
+    "Value": 50223.32575054522,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-08",
+    "Value": 50862.860918381705,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-09",
+    "Value": 53430.707108023532,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-10",
+    "Value": 55233.04093202702,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-11",
+    "Value": 56253.19038947005,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-12",
+    "Value": 56602.7579522136295,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-13",
+    "Value": 58964.4424236911525,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-14",
+    "Value": 60445.101471548662,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-15",
+    "Value": 57866.660599059573,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-16",
+    "Value": 55062.982808081243,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-17",
+    "Value": 56590.158890333737,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-18",
+    "Value": 58660.327797557095,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-19",
+    "Value": 57832.488403581248,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-20",
+    "Value": 58875.477257414385,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-21",
+    "Value": 57050.980294538393,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-22",
+    "Value": 56060.950160465415,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-23",
+    "Value": 54458.714619693483,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-24",
+    "Value": 54460.995605329985,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-25",
+    "Value": 51827.251898508212,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-26",
+    "Value": 53252.34260753955,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-27",
+    "Value": 55320.27099457219,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-28",
+    "Value": 55622.882716764955,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-29",
+    "Value": 56624.42734681854,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-30",
+    "Value": 58206.688929055933,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-03-31",
+    "Value": 58409.5875105871125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-01",
+    "Value": 58684.16536387404,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-02",
+    "Value": 59275.654585735125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-03",
+    "Value": 58387.9025034154175,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-04",
+    "Value": 57482.285802419217,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-05",
+    "Value": 58034.28677805932,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-06",
+    "Value": 58431.7776651000875,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-07",
+    "Value": 57027.0093757246275,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-08",
+    "Value": 56920.402033123805,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-09",
+    "Value": 58277.868434860269,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-10",
+    "Value": 59559.9152741786925,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-11",
+    "Value": 59779.445789828485,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-12",
+    "Value": 60366.27489125058,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-13",
+    "Value": 61759.94445897256,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-14",
+    "Value": 63126.4842233235125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-15",
+    "Value": 62907.1900644705345,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-16",
+    "Value": 61827.440216045782,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-17",
+    "Value": 61162.33513585780,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-18",
+    "Value": 56162.865071268197,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-19",
+    "Value": 55956.8028006329325,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-20",
+    "Value": 55272.411801984487,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-21",
+    "Value": 55220.46846579393,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-22",
+    "Value": 52969.9600851102525,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-23",
+    "Value": 49890.3658952243375,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-24",
+    "Value": 49996.358878938185,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-25",
+    "Value": 48823.8149548009525,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-26",
+    "Value": 51606.171280701468,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-27",
+    "Value": 54419.506878220762,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-28",
+    "Value": 55159.81742455109,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-29",
+    "Value": 53847.2425916814025,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-04-30",
+    "Value": 55516.209238472545,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-01",
+    "Value": 57796.25143855725,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-02",
+    "Value": 57002.6331313059475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-03",
+    "Value": 57785.635774915296,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-04",
+    "Value": 55214.81953109159,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-05",
+    "Value": 55471.381494758218,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-06",
+    "Value": 56877.342192505345,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-07",
+    "Value": 57006.38201435838,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-08",
+    "Value": 58254.983215844625,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-09",
+    "Value": 57846.930226049285,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-10",
+    "Value": 57133.3586207826275,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-11",
+    "Value": 55764.390908879687,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-12",
+    "Value": 53351.472491353115,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-13",
+    "Value": 49099.005759791305,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-14",
+    "Value": 50231.196632824715,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-15",
+    "Value": 48645.35727451196,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-16",
+    "Value": 46839.016478012595,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-17",
+    "Value": 44392.52380218259,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-18",
+    "Value": 44067.8946408300145,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-19",
+    "Value": 36898.3583154974435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-20",
+    "Value": 38791.18216127196,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-21",
+    "Value": 37874.794113911222,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-22",
+    "Value": 37128.547257747645,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-23",
+    "Value": 34735.240181491518,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-24",
+    "Value": 37115.1469121927145,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-25",
+    "Value": 38194.546662634915,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-26",
+    "Value": 39347.98198451851,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-27",
+    "Value": 38802.5016640734125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-28",
+    "Value": 36781.26184181440,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-29",
+    "Value": 35451.061001260535,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-30",
+    "Value": 34943.358086233652,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-05-31",
+    "Value": 35867.138048647005,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-01",
+    "Value": 36820.4996666061595,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-02",
+    "Value": 37100.859412129281,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-03",
+    "Value": 38343.031553965535,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-04",
+    "Value": 37405.04887999697,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-05",
+    "Value": 36390.31470722053,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-06",
+    "Value": 35866.02470337539,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-07",
+    "Value": 35089.418126843502,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-08",
+    "Value": 32554.569966281735,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-09",
+    "Value": 34993.5098164964175,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-10",
+    "Value": 37097.8251198562905,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-11",
+    "Value": 36818.424205487875,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-12",
+    "Value": 37283.292398783087,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-13",
+    "Value": 37055.760824234805,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-14",
+    "Value": 39863.62556855268,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-15",
+    "Value": 40449.374861939715,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-16",
+    "Value": 39328.911145693615,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-17",
+    "Value": 38491.593405944092,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-18",
+    "Value": 36700.587018401495,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-19",
+    "Value": 35648.6765378400705,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-20",
+    "Value": 34715.32810485235,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-21",
+    "Value": 33470.2503165630115,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-22",
+    "Value": 31079.1278904842295,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-23",
+    "Value": 33274.733367275072,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-24",
+    "Value": 33792.931794683498,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-25",
+    "Value": 33394.5687472183785,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-26",
+    "Value": 31408.796628733720,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-27",
+    "Value": 33333.100656038992,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-28",
+    "Value": 34589.0547493060275,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-29",
+    "Value": 35393.26136946712,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-06-30",
+    "Value": 35077.21090168744,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-01",
+    "Value": 33919.9490813359845,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-02",
+    "Value": 33346.1653045021335,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-03",
+    "Value": 34154.765035729952,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-04",
+    "Value": 35187.627798224675,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-05",
+    "Value": 34113.873779473202,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-06",
+    "Value": 34325.718945409555,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-07",
+    "Value": 34402.1428011890,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-08",
+    "Value": 33007.41471843216,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-09",
+    "Value": 33166.428454658184,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-10",
+    "Value": 33661.97295324462,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-11",
+    "Value": 33951.883383554515,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-12",
+    "Value": 33640.6358880333135,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-13",
+    "Value": 32775.770661972478,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-14",
+    "Value": 32344.70216120067,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-15",
+    "Value": 32161.9372279435015,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-16",
+    "Value": 31652.970821671224,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-17",
+    "Value": 31564.372035714482,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-18",
+    "Value": 31788.5890221614865,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-19",
+    "Value": 31207.801775055515,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-20",
+    "Value": 30152.3777969636705,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-21",
+    "Value": 31134.191496024764,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-22",
+    "Value": 32147.0534226604905,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-23",
+    "Value": 32818.15589156766,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-24",
+    "Value": 33964.27445372609,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-25",
+    "Value": 34651.685483611651,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-26",
+    "Value": 37898.205552857445,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-27",
+    "Value": 37941.913730300650,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-28",
+    "Value": 39841.987301583535,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-29",
+    "Value": 39985.559553039875,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-30",
+    "Value": 40313.527550638045,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-07-31",
+    "Value": 41673.6793118936545,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-01",
+    "Value": 41053.686057323457,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-02",
+    "Value": 39587.814048747325,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-03",
+    "Value": 38768.459009263893,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-04",
+    "Value": 38752.26007893398,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-05",
+    "Value": 39386.5143900526975,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-06",
+    "Value": 41657.1912763931825,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-07",
+    "Value": 43666.85873506153,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-08",
+    "Value": 44333.887941584655,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-09",
+    "Value": 44650.43078586435,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-10",
+    "Value": 45651.76088289990,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-11",
+    "Value": 46059.53970589208,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-12",
+    "Value": 45024.850668324662,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-13",
+    "Value": 46071.8160122787595,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-14",
+    "Value": 47142.402449062668,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-15",
+    "Value": 46470.1892999034825,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-16",
+    "Value": 46854.681936480365,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-17",
+    "Value": 45823.32799469631,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-18",
+    "Value": 45148.586219536605,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-19",
+    "Value": 45499.3475894914955,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-20",
+    "Value": 48000.67308930086,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-21",
+    "Value": 49034.7047110811625,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-22",
+    "Value": 48839.357426304573,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-23",
+    "Value": 49776.295716939265,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-24",
+    "Value": 48746.329397657997,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-25",
+    "Value": 48193.089093221167,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-26",
+    "Value": 47826.3304581288925,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-27",
+    "Value": 47743.493529537585,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-28",
+    "Value": 48879.9423943084125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-29",
+    "Value": 48755.96037325098,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-30",
+    "Value": 47913.555021676263,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-08-31",
+    "Value": 47474.390415397635,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-01",
+    "Value": 47749.943289507295,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-02",
+    "Value": 49490.34926478604,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-03",
+    "Value": 49685.351817347382,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-04",
+    "Value": 50031.536482024733,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-05",
+    "Value": 50697.499693745305,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-06",
+    "Value": 51895.3844034358825,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-07",
+    "Value": 48013.08233790512,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-08",
+    "Value": 45933.8370125462095,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-09",
+    "Value": 46450.300901975215,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-10",
+    "Value": 45665.66804045496,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-11",
+    "Value": 45388.631882074925,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-12",
+    "Value": 45577.30080833858,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-13",
+    "Value": 45132.811712052073,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-14",
+    "Value": 45963.1619331331475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-15",
+    "Value": 47606.281199064945,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-16",
+    "Value": 47771.592835406165,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-17",
+    "Value": 47472.95033575879,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-18",
+    "Value": 47920.5464217653125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-19",
+    "Value": 47627.142849982475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-20",
+    "Value": 44936.566732244475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-21",
+    "Value": 41638.716359003238,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-22",
+    "Value": 42300.91508665599,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-23",
+    "Value": 44034.44959005693,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-24",
+    "Value": 43009.2055888207525,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-25",
+    "Value": 42353.3869075275375,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-26",
+    "Value": 42352.327327553995,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-27",
+    "Value": 43235.856597912605,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-28",
+    "Value": 41845.111928934242,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-29",
+    "Value": 41664.958634119083,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-09-30",
+    "Value": 42762.2010562454225,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-01",
+    "Value": 45882.477313810352,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-02",
+    "Value": 47914.5335544386875,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-03",
+    "Value": 48146.189789960152,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-04",
+    "Value": 48238.026536720947,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-05",
+    "Value": 50480.66472764716,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-06",
+    "Value": 53037.7453705674125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-07",
+    "Value": 54418.841162253875,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-08",
+    "Value": 54829.722803577273,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-09",
+    "Value": 54576.362679864545,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-10",
+    "Value": 55245.1295151994055,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-11",
+    "Value": 56117.1625583644725,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-12",
+    "Value": 55955.65198907541,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-13",
+    "Value": 56013.97891389648,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-14",
+    "Value": 57697.959390919125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-15",
+    "Value": 59802.4205063024625,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-16",
+    "Value": 61254.90322701058,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-17",
+    "Value": 60344.145526941155,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-18",
+    "Value": 61313.79912271179,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-19",
+    "Value": 62930.280852254765,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-20",
+    "Value": 65270.047490975175,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-21",
+    "Value": 64351.7976304644675,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-22",
+    "Value": 61893.41196631881,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-23",
+    "Value": 60746.168797237765,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-24",
+    "Value": 60521.880189056782,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-25",
+    "Value": 62175.30664143593,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-26",
+    "Value": 61594.2637183141125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-27",
+    "Value": 59790.4090172427825,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-28",
+    "Value": 60291.5238294808425,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-29",
+    "Value": 61634.028754296555,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-30",
+    "Value": 61622.16138279137,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-10-31",
+    "Value": 61228.5549359333575,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-01",
+    "Value": 61589.846461601915,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-02",
+    "Value": 61782.96724183561,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-03",
+    "Value": 62312.79845788669,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-04",
+    "Value": 61146.96739298522,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-05",
+    "Value": 61179.956277177455,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-06",
+    "Value": 60924.355243172585,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-07",
+    "Value": 62157.172960128113,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-08",
+    "Value": 64979.067378723577,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-09",
+    "Value": 67446.315676923535,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-10",
+    "Value": 66001.725789832833,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-11",
+    "Value": 64879.446730548495,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-12",
+    "Value": 63888.24979545611,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-13",
+    "Value": 64160.498080317675,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-14",
+    "Value": 64569.04971374844,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-15",
+    "Value": 64907.546455177037,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-16",
+    "Value": 61159.19934354583,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-17",
+    "Value": 59670.940469275328,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-18",
+    "Value": 58753.380875244363,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-19",
+    "Value": 57027.282026979405,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-20",
+    "Value": 58690.8291103571425,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-21",
+    "Value": 59297.6515775635975,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-22",
+    "Value": 57521.7838167161475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-23",
+    "Value": 56663.79528737123,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-24",
+    "Value": 56830.258262143247,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-25",
+    "Value": 58231.360254051698,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-26",
+    "Value": 56375.476703988703,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-27",
+    "Value": 54482.00565775325,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-28",
+    "Value": 55488.710658474055,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-29",
+    "Value": 57815.523271318848,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-11-30",
+    "Value": 57576.595763527662,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-01",
+    "Value": 57821.41973073674,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-02",
+    "Value": 56606.68796134539,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-03",
+    "Value": 54998.356993350272,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-04",
+    "Value": 48280.924203532358,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-05",
+    "Value": 48816.05192238077,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-06",
+    "Value": 49098.563401792605,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-07",
+    "Value": 51046.024662676515,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-08",
+    "Value": 49979.336823018355,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-09",
+    "Value": 49090.6855379272775,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-10",
+    "Value": 48473.235274121565,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-11",
+    "Value": 48170.069585005795,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-12",
+    "Value": 49737.765299186685,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-13",
+    "Value": 48012.522316714505,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-14",
+    "Value": 47491.751670609357,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-15",
+    "Value": 48065.812865767410,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-16",
+    "Value": 48480.465215522050,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-17",
+    "Value": 46764.442771252095,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-18",
+    "Value": 46439.332626852480,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-19",
+    "Value": 47353.125862378892,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-20",
+    "Value": 46507.886205252855,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-21",
+    "Value": 47983.34817951582,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-22",
+    "Value": 49017.217150532953,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-23",
+    "Value": 49721.259536639645,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-24",
+    "Value": 51170.3123221808425,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-25",
+    "Value": 50684.426591660495,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-26",
+    "Value": 50402.583816224935,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-27",
+    "Value": 51230.22268213145,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-28",
+    "Value": 49024.8521120176325,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-29",
+    "Value": 47147.502066128895,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-30",
+    "Value": 46959.776968215008,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2021-12-31",
+    "Value": 47139.844683672415,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-01",
+    "Value": 47057.627043369758,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-02",
+    "Value": 47327.885788862078,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-03",
+    "Value": 46647.1185903065075,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-04",
+    "Value": 46531.561279207568,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-05",
+    "Value": 44775.069844644985,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-06",
+    "Value": 43150.557817792753,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-07",
+    "Value": 41947.786566242372,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-08",
+    "Value": 41458.97141246388,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-09",
+    "Value": 42017.864602449452,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-10",
+    "Value": 40965.358045706082,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-11",
+    "Value": 42349.57211079762,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-12",
+    "Value": 43380.473572278138,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-13",
+    "Value": 43372.51486818925,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-14",
+    "Value": 42632.093338328165,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-15",
+    "Value": 43196.365885396368,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-16",
+    "Value": 43047.1150899837875,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-17",
+    "Value": 42377.442433145525,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-18",
+    "Value": 41954.09900035666,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-19",
+    "Value": 41877.752247268465,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-20",
+    "Value": 42048.590946156263,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-21",
+    "Value": 38360.9480313455275,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-22",
+    "Value": 35438.06879980715,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-23",
+    "Value": 35591.084703254630,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-24",
+    "Value": 35233.57425139434,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-25",
+    "Value": 36616.33652456321,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-26",
+    "Value": 37583.544108219785,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-27",
+    "Value": 36389.368618182905,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-28",
+    "Value": 37089.414263369805,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-29",
+    "Value": 38007.311109197223,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "BTC"
+    },
+    "Date": "2022-01-30",
+    "Value": 37864.10807070391,
+    "Amount": 1
   }
 ]

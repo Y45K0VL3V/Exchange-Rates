@@ -12,6 +12,9 @@ using yakov.ExchangeRates.Client.Services;
 using yakov.ExchangeRates.Client.Services.Interfaces;
 using System.Linq;
 using yakov.ExchangeRates.Client.FiatCurrency.Extensions;
+using LiveChartsCore.SkiaSharpView.Painting;
+using SkiaSharp;
+using LiveChartsCore.SkiaSharpView.Drawing;
 
 namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 {
@@ -30,9 +33,12 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
                 {
                     TooltipLabelFormatter = (chartPoint) => $"{new DateTime((long) chartPoint.SecondaryValue):dd.MM.yy}: {chartPoint.PrimaryValue}",
                     Values = _observableValues,
-                    Fill = null,
+                    Fill = new SolidColorPaint(SKColor.Parse("#5F000000")),
                     LineSmoothness = 0,
-                    GeometrySize = 1,
+                    GeometrySize = 5,
+                    GeometryStroke = new SolidColorPaint(SKColor.Parse("#00000000")),
+                    GeometryFill = new SolidColorPaint(SKColor.Parse("#4ADAEC")),
+                    Stroke = new SolidColorPaint(SKColor.Parse("#07F3C0")) { StrokeThickness = 3 },
                 }
             };
         }
@@ -78,17 +84,37 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 
         public ObservableCollection<Currency> Currencies { get; set; }
 
-        #region Live chart UI bindings
+        #region Live chart control
         public Axis[] XAxes { get; set; } =
         {
             new Axis
             {
                 Labeler = value => new DateTime((long) value).ToString("dd.MM.yy"),
                 LabelsRotation = 0,
-                UnitWidth = TimeSpan.FromDays(1).Ticks,
-                MinStep = TimeSpan.FromDays(1).Ticks
+                LabelsPaint = new SolidColorPaint(SKColor.Parse("#D5CFF5")),
+                UnitWidth = TimeSpan.FromDays(3).Ticks,
+                MinStep = TimeSpan.FromDays(2).Ticks,
+                ForceStepToMin = false,
+            }
+        }; 
+        
+        public Axis[] YAxes { get; set; } =
+        {
+            new Axis
+            {
+                Name = "BYN",
+                NamePaint = new SolidColorPaint(SKColor.Parse("#D5CFF5")),
+                LabelsPaint = new SolidColorPaint(SKColor.Parse("#D5CFF5")),
             }
         };
+
+        public void ClearChart()
+        {
+            _observableValues.Clear();
+            Axis x = XAxes.First();
+            x.MinLimit = null;
+            x.MaxLimit = null;
+        }
         #endregion
 
         #region Currency type control
@@ -101,6 +127,16 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             {
                 if (_currencyType == value)
                     return;
+
+                switch (value)
+                {
+                    case CurrencyType.Fiat:
+                        YAxes.FirstOrDefault().Name = "BYN";
+                        break;
+                    case CurrencyType.Crypto:
+                        YAxes.FirstOrDefault().Name = "USD";
+                        break;
+                }
 
                 SetProperty(ref _currencyType, value);
                 RaisePropertyChanged(nameof(IsFiatCurrency));
@@ -128,15 +164,14 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         }
 
         private DelegateCommand _getRatesCommand;
-        public DelegateCommand GetRatesCommand =>
-            _getRatesCommand ??= new DelegateCommand(ExecuteGetRates);
+        public DelegateCommand GetRatesCommand => _getRatesCommand ??= new DelegateCommand(ExecuteGetRates);
         
         private async void ExecuteGetRates()
         {
             Currency chosedCurrency = new() { ShortName = CurrencyShortName, Type = CurrencyType };
             var rates = await RatesService.GetRates(chosedCurrency, DateOnly.FromDateTime(StartDate.Value), DateOnly.FromDateTime(EndDate.Value));
 
-            _observableValues.Clear();
+            ClearChart();
             rates.ForEach(r => _observableValues.Add(r.ToDateTimePoint()));
         }
     }

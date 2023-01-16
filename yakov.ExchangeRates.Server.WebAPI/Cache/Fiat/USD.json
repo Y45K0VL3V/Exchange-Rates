@@ -4,8 +4,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-15",
-    "Value": 2.5831,
+    "Date": "2022-12-01",
+    "Value": 2.4325,
     "Amount": 1
   },
   {
@@ -13,8 +13,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-16",
-    "Value": 2.5831,
+    "Date": "2022-12-02",
+    "Value": 2.4336,
     "Amount": 1
   },
   {
@@ -22,8 +22,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-17",
-    "Value": 2.5831,
+    "Date": "2022-12-03",
+    "Value": 2.4336,
     "Amount": 1
   },
   {
@@ -31,8 +31,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-18",
-    "Value": 2.5785,
+    "Date": "2022-12-04",
+    "Value": 2.4336,
     "Amount": 1
   },
   {
@@ -40,8 +40,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-19",
-    "Value": 2.5433,
+    "Date": "2022-12-05",
+    "Value": 2.4466,
     "Amount": 1
   },
   {
@@ -49,8 +49,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-20",
-    "Value": 2.5221,
+    "Date": "2022-12-06",
+    "Value": 2.4532,
     "Amount": 1
   },
   {
@@ -58,8 +58,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-21",
-    "Value": 2.5064,
+    "Date": "2022-12-07",
+    "Value": 2.4761,
     "Amount": 1
   },
   {
@@ -67,8 +67,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-22",
-    "Value": 2.5202,
+    "Date": "2022-12-08",
+    "Value": 2.4824,
     "Amount": 1
   },
   {
@@ -76,8 +76,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-23",
-    "Value": 2.5202,
+    "Date": "2022-12-09",
+    "Value": 2.4778,
     "Amount": 1
   },
   {
@@ -85,8 +85,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-24",
-    "Value": 2.5202,
+    "Date": "2022-12-10",
+    "Value": 2.4778,
     "Amount": 1
   },
   {
@@ -94,8 +94,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-25",
-    "Value": 2.5614,
+    "Date": "2022-12-11",
+    "Value": 2.4778,
     "Amount": 1
   },
   {
@@ -103,8 +103,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-26",
-    "Value": 2.5665,
+    "Date": "2022-12-12",
+    "Value": 2.4719,
     "Amount": 1
   },
   {
@@ -112,8 +112,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-27",
-    "Value": 2.5854,
+    "Date": "2022-12-13",
+    "Value": 2.4843,
     "Amount": 1
   },
   {
@@ -121,8 +121,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-28",
-    "Value": 2.6298,
+    "Date": "2022-12-14",
+    "Value": 2.5022,
     "Amount": 1
   },
   {
@@ -130,8 +130,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-29",
-    "Value": 2.6170,
+    "Date": "2022-12-15",
+    "Value": 2.5061,
     "Amount": 1
   },
   {
@@ -139,8 +139,143 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-07-30",
-    "Value": 2.6170,
+    "Date": "2022-12-16",
+    "Value": 2.5463,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-17",
+    "Value": 2.5463,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-18",
+    "Value": 2.5463,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-19",
+    "Value": 2.5543,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-20",
+    "Value": 2.5921,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-21",
+    "Value": 2.6595,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-22",
+    "Value": 2.6925,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-23",
+    "Value": 2.7370,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-24",
+    "Value": 2.7370,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-25",
+    "Value": 2.7370,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-26",
+    "Value": 2.6923,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-27",
+    "Value": 2.6636,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-28",
+    "Value": 2.6818,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-29",
+    "Value": 2.7092,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-30",
+    "Value": 2.7364,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-12-31",
+    "Value": 2.7364,
     "Amount": 1
   },
   {
@@ -202,8 +337,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2023-01-07",
-    "Value": 2.7287,
+    "Date": "2022-10-01",
+    "Value": 2.4803,
     "Amount": 1
   },
   {
@@ -211,8 +346,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-01",
-    "Value": 2.5986,
+    "Date": "2022-10-02",
+    "Value": 2.4803,
     "Amount": 1
   },
   {
@@ -220,8 +355,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-02",
-    "Value": 2.5917,
+    "Date": "2022-10-03",
+    "Value": 2.4302,
     "Amount": 1
   },
   {
@@ -229,8 +364,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-03",
-    "Value": 2.5923,
+    "Date": "2022-10-04",
+    "Value": 2.4501,
     "Amount": 1
   },
   {
@@ -238,8 +373,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-04",
-    "Value": 2.5952,
+    "Date": "2022-10-05",
+    "Value": 2.4860,
     "Amount": 1
   },
   {
@@ -247,8 +382,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-05",
-    "Value": 2.5952,
+    "Date": "2022-10-06",
+    "Value": 2.4838,
     "Amount": 1
   },
   {
@@ -256,8 +391,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-06",
-    "Value": 2.5952,
+    "Date": "2022-10-07",
+    "Value": 2.5072,
     "Amount": 1
   },
   {
@@ -265,8 +400,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-07",
-    "Value": 2.5804,
+    "Date": "2022-10-08",
+    "Value": 2.5072,
     "Amount": 1
   },
   {
@@ -274,8 +409,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-08",
-    "Value": 2.5682,
+    "Date": "2022-10-09",
+    "Value": 2.5072,
     "Amount": 1
   },
   {
@@ -283,8 +418,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-09",
-    "Value": 2.5712,
+    "Date": "2022-10-10",
+    "Value": 2.5367,
     "Amount": 1
   },
   {
@@ -292,8 +427,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-10",
-    "Value": 2.5600,
+    "Date": "2022-10-11",
+    "Value": 2.5500,
     "Amount": 1
   },
   {
@@ -301,8 +436,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-11",
-    "Value": 2.5580,
+    "Date": "2022-10-12",
+    "Value": 2.5841,
     "Amount": 1
   },
   {
@@ -310,8 +445,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-12",
-    "Value": 2.5580,
+    "Date": "2022-10-13",
+    "Value": 2.5830,
     "Amount": 1
   },
   {
@@ -319,8 +454,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-13",
-    "Value": 2.5580,
+    "Date": "2022-10-14",
+    "Value": 2.5704,
     "Amount": 1
   },
   {
@@ -328,8 +463,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-14",
-    "Value": 2.5602,
+    "Date": "2022-10-15",
+    "Value": 2.5704,
     "Amount": 1
   },
   {
@@ -337,8 +472,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-15",
-    "Value": 2.6009,
+    "Date": "2022-10-16",
+    "Value": 2.5704,
     "Amount": 1
   },
   {
@@ -346,8 +481,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-16",
-    "Value": 2.5846,
+    "Date": "2022-10-17",
+    "Value": 2.5523,
     "Amount": 1
   },
   {
@@ -355,8 +490,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-17",
-    "Value": 2.5604,
+    "Date": "2022-10-18",
+    "Value": 2.5211,
     "Amount": 1
   },
   {
@@ -364,8 +499,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-18",
-    "Value": 2.5740,
+    "Date": "2022-10-19",
+    "Value": 2.5129,
     "Amount": 1
   },
   {
@@ -373,8 +508,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-19",
-    "Value": 2.5740,
+    "Date": "2022-10-20",
+    "Value": 2.5070,
     "Amount": 1
   },
   {
@@ -382,8 +517,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-20",
-    "Value": 2.5740,
+    "Date": "2022-10-21",
+    "Value": 2.4992,
     "Amount": 1
   },
   {
@@ -391,8 +526,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-21",
-    "Value": 2.5676,
+    "Date": "2022-10-22",
+    "Value": 2.4992,
     "Amount": 1
   },
   {
@@ -400,8 +535,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-22",
-    "Value": 2.5870,
+    "Date": "2022-10-23",
+    "Value": 2.4992,
     "Amount": 1
   },
   {
@@ -409,8 +544,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-23",
-    "Value": 2.6553,
+    "Date": "2022-10-24",
+    "Value": 2.4889,
     "Amount": 1
   },
   {
@@ -418,8 +553,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-24",
-    "Value": 2.6419,
+    "Date": "2022-10-25",
+    "Value": 2.4820,
     "Amount": 1
   },
   {
@@ -427,8 +562,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-25",
-    "Value": 2.7977,
+    "Date": "2022-10-26",
+    "Value": 2.4768,
     "Amount": 1
   },
   {
@@ -436,8 +571,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-26",
-    "Value": 2.7977,
+    "Date": "2022-10-27",
+    "Value": 2.4765,
     "Amount": 1
   },
   {
@@ -445,8 +580,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-27",
-    "Value": 2.7977,
+    "Date": "2022-10-28",
+    "Value": 2.4746,
     "Amount": 1
   },
   {
@@ -454,8 +589,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-02-28",
-    "Value": 2.7597,
+    "Date": "2022-10-29",
+    "Value": 2.4746,
     "Amount": 1
   },
   {
@@ -463,8 +598,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-01",
-    "Value": 3.0744,
+    "Date": "2022-10-30",
+    "Value": 2.4746,
     "Amount": 1
   },
   {
@@ -472,8 +607,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-02",
-    "Value": 2.9405,
+    "Date": "2022-10-31",
+    "Value": 2.4732,
     "Amount": 1
   },
   {
@@ -481,8 +616,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-03",
-    "Value": 3.0975,
+    "Date": "2022-11-01",
+    "Value": 2.4763,
     "Amount": 1
   },
   {
@@ -490,8 +625,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-04",
-    "Value": 3.0995,
+    "Date": "2022-11-02",
+    "Value": 2.4745,
     "Amount": 1
   },
   {
@@ -499,8 +634,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-05",
-    "Value": 3.0995,
+    "Date": "2022-11-03",
+    "Value": 2.4744,
     "Amount": 1
   },
   {
@@ -508,8 +643,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-06",
-    "Value": 3.0995,
+    "Date": "2022-11-04",
+    "Value": 2.4948,
     "Amount": 1
   },
   {
@@ -517,8 +652,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-07",
-    "Value": 3.0995,
+    "Date": "2022-11-05",
+    "Value": 2.4948,
     "Amount": 1
   },
   {
@@ -526,8 +661,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-08",
-    "Value": 3.0995,
+    "Date": "2022-11-06",
+    "Value": 2.4948,
     "Amount": 1
   },
   {
@@ -535,8 +670,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-09",
-    "Value": 3.0984,
+    "Date": "2022-11-07",
+    "Value": 2.4948,
     "Amount": 1
   },
   {
@@ -544,8 +679,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-10",
-    "Value": 3.3031,
+    "Date": "2022-11-08",
+    "Value": 2.4935,
     "Amount": 1
   },
   {
@@ -553,8 +688,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-11",
-    "Value": 3.3069,
+    "Date": "2022-11-09",
+    "Value": 2.4639,
     "Amount": 1
   },
   {
@@ -562,8 +697,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-12",
-    "Value": 3.2916,
+    "Date": "2022-11-10",
+    "Value": 2.4576,
     "Amount": 1
   },
   {
@@ -571,8 +706,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-13",
-    "Value": 3.2916,
+    "Date": "2022-11-11",
+    "Value": 2.4579,
     "Amount": 1
   },
   {
@@ -580,8 +715,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-14",
-    "Value": 3.2916,
+    "Date": "2022-11-12",
+    "Value": 2.4579,
     "Amount": 1
   },
   {
@@ -589,8 +724,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-15",
-    "Value": 3.2952,
+    "Date": "2022-11-13",
+    "Value": 2.4579,
     "Amount": 1
   },
   {
@@ -598,8 +733,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-16",
-    "Value": 3.3195,
+    "Date": "2022-11-14",
+    "Value": 2.4268,
     "Amount": 1
   },
   {
@@ -607,8 +742,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-17",
-    "Value": 3.3109,
+    "Date": "2022-11-15",
+    "Value": 2.4241,
     "Amount": 1
   },
   {
@@ -616,8 +751,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-18",
-    "Value": 3.2976,
+    "Date": "2022-11-16",
+    "Value": 2.4172,
     "Amount": 1
   },
   {
@@ -625,8 +760,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-19",
-    "Value": 3.2976,
+    "Date": "2022-11-17",
+    "Value": 2.4166,
     "Amount": 1
   },
   {
@@ -634,8 +769,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-20",
-    "Value": 3.2976,
+    "Date": "2022-11-18",
+    "Value": 2.4134,
     "Amount": 1
   },
   {
@@ -643,8 +778,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-21",
-    "Value": 3.2519,
+    "Date": "2022-11-19",
+    "Value": 2.4134,
     "Amount": 1
   },
   {
@@ -652,8 +787,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-22",
-    "Value": 3.2714,
+    "Date": "2022-11-20",
+    "Value": 2.4134,
     "Amount": 1
   },
   {
@@ -661,8 +796,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-23",
-    "Value": 3.2646,
+    "Date": "2022-11-21",
+    "Value": 2.4077,
     "Amount": 1
   },
   {
@@ -670,8 +805,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-24",
-    "Value": 3.2581,
+    "Date": "2022-11-22",
+    "Value": 2.4206,
     "Amount": 1
   },
   {
@@ -679,8 +814,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-25",
-    "Value": 3.1952,
+    "Date": "2022-11-23",
+    "Value": 2.4200,
     "Amount": 1
   },
   {
@@ -688,8 +823,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-26",
-    "Value": 3.1952,
+    "Date": "2022-11-24",
+    "Value": 2.4175,
     "Amount": 1
   },
   {
@@ -697,8 +832,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-27",
-    "Value": 3.1952,
+    "Date": "2022-11-25",
+    "Value": 2.4151,
     "Amount": 1
   },
   {
@@ -706,8 +841,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-28",
-    "Value": 3.1934,
+    "Date": "2022-11-26",
+    "Value": 2.4151,
     "Amount": 1
   },
   {
@@ -715,8 +850,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-29",
-    "Value": 3.1599,
+    "Date": "2022-11-27",
+    "Value": 2.4151,
     "Amount": 1
   },
   {
@@ -724,8 +859,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-30",
-    "Value": 3.0536,
+    "Date": "2022-11-28",
+    "Value": 2.4161,
     "Amount": 1
   },
   {
@@ -733,8 +868,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-03-31",
-    "Value": 2.9732,
+    "Date": "2022-11-29",
+    "Value": 2.4204,
     "Amount": 1
   },
   {
@@ -742,269 +877,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-04-01",
-    "Value": 2.9432,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-02",
-    "Value": 2.9432,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-03",
-    "Value": 2.9432,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-04",
-    "Value": 2.9436,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-05",
-    "Value": 2.9475,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-06",
-    "Value": 2.9429,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-07",
-    "Value": 2.9466,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-08",
-    "Value": 2.8110,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-09",
-    "Value": 2.8110,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-10",
-    "Value": 2.8110,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-11",
-    "Value": 2.7697,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-12",
-    "Value": 2.8242,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-13",
-    "Value": 2.8300,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-14",
-    "Value": 2.8304,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-15",
-    "Value": 2.8506,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-16",
-    "Value": 2.8506,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-17",
-    "Value": 2.8506,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-18",
-    "Value": 2.8278,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-19",
-    "Value": 2.8093,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-20",
-    "Value": 2.7967,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-21",
-    "Value": 2.7650,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-22",
-    "Value": 2.7153,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-23",
-    "Value": 2.7153,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-24",
-    "Value": 2.7153,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-25",
-    "Value": 2.6685,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-26",
-    "Value": 2.6662,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-27",
-    "Value": 2.6599,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-28",
-    "Value": 2.6635,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-29",
-    "Value": 2.6534,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-04-30",
-    "Value": 2.6534,
+    "Date": "2022-11-30",
+    "Value": 2.4349,
     "Amount": 1
   },
   {
@@ -1687,6 +1561,150 @@
       "Type": 0,
       "ShortName": "USD"
     },
+    "Date": "2022-07-15",
+    "Value": 2.5831,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-16",
+    "Value": 2.5831,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-17",
+    "Value": 2.5831,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-18",
+    "Value": 2.5785,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-19",
+    "Value": 2.5433,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-20",
+    "Value": 2.5221,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-21",
+    "Value": 2.5064,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-22",
+    "Value": 2.5202,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-23",
+    "Value": 2.5202,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-24",
+    "Value": 2.5202,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-25",
+    "Value": 2.5614,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-26",
+    "Value": 2.5665,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-27",
+    "Value": 2.5854,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-28",
+    "Value": 2.6298,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-29",
+    "Value": 2.6170,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2022-07-30",
+    "Value": 2.6170,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
     "Date": "2022-07-31",
     "Value": 2.6170,
     "Amount": 1
@@ -2245,8 +2263,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-10-01",
-    "Value": 2.4803,
+    "Date": "2023-01-07",
+    "Value": 2.7287,
     "Amount": 1
   },
   {
@@ -2254,8 +2272,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-10-02",
-    "Value": 2.4803,
+    "Date": "2023-01-08",
+    "Value": 2.7287,
     "Amount": 1
   },
   {
@@ -2263,8 +2281,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-10-03",
-    "Value": 2.4302,
+    "Date": "2023-01-09",
+    "Value": 2.7314,
     "Amount": 1
   },
   {
@@ -2272,8 +2290,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-10-04",
-    "Value": 2.4501,
+    "Date": "2023-01-10",
+    "Value": 2.7101,
     "Amount": 1
   },
   {
@@ -2281,8 +2299,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-10-05",
-    "Value": 2.4860,
+    "Date": "2023-01-11",
+    "Value": 2.6858,
     "Amount": 1
   },
   {
@@ -2290,8 +2308,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-10-06",
-    "Value": 2.4838,
+    "Date": "2023-01-12",
+    "Value": 2.6786,
     "Amount": 1
   },
   {
@@ -2299,773 +2317,8 @@
       "Type": 0,
       "ShortName": "USD"
     },
-    "Date": "2022-10-07",
-    "Value": 2.5072,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-08",
-    "Value": 2.5072,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-09",
-    "Value": 2.5072,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-10",
-    "Value": 2.5367,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-11",
-    "Value": 2.5500,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-12",
-    "Value": 2.5841,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-13",
-    "Value": 2.5830,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-14",
-    "Value": 2.5704,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-15",
-    "Value": 2.5704,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-16",
-    "Value": 2.5704,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-17",
-    "Value": 2.5523,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-18",
-    "Value": 2.5211,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-19",
-    "Value": 2.5129,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-20",
-    "Value": 2.5070,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-21",
-    "Value": 2.4992,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-22",
-    "Value": 2.4992,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-23",
-    "Value": 2.4992,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-24",
-    "Value": 2.4889,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-25",
-    "Value": 2.4820,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-26",
-    "Value": 2.4768,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-27",
-    "Value": 2.4765,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-28",
-    "Value": 2.4746,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-29",
-    "Value": 2.4746,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-30",
-    "Value": 2.4746,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-10-31",
-    "Value": 2.4732,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-01",
-    "Value": 2.4763,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-02",
-    "Value": 2.4745,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-03",
-    "Value": 2.4744,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-04",
-    "Value": 2.4948,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-05",
-    "Value": 2.4948,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-06",
-    "Value": 2.4948,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-07",
-    "Value": 2.4948,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-08",
-    "Value": 2.4935,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-09",
-    "Value": 2.4639,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-10",
-    "Value": 2.4576,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-11",
-    "Value": 2.4579,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-12",
-    "Value": 2.4579,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-13",
-    "Value": 2.4579,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-14",
-    "Value": 2.4268,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-15",
-    "Value": 2.4241,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-16",
-    "Value": 2.4172,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-17",
-    "Value": 2.4166,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-18",
-    "Value": 2.4134,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-19",
-    "Value": 2.4134,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-20",
-    "Value": 2.4134,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-21",
-    "Value": 2.4077,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-22",
-    "Value": 2.4206,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-23",
-    "Value": 2.4200,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-24",
-    "Value": 2.4175,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-25",
-    "Value": 2.4151,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-26",
-    "Value": 2.4151,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-27",
-    "Value": 2.4151,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-28",
-    "Value": 2.4161,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-29",
-    "Value": 2.4204,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-11-30",
-    "Value": 2.4349,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-01",
-    "Value": 2.4325,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-02",
-    "Value": 2.4336,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-03",
-    "Value": 2.4336,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-04",
-    "Value": 2.4336,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-05",
-    "Value": 2.4466,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-06",
-    "Value": 2.4532,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-07",
-    "Value": 2.4761,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-08",
-    "Value": 2.4824,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-09",
-    "Value": 2.4778,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-10",
-    "Value": 2.4778,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-11",
-    "Value": 2.4778,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-12",
-    "Value": 2.4719,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-13",
-    "Value": 2.4843,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-14",
-    "Value": 2.5022,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-15",
-    "Value": 2.5061,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-16",
-    "Value": 2.5463,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-17",
-    "Value": 2.5463,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-18",
-    "Value": 2.5463,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-19",
-    "Value": 2.5543,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-20",
-    "Value": 2.5921,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-21",
-    "Value": 2.6595,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-22",
-    "Value": 2.6925,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-23",
-    "Value": 2.7370,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-24",
-    "Value": 2.7370,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-25",
-    "Value": 2.7370,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-26",
-    "Value": 2.6923,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-27",
-    "Value": 2.6636,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-28",
-    "Value": 2.6818,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-29",
-    "Value": 2.7092,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-30",
-    "Value": 2.7364,
-    "Amount": 1
-  },
-  {
-    "Currency": {
-      "Type": 0,
-      "ShortName": "USD"
-    },
-    "Date": "2022-12-31",
-    "Value": 2.7364,
+    "Date": "2023-01-13",
+    "Value": 2.6260,
     "Amount": 1
   }
 ]

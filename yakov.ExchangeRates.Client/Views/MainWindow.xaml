@@ -85,7 +85,8 @@
             
             <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.RatesContent}"
                             Grid.ColumnSpan="2"
-                            Margin="0,60,0,0">
+                            Margin="0,60,0,0"
+                            IsTabStop="False">
 
             </ContentControl>
         </Grid>
