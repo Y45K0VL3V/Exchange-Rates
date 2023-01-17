@@ -10,11 +10,16 @@ namespace yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs.NBRB
 {
     public class CurrencyNBRB
     {
+        [JsonPropertyName("Cur_ParentID")]
+        public int PrevID { get; set; }
         [JsonPropertyName("Cur_ID")]
         public int CurrID { get; set; }
         [JsonPropertyName("Cur_Abbreviation")]
         public string CurrAbbreviation { get; set; }
         [JsonPropertyName("Cur_Scale")]
         public int CurrScale { get; set; }
+        [JsonPropertyName("Cur_DateStart")]
+        public DateTime IdChangeDate { get; set; }
+
     }
 }
