@@ -50,7 +50,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
             {
                 string arguments = $"{currency.ShortName}/USD/history?period_id=1DAY" +
                     $"&time_start={dateStart:yyyy-MM-dd}T00:00:00" +
-                    $"&time_end={dateEnd:yyyy-MM-dd}T00:00:00";
+                    $"&time_end={dateEnd:yyyy-MM-dd}T23:59:59";
 
                 HttpResponseMessage response = await _httpClient.GetAsync("v1/exchangerate/" + arguments);
                 if (response.IsSuccessStatusCode)

@@ -26,9 +26,10 @@ namespace yakov.ExchangeRates.Server.Infrastructure
             List<Rate>? gotRates = null;
             var streakDateStart = missedDates.First();
             var streakDateEnd = streakDateStart;
+            var missedDatesStreak = 1;
             for (int i = 1; i < missedDates.Count; i++)
             {
-                if (missedDates[i] == streakDateEnd.AddDays(1))
+                if ((missedDates[i] == streakDateEnd.AddDays(1)) && (missedDatesStreak++ != 100))
                     streakDateEnd = missedDates[i];
                 else
                 {
@@ -38,6 +39,7 @@ namespace yakov.ExchangeRates.Server.Infrastructure
 
                     streakDateStart = missedDates[i];
                     streakDateEnd = streakDateStart;
+                    missedDatesStreak = 1;
                 }
             }
 
