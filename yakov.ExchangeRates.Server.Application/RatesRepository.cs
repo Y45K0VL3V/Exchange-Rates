@@ -38,22 +38,19 @@ namespace yakov.ExchangeRates.Server.Application
         public async Task<List<Rate>> GetRatesByCurrency(Currency currency)
         {
             List<Rate> rates = new();
-            await Task.Run(() => rates.AddRange(_ratesContext.Rates[currency] ?? new()));
+            await Task.Run(() =>
+            {
+                if (_ratesContext.Rates.ContainsKey(currency))
+                    rates.AddRange(_ratesContext.Rates[currency] ?? new());
+            });
             
             return rates;
         }
 
         public async Task<List<Rate>> GetPeriodRatesByCurrency(Currency currency, DateOnly dateStart, DateOnly dateEnd)
         {
-            List<Rate> rates = new();
-            await Task.Run(() =>
-            {
-                if (_ratesContext.Rates.ContainsKey(currency))
-                    rates.AddRange(_ratesContext.Rates[currency]
-                         .Where(r => r.Date >= dateStart && r.Date <= dateEnd) ?? new List<Rate>());
-            });
-
-            return rates;
+            return (await GetRatesByCurrency(currency))
+                .Where(r => r.Date >= dateStart && r.Date <= dateEnd).ToList();
         }
 
         public Dictionary<Currency, List<Rate>> GetAllRates() => _ratesContext.Rates.ToDictionary(kvp => kvp.Key, kvp => kvp.Value);

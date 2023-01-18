@@ -9,12 +9,25 @@ namespace yakov.ExchangeRates.Server.WebAPI.Controllers
     public class RatesController : ControllerBase
     {
         private readonly ILogger<RatesController> _logger;
+        private readonly IAPIServiceBuilder _apiServiceBuilder;
         private readonly ICacheService _cacheService;
 
-        public RatesController(ILogger<RatesController> logger, ICacheService cacheService)
+        public RatesController(ILogger<RatesController> logger, ICacheService cacheService, IAPIServiceBuilder apiServiceBuilder)
         {
             _logger = logger;
             _cacheService = cacheService;
+            _apiServiceBuilder = apiServiceBuilder;
+        }
+
+        [HttpGet("currencies")]
+        public IEnumerable<string> GetCurrencyNames(CurrencyType currencyType)
+        {
+            var apiService = _apiServiceBuilder.BuildAPIService(currencyType);
+            var currencies = apiService.GetAllCurrencies();
+            currencies.Wait();
+
+            return currencies.Result.Select(c => c.ShortName).Distinct();
+
         }
 
         [HttpGet]
@@ -25,7 +38,7 @@ namespace yakov.ExchangeRates.Server.WebAPI.Controllers
             if (ratesTask.Wait(500000))
                 return ratesTask.Result;
             else
-                return new List<Rate>() { new Rate(), new Rate(), new Rate()};
+                return new List<Rate>();
 
         }
     }
