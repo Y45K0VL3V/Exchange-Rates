@@ -14,7 +14,7 @@ namespace yakov.ExchangeRates.Client.Services.Interfaces
         /// </summary>
         /// <param name="currencyType">Type of currency, which is fiat or crypto</param>
         /// <returns>List of currencies</returns>
-        public Task<List<Currency>> GetCurrencies(CurrencyType currencyType);
+        public Task<List<string>> GetCurrencyNames(CurrencyType currencyType);
 
         /// <summary>
         /// Get rates of currency with specified time period

@@ -27,6 +27,8 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             RatesService = ratesService;
             InitDateBorders();
 
+            UpdateCurrencies(CurrencyType.Fiat);
+
             Rates = new ObservableCollection<ISeries>()
             {
                 new LineSeries<DateTimePoint>()
@@ -82,8 +84,6 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         private readonly ObservableCollection<DateTimePoint> _observableValues = new();
         public ObservableCollection<ISeries> Rates { get; set; }
 
-        public ObservableCollection<Currency> Currencies { get; set; }
-
         #region Live chart control
         public Axis[] XAxes { get; set; } =
         {
@@ -118,7 +118,10 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         #endregion
 
         #region Currency type control
-        private CurrencyType _currencyType = CurrencyType.Fiat;
+        private static Dictionary<CurrencyType, List<string>> _currencyTypeToCurrencyNames = new();
+        public ObservableCollection<string> Currencies { get; set; } = new();
+
+        private CurrencyType _currencyType;
 
         public CurrencyType CurrencyType
         {
@@ -138,6 +141,8 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
                         break;
                 }
 
+                UpdateCurrencies(value);
+
                 SetProperty(ref _currencyType, value);
                 RaisePropertyChanged(nameof(IsFiatCurrency));
                 RaisePropertyChanged(nameof(IsCryptoCurrency));
@@ -153,6 +158,17 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         {
             get { return CurrencyType == CurrencyType.Crypto; }
             set { CurrencyType = value ? CurrencyType.Crypto : CurrencyType; }
+        }
+
+        private async void UpdateCurrencies(CurrencyType currencyType)
+        {
+            if (!_currencyTypeToCurrencyNames.ContainsKey(currencyType))
+                _currencyTypeToCurrencyNames.Add(currencyType, new());
+            if (_currencyTypeToCurrencyNames[currencyType].Count == 0)
+                _currencyTypeToCurrencyNames[currencyType] = await RatesService.GetCurrencyNames(currencyType);
+
+            Currencies.Clear();
+            Currencies.AddRange(_currencyTypeToCurrencyNames[currencyType]);
         }
         #endregion
 

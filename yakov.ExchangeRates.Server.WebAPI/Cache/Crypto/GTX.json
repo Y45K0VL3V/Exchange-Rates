@@ -1,0 +1,380 @@
+[
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-01",
+    "Value": 3.63280000000000025,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-02",
+    "Value": 3.606325,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-03",
+    "Value": 3.6309750000000001,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-04",
+    "Value": 3.64495000000000015,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-05",
+    "Value": 3.6367486064064475,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-06",
+    "Value": 3.6368500000000001,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-07",
+    "Value": 3.605075,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-08",
+    "Value": 3.59170000000000015,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-09",
+    "Value": 3.58660,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-10",
+    "Value": 3.585975,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-11",
+    "Value": 1.8219411171568833235,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-12",
+    "Value": 3.58035,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-13",
+    "Value": 3.620125,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-14",
+    "Value": 3.63230,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-15",
+    "Value": 3.52325000000000015,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-16",
+    "Value": 3.42695,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-17",
+    "Value": 3.3666500000000001,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-18",
+    "Value": 3.39472500000000015,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-19",
+    "Value": 3.37817500000000015,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-20",
+    "Value": 3.41105,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-21",
+    "Value": 3.4152750000000001,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-22",
+    "Value": 3.42807677519781325,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-23",
+    "Value": 3.3946510419971765,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-24",
+    "Value": 3.392905202820376,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-25",
+    "Value": 3.39597680311543135,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-26",
+    "Value": 3.4417156523970089,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-27",
+    "Value": 3.399750988458981,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-28",
+    "Value": 3.30412068600489305,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-29",
+    "Value": 3.1911208992249169,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-30",
+    "Value": 3.04798232640155225,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2022-12-31",
+    "Value": 3.0365141253542485,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-01",
+    "Value": 3.0217242392439555,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-02",
+    "Value": 3.06419458519157115,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-03",
+    "Value": 3.1988201415139252,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-04",
+    "Value": 3.2409842230992185,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-05",
+    "Value": 3.22153344760450185,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-06",
+    "Value": 3.16824275604349355,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-07",
+    "Value": 3.1649679148781220,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-08",
+    "Value": 3.1827063667803768,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-09",
+    "Value": 1.70966818010650217005,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-10",
+    "Value": 3.32892849776694765,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GTX"
+    },
+    "Date": "2023-01-11",
+    "Value": 3.33402077944856855,
+    "Amount": 1
+  }
+]

@@ -22,9 +22,24 @@ namespace yakov.ExchangeRates.Client.Services
 
         private ITimePeriodValidator _timePeriodValidator;
 
-        public Task<List<Currency>> GetCurrencies(CurrencyType currencyType)
+        public async Task<List<string>> GetCurrencyNames(CurrencyType currencyType)
         {
-            throw new NotImplementedException();
+            List<string> currencies;
+            try
+            {
+                HttpResponseMessage response = await _httpClient.GetAsync($"api/Rates/currencies?currencyType={currencyType}");
+                if (response.IsSuccessStatusCode)
+                {
+                    currencies = new((await response.Content.ReadFromJsonAsync<IEnumerable<string>>()));
+                    return currencies;
+                }
+                else
+                    return new();
+            }
+            catch
+            {
+                return new();
+            }
         }
 
         public async Task<List<Rate>> GetRates(Currency currency, DateOnly dateStart, DateOnly dateEnd)

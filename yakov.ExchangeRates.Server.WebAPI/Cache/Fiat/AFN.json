@@ -1,0 +1,20 @@
+[
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "AFN"
+    },
+    "Date": "2022-12-01",
+    "Value": 2.7539,
+    "Amount": 100
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "AFN"
+    },
+    "Date": "2023-01-03",
+    "Value": 3.0750,
+    "Amount": 100
+  }
+]

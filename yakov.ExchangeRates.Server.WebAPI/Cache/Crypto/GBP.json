@@ -1,0 +1,65 @@
+[
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GBP"
+    },
+    "Date": "2023-01-01",
+    "Value": 1.20905688243847775,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GBP"
+    },
+    "Date": "2023-01-02",
+    "Value": 1.20713602917115585,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GBP"
+    },
+    "Date": "2023-01-03",
+    "Value": 1.200776981411717,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GBP"
+    },
+    "Date": "2023-01-04",
+    "Value": 1.2027937251734308,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GBP"
+    },
+    "Date": "2023-01-05",
+    "Value": 1.19782729682077105,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GBP"
+    },
+    "Date": "2023-01-06",
+    "Value": 1.19766761379049335,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 1,
+      "ShortName": "GBP"
+    },
+    "Date": "2023-01-07",
+    "Value": 1.20977432561183725,
+    "Amount": 1
+  }
+]
