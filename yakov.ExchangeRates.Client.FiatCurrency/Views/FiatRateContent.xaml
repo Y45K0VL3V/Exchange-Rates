@@ -75,13 +75,18 @@
                     </Setter.Value>
                 </Setter>
             </Style>
+            <ItemsPanelTemplate x:Key="ComboBoxItemsPanel1">
+                <VirtualizingStackPanel VirtualizingPanel.IsVirtualizing="True" 
+                                        VirtualizingPanel.VirtualizationMode="Recycling">
+                </VirtualizingStackPanel>
+            </ItemsPanelTemplate>
         </ResourceDictionary>
     </UserControl.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition Height="3.5*"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="75"/>
@@ -138,18 +143,14 @@
                 <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
                     <Label Content="Currency:" Foreground="{StaticResource titleColor1}" 
                            HorizontalAlignment="Center" FontSize="16"/>
-                    <ComboBox Width="100" IsEditable="True" Height="40" BorderThickness="0"
+                    <ComboBox ItemsPanel="{DynamicResource ComboBoxItemsPanel1}" Width="100" IsEditable="True" Height="40" BorderThickness="0"
                               HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontSize="16"
                               IsTextSearchEnabled="True"
                               StaysOpenOnEdit="True"
                               ItemsSource="{Binding Currencies}"
                               Text="{Binding CurrencyShortName}"
-                              IsTabStop="False">
-                        <ComboBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <VirtualizingStackPanel VirtualizingStackPanel.IsVirtualizing="True" VirtualizingStackPanel.VirtualizationMode="Recycling" />
-                            </ItemsPanelTemplate>
-                        </ComboBox.ItemsPanel>
+                              IsTabStop="False"
+                              Foreground="{StaticResource titleColor2}">
                     </ComboBox>
                 </StackPanel>
 

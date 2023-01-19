@@ -8,6 +8,11 @@ using System.Threading.Tasks;
 
 namespace yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs.NBRB
 {
+    public enum PeriodicityType
+    {
+        Daily,
+        Monthly
+    }
     public class CurrencyNBRB
     {
         [JsonPropertyName("Cur_ParentID")]
@@ -20,6 +25,10 @@ namespace yakov.ExchangeRates.Server.Domain.Entities.RemoteAPIs.NBRB
         public int CurrScale { get; set; }
         [JsonPropertyName("Cur_DateStart")]
         public DateTime IdChangeDate { get; set; }
+        [JsonPropertyName("Cur_DateEnd")]
+        public DateTime IdEndChangeDate { get; set; }
+        [JsonPropertyName("Cur_Periodicity")]
+        public PeriodicityType PeriodicityType { get; set; }
 
     }
 }

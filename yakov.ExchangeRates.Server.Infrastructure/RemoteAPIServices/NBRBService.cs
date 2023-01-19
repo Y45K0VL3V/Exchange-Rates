@@ -68,7 +68,12 @@ namespace yakov.ExchangeRates.Server.Infrastructure.RemoteAPIServices
                 if (response.IsSuccessStatusCode)
                 {
                     var receivedCurrencies = await response.Content.ReadFromJsonAsync<List<CurrencyNBRB>>();
-                    receivedCurrencies?.ForEach(c => resultCurrencies.Add(c.ToCurrency()));
+                    foreach (var currencyNBRB in receivedCurrencies ?? new())
+                    {
+                        if (currencyNBRB.IdEndChangeDate >= DateTime.Now &&
+                            currencyNBRB.PeriodicityType == PeriodicityType.Daily)
+                            resultCurrencies.Add(currencyNBRB.ToCurrency());
+                    }
                 }
             }
             catch { }
