@@ -11,12 +11,12 @@
         public CurrencyType Type { get; set; }
         public string ShortName { get; set; }
 
-        public override bool Equals(object obj)
+        public override bool Equals(object? obj)
         {
             return Equals(obj as Currency);
         }
 
-        public bool Equals(Currency other)
+        public bool Equals(Currency? other)
         {
             return other != null &&
                    Type == other.Type &&

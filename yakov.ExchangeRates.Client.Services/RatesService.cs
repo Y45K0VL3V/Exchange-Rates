@@ -9,7 +9,6 @@ namespace yakov.ExchangeRates.Client.Services
     {
         public RatesService(ITimePeriodValidator timePeriodValidator)
         {
-            _httpClient = new();
             _httpClient.BaseAddress = new Uri(_serverUri);
             _httpClient.DefaultRequestHeaders.Accept.Clear();
             _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
@@ -17,24 +16,21 @@ namespace yakov.ExchangeRates.Client.Services
             _timePeriodValidator = timePeriodValidator;
         }
 
-        private readonly HttpClient _httpClient;
-        private readonly string _serverUri = "https://localhost:7038/";
+        private readonly HttpClient _httpClient = new();
+        private const string _serverUri = "https://localhost:7038/";
 
-        private ITimePeriodValidator _timePeriodValidator;
+        private readonly ITimePeriodValidator _timePeriodValidator;
 
         public async Task<List<string>> GetCurrencyNames(CurrencyType currencyType)
         {
-            List<string> currencies;
             try
             {
                 HttpResponseMessage response = await _httpClient.GetAsync($"api/Rates/currencies?currencyType={currencyType}");
-                if (response.IsSuccessStatusCode)
-                {
-                    currencies = new((await response.Content.ReadFromJsonAsync<IEnumerable<string>>()));
-                    return currencies;
-                }
-                else
+                if (!response.IsSuccessStatusCode) 
                     return new();
+
+                List<string> currencies = new((await response.Content.ReadFromJsonAsync<IEnumerable<string>>())!);
+                return currencies;
             }
             catch
             {
@@ -44,16 +40,8 @@ namespace yakov.ExchangeRates.Client.Services
 
         public async Task<List<Rate>> GetRates(Currency currency, DateOnly dateStart, DateOnly dateEnd)
         {
-            try
-            {
-                _timePeriodValidator.Validate(dateStart, dateEnd);
-            }
-            catch 
-            { 
-                throw; 
-            }
+            _timePeriodValidator.Validate(dateStart, dateEnd);
 
-            List<Rate> rates;
             try
             {
                 HttpResponseMessage response = await _httpClient.GetAsync($"api/Rates?Type={currency.Type}&ShortName={currency.ShortName}" +
@@ -61,7 +49,7 @@ namespace yakov.ExchangeRates.Client.Services
                                                                           $"&dateEnd={dateEnd}");
                 if (response.IsSuccessStatusCode)
                 {
-                    rates = new(await response.Content.ReadFromJsonAsync<IEnumerable<Rate>>());
+                    List<Rate> rates = new((await response.Content.ReadFromJsonAsync<IEnumerable<Rate>>())!);
                     return rates;
                 }
                 else

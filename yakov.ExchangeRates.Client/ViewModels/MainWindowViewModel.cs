@@ -7,8 +7,8 @@ namespace yakov.ExchangeRates.Client.ViewModels
         private string _title = "Exchange rates";
         public string Title
         {
-            get { return _title; }
-            set { SetProperty(ref _title, value); }
+            get => _title;
+            set => SetProperty(ref _title, value);
         }
 
         public MainWindowViewModel()

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using yakov.ExchangeRates.Client.Business;
+﻿using yakov.ExchangeRates.Client.Business;
 
 namespace yakov.ExchangeRates.Client.Services.Interfaces
 {

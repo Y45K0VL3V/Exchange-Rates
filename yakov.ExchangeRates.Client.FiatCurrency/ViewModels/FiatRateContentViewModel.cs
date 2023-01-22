@@ -6,15 +6,12 @@ using LiveChartsCore;
 using LiveChartsCore.Defaults;
 using LiveChartsCore.SkiaSharpView;
 using System.Collections.Generic;
-using System.Configuration;
 using yakov.ExchangeRates.Client.Business;
-using yakov.ExchangeRates.Client.Services;
 using yakov.ExchangeRates.Client.Services.Interfaces;
 using System.Linq;
 using yakov.ExchangeRates.Client.FiatCurrency.Extensions;
 using LiveChartsCore.SkiaSharpView.Painting;
 using SkiaSharp;
-using LiveChartsCore.SkiaSharpView.Drawing;
 
 namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 {
@@ -26,23 +23,8 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         {
             RatesService = ratesService;
             InitDateBorders();
-
+            InitSeries();
             UpdateCurrencies(CurrencyType.Fiat);
-
-            Rates = new ObservableCollection<ISeries>()
-            {
-                new LineSeries<DateTimePoint>()
-                {
-                    TooltipLabelFormatter = (chartPoint) => $"{new DateTime((long) chartPoint.SecondaryValue):dd.MM.yy}: {chartPoint.PrimaryValue}",
-                    Values = _observableValues,
-                    Fill = new SolidColorPaint(SKColor.Parse("#5F000000")),
-                    LineSmoothness = 0,
-                    GeometrySize = 5,
-                    GeometryStroke = new SolidColorPaint(SKColor.Parse("#00000000")),
-                    GeometryFill = new SolidColorPaint(SKColor.Parse("#4ADAEC")),
-                    Stroke = new SolidColorPaint(SKColor.Parse("#07F3C0")) { StrokeThickness = 3 },
-                }
-            };
         }
 
         #region Dates control
@@ -108,17 +90,35 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             }
         };
 
-        public void ClearChart()
+        private void InitSeries()
+        {
+            Rates = new ObservableCollection<ISeries>
+            {
+                new LineSeries<DateTimePoint>
+                {
+                    TooltipLabelFormatter = (chartPoint) => $"{new DateTime((long) chartPoint.SecondaryValue):dd.MM.yy}: {chartPoint.PrimaryValue}",
+                    Values = _observableValues,
+                    Fill = new SolidColorPaint(SKColor.Parse("#5F000000")),
+                    LineSmoothness = 0,
+                    GeometrySize = 5,
+                    GeometryStroke = new SolidColorPaint(SKColor.Parse("#00000000")),
+                    GeometryFill = new SolidColorPaint(SKColor.Parse("#4ADAEC")),
+                    Stroke = new SolidColorPaint(SKColor.Parse("#07F3C0")) { StrokeThickness = 3 },
+                }
+            };
+        }
+
+        private void ClearChart()
         {
             _observableValues.Clear();
-            Axis x = XAxes.First();
+            var x = XAxes.First();
             x.MinLimit = null;
             x.MaxLimit = null;
         }
         #endregion
 
         #region Currency type control
-        private static Dictionary<CurrencyType, List<string>> _currencyTypeToCurrencyNames = new();
+        private static readonly Dictionary<CurrencyType, List<string>> _currencyTypeToCurrencyNames = new();
         public ObservableCollection<string> Currencies { get; set; } = new();
 
         private CurrencyType _currencyType;
@@ -198,12 +198,16 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             {
                 ClearErrorMessage();
                 IsRatesLoading = true;
-                rates = await RatesService.GetRates(chosedCurrency, DateOnly.FromDateTime(StartDate.Value), DateOnly.FromDateTime(EndDate.Value));
-                IsRatesLoading = false;
+                rates = await RatesService.GetRates(chosedCurrency, DateOnly.FromDateTime(StartDate.Value),
+                    DateOnly.FromDateTime(EndDate.Value));
             }
             catch (Exception ex)
             {
                 ErrorMessage = ex.Message;
+            }
+            finally
+            {
+                IsRatesLoading = false;
             }
 
             ClearChart();
