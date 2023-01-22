@@ -105,17 +105,17 @@
     </UserControl.Triggers>
 
     <Canvas x:Name="spinner_1" HorizontalAlignment="Center" Width="24" Height="24">
-        <Ellipse x:Name="ellipse01" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="10" Opacity="0" />
-        <Ellipse x:Name="ellipse02" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="5" Opacity="0" Canvas.Left="1.33975" />
-        <Ellipse x:Name="ellipse03" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="1.4"  Opacity="0" Canvas.Left="5"/>
-        <Ellipse x:Name="ellipse04" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="0"  Opacity="0" Canvas.Left="10"/>
-        <Ellipse x:Name="ellipse05" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="1.4"  Opacity="0" Canvas.Left="15"/>
-        <Ellipse x:Name="ellipse06" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="5"  Opacity="0" Canvas.Left="18.6603"/>
-        <Ellipse x:Name="ellipse07" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="10" Canvas.Left="20" Opacity="0" />
-        <Ellipse x:Name="ellipse08" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="15" Canvas.Left="18.7" Opacity="0" />
-        <Ellipse x:Name="ellipse09" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="18.66025" Canvas.Left="15" Opacity="0"/>
-        <Ellipse x:Name="ellipse10" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="20" Canvas.Left="10" Opacity="0"/>
-        <Ellipse x:Name="ellipse11" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="18.66025" Canvas.Left="5" Opacity="0"/>
-        <Ellipse x:Name="ellipse12" Fill="{DynamicResource MaterialDesignBody}" Height="4" Width="4" Canvas.Top="15" Canvas.Left="1.4" Opacity="0"/>
+        <Ellipse x:Name="ellipse01" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="10" Opacity="0" />
+        <Ellipse x:Name="ellipse02" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="5" Opacity="0" Canvas.Left="1.33975" />
+        <Ellipse x:Name="ellipse03" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="1.4"  Opacity="0" Canvas.Left="5"/>
+        <Ellipse x:Name="ellipse04" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="0"  Opacity="0" Canvas.Left="10"/>
+        <Ellipse x:Name="ellipse05" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="1.4"  Opacity="0" Canvas.Left="15"/>
+        <Ellipse x:Name="ellipse06" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="5"  Opacity="0" Canvas.Left="18.6603"/>
+        <Ellipse x:Name="ellipse07" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="10" Canvas.Left="20" Opacity="0" />
+        <Ellipse x:Name="ellipse08" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="15" Canvas.Left="18.7" Opacity="0" />
+        <Ellipse x:Name="ellipse09" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="18.66025" Canvas.Left="15" Opacity="0"/>
+        <Ellipse x:Name="ellipse10" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="20" Canvas.Left="10" Opacity="0"/>
+        <Ellipse x:Name="ellipse11" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="18.66025" Canvas.Left="5" Opacity="0"/>
+        <Ellipse x:Name="ellipse12" Fill="{DynamicResource color4}" Height="4" Width="4" Canvas.Top="15" Canvas.Left="1.4" Opacity="0"/>
     </Canvas>
 </UserControl>

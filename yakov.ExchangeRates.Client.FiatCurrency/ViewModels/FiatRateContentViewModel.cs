@@ -182,7 +182,14 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 
         private DelegateCommand _getRatesCommand;
         public DelegateCommand GetRatesCommand => _getRatesCommand ??= new DelegateCommand(ExecuteGetRates);
-        
+
+        private bool _isRatesLoading = false;
+        public bool IsRatesLoading
+        {
+            get => _isRatesLoading;
+            set => SetProperty(ref _isRatesLoading, value);
+        }
+
         private async void ExecuteGetRates()
         {
             Currency chosedCurrency = new() { ShortName = CurrencyShortName, Type = CurrencyType };
@@ -190,7 +197,9 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             try
             {
                 ClearErrorMessage();
+                IsRatesLoading = true;
                 rates = await RatesService.GetRates(chosedCurrency, DateOnly.FromDateTime(StartDate.Value), DateOnly.FromDateTime(EndDate.Value));
+                IsRatesLoading = false;
             }
             catch (Exception ex)
             {
