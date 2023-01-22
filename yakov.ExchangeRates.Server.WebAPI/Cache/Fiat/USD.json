@@ -97,5 +97,104 @@
     "Date": "2023-01-11",
     "Value": 2.6858,
     "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-12",
+    "Value": 2.6786,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-13",
+    "Value": 2.6260,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-14",
+    "Value": 2.6260,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-15",
+    "Value": 2.6260,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-16",
+    "Value": 2.6055,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-17",
+    "Value": 2.6162,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-18",
+    "Value": 2.6320,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-19",
+    "Value": 2.6386,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-20",
+    "Value": 2.6401,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-21",
+    "Value": 2.6401,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "USD"
+    },
+    "Date": "2023-01-22",
+    "Value": 2.6401,
+    "Amount": 1
   }
 ]

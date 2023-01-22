@@ -125,7 +125,7 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 
         public CurrencyType CurrencyType
         {
-            get { return _currencyType; }
+            get => _currencyType;
             set
             {
                 if (_currencyType == value)
@@ -141,6 +141,7 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
                         break;
                 }
 
+                ClearErrorMessage();
                 UpdateCurrencies(value);
 
                 SetProperty(ref _currencyType, value);
@@ -151,13 +152,13 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 
         public bool IsFiatCurrency
         {
-            get { return CurrencyType == CurrencyType.Fiat; }
-            set { CurrencyType = value ? CurrencyType.Fiat : CurrencyType; }
+            get => CurrencyType == CurrencyType.Fiat;
+            set => CurrencyType = value ? CurrencyType.Fiat : CurrencyType;
         } 
         public bool IsCryptoCurrency
         {
-            get { return CurrencyType == CurrencyType.Crypto; }
-            set { CurrencyType = value ? CurrencyType.Crypto : CurrencyType; }
+            get => CurrencyType == CurrencyType.Crypto;
+            set => CurrencyType = value ? CurrencyType.Crypto : CurrencyType;
         }
 
         private async void UpdateCurrencies(CurrencyType currencyType)
@@ -185,10 +186,35 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         private async void ExecuteGetRates()
         {
             Currency chosedCurrency = new() { ShortName = CurrencyShortName, Type = CurrencyType };
-            var rates = await RatesService.GetRates(chosedCurrency, DateOnly.FromDateTime(StartDate.Value), DateOnly.FromDateTime(EndDate.Value));
+            List<Rate> rates = new();
+            try
+            {
+                ClearErrorMessage();
+                rates = await RatesService.GetRates(chosedCurrency, DateOnly.FromDateTime(StartDate.Value), DateOnly.FromDateTime(EndDate.Value));
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = ex.Message;
+            }
 
             ClearChart();
             rates.ForEach(r => _observableValues.Add(r.ToDateTimePoint()));
         }
+
+        #region Errors control
+
+        private string _errorMessage;
+        public string ErrorMessage
+        {
+            get => _errorMessage;
+            set => SetProperty(ref _errorMessage, value);
+        }
+
+        private void ClearErrorMessage()
+        {
+            ErrorMessage = null;
+        }
+
+        #endregion
     }
 }

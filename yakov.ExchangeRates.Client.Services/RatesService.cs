@@ -44,6 +44,15 @@ namespace yakov.ExchangeRates.Client.Services
 
         public async Task<List<Rate>> GetRates(Currency currency, DateOnly dateStart, DateOnly dateEnd)
         {
+            try
+            {
+                _timePeriodValidator.Validate(dateStart, dateEnd);
+            }
+            catch 
+            { 
+                throw; 
+            }
+
             List<Rate> rates;
             try
             {
