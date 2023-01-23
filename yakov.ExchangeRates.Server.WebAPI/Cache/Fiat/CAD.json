@@ -376,5 +376,113 @@
     "Date": "2022-12-31",
     "Value": 2.0138,
     "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-12",
+    "Value": 1.9958,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-13",
+    "Value": 1.9561,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-14",
+    "Value": 1.9561,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-15",
+    "Value": 1.9561,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-16",
+    "Value": 1.9524,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-17",
+    "Value": 1.9530,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-18",
+    "Value": 1.9608,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-19",
+    "Value": 1.9750,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-20",
+    "Value": 1.9541,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-21",
+    "Value": 1.9541,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-22",
+    "Value": 1.9541,
+    "Amount": 1
+  },
+  {
+    "Currency": {
+      "Type": 0,
+      "ShortName": "CAD"
+    },
+    "Date": "2023-01-23",
+    "Value": 1.9532,
+    "Amount": 1
   }
 ]

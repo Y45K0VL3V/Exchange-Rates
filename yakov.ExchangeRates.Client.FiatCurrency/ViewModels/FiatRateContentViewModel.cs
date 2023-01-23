@@ -63,10 +63,12 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         }
         #endregion
 
-        private readonly ObservableCollection<DateTimePoint> _observableValues = new();
-        public ObservableCollection<ISeries> Rates { get; set; }
 
         #region Live chart control
+        private readonly ObservableCollection<DateTimePoint> _observableValues = new();
+        private readonly ObservableCollection<DateTimePoint> _minMaxValues = new();
+        public ObservableCollection<ISeries> Rates { get; set; } = new();
+        
         public Axis[] XAxes { get; set; } =
         {
             new Axis
@@ -96,7 +98,7 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             {
                 new LineSeries<DateTimePoint>
                 {
-                    TooltipLabelFormatter = (chartPoint) => $"{new DateTime((long) chartPoint.SecondaryValue):dd.MM.yy}: {chartPoint.PrimaryValue}",
+                    TooltipLabelFormatter = chartPoint => $"{new DateTime((long)chartPoint.SecondaryValue):dd.MM.yy}: {chartPoint.PrimaryValue}",
                     Values = _observableValues,
                     Fill = new SolidColorPaint(SKColor.Parse("#5F000000")),
                     LineSmoothness = 0,
@@ -104,13 +106,27 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
                     GeometryStroke = new SolidColorPaint(SKColor.Parse("#00000000")),
                     GeometryFill = new SolidColorPaint(SKColor.Parse("#4ADAEC")),
                     Stroke = new SolidColorPaint(SKColor.Parse("#07F3C0")) { StrokeThickness = 3 },
-                }
+                },
+
+                new LineSeries<DateTimePoint>
+                {
+                    TooltipLabelFormatter = chartPoint => $"{new DateTime((long)chartPoint.SecondaryValue):dd.MM.yy} - extrema",
+                    Values = _minMaxValues,
+                    Fill = new SolidColorPaint(SKColors.Transparent),
+                    LineSmoothness = 0,
+                    GeometrySize = 7,
+                    GeometryStroke = new SolidColorPaint(SKColors.Transparent),
+                    GeometryFill = new SolidColorPaint(SKColors.Crimson),
+                    Stroke = new SolidColorPaint(SKColors.Transparent) { StrokeThickness = 0 },
+                },
+
             };
         }
 
         private void ClearChart()
         {
             _observableValues.Clear();
+            _minMaxValues.Clear();
             var x = XAxes.First();
             x.MinLimit = null;
             x.MaxLimit = null;
@@ -212,6 +228,8 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
 
             ClearChart();
             rates.ForEach(r => _observableValues.Add(r.ToDateTimePoint()));
+            _minMaxValues.Add(rates.MinBy(r => r.Value).ToDateTimePoint());
+            _minMaxValues.Add(rates.MaxBy(r => r.Value).ToDateTimePoint());
         }
 
         #region Errors control
