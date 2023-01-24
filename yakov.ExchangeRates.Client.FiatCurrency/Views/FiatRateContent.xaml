@@ -191,7 +191,21 @@
             </Border.Background>
 
             <Grid>
-                <lvc:CartesianChart Margin="30"
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                
+                <TextBlock HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Text="{Binding AdditionalChartInfo, FallbackValue='Some info', TargetNullValue='Price for N amount of target currency'}"
+                           Foreground="{StaticResource titleColor2}"
+                           FontSize="16">
+
+                </TextBlock>
+
+                <lvc:CartesianChart Margin="30,10,30,30"
+                                    Grid.Row="1"
                                     Background="Transparent"
                                     Foreground="{StaticResource titleColor2}"
                                     ZoomMode="X"

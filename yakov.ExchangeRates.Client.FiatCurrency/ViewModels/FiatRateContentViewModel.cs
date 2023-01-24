@@ -63,7 +63,6 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         }
         #endregion
 
-
         #region Live chart control
         private readonly ObservableCollection<DateTimePoint> _observableValues = new();
         private readonly ObservableCollection<DateTimePoint> _minMaxValues = new();
@@ -76,7 +75,7 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
                 Labeler = value => new DateTime((long) value).ToString("dd.MM.yy"),
                 LabelsRotation = 0,
                 LabelsPaint = new SolidColorPaint(SKColor.Parse("#D5CFF5")),
-                UnitWidth = TimeSpan.FromDays(3).Ticks,
+                UnitWidth = TimeSpan.FromDays(1).Ticks,
                 MinStep = TimeSpan.FromDays(2).Ticks,
                 ForceStepToMin = false,
             }
@@ -108,16 +107,24 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
                     Stroke = new SolidColorPaint(SKColor.Parse("#07F3C0")) { StrokeThickness = 3 },
                 },
 
-                new ScatterSeries<DateTimePoint>
+                new LineSeries<DateTimePoint>
                 {
                     TooltipLabelFormatter = chartPoint => $"{new DateTime((long)chartPoint.SecondaryValue):dd.MM.yy} - extrema",
                     Values = _minMaxValues,
-                    Fill = new SolidColorPaint(SKColors.Crimson),
+                    Fill = new SolidColorPaint(SKColors.Transparent),
                     GeometrySize = 7,
+                    GeometryStroke = new SolidColorPaint(SKColors.Transparent),
+                    GeometryFill = new SolidColorPaint(SKColors.Crimson),
                     Stroke = new SolidColorPaint(SKColors.Transparent),
                 },
-
             };
+        }
+
+        private string _additionalChartInfo;
+        public string AdditionalChartInfo
+        {
+            get => _additionalChartInfo;
+            set => SetProperty(ref _additionalChartInfo, value);
         }
 
         private void ClearChart()
@@ -127,6 +134,7 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             var x = XAxes.First();
             x.MinLimit = null;
             x.MaxLimit = null;
+            AdditionalChartInfo = null;
         }
         #endregion
 
@@ -193,6 +201,8 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
             set => SetProperty(ref _currencyShortName, value);
         }
 
+        #region Rates loading control
+
         private DelegateCommand _getRatesCommand;
         public DelegateCommand GetRatesCommand => _getRatesCommand ??= new DelegateCommand(ExecuteGetRates);
 
@@ -204,19 +214,20 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
         }
 
         private async void ExecuteGetRates()
-        { 
-            ClearChart();
-            Currency chosedCurrency = new() { ShortName = CurrencyShortName, Type = CurrencyType };
+        {
+            Currency chosedCurrency = new() { ShortName = CurrencyShortName, Type = CurrencyType }; 
+            IsRatesLoading = true;
             try
             {
                 ClearErrorMessage();
-                IsRatesLoading = true;
+                ClearChart();
                 var rates = await RatesService.GetRates(chosedCurrency, DateOnly.FromDateTime(StartDate.Value),
                     DateOnly.FromDateTime(EndDate.Value));
-                
+
                 rates.ForEach(r => _observableValues.Add(r.ToDateTimePoint()));
                 _minMaxValues.Add(rates.MinBy(r => r.Value)?.ToDateTimePoint());
                 _minMaxValues.Add(rates.MaxBy(r => r.Value)?.ToDateTimePoint());
+                AdditionalChartInfo = $"Price for {rates.FirstOrDefault()?.Amount} {rates.FirstOrDefault()?.Currency.ShortName}";
             }
             catch (InvalidOperationException)
             {
@@ -231,6 +242,8 @@ namespace yakov.ExchangeRates.Client.FiatCurrency.ViewModels
                 IsRatesLoading = false;
             }
         }
+
+        #endregion
 
         #region Errors control
 
